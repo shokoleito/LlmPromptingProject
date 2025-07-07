@@ -1,0 +1,47 @@
+user_input,expected_intent
+Phim Người phán xử do ai đạo diễn?,film_qna
+Diễn viên chính trong phim Hương vị tình thân là ai?,film_qna
+Phim Mắt biếc được sản xuất năm nào?,film_qna
+Phim Thương ngày nắng về có bao nhiêu tập?,film_qna
+Phim Em là bà nội của anh thuộc thể loại gì?,film_qna
+Ai là tác giả kịch bản phim Vợ ba?,film_qna
+Phim Nhà bà Nữ có thời lượng bao lâu?,film_qna
+Phim Bố già có doanh thu bao nhiêu?,film_qna
+Bối cảnh phim Dòng sông phẳng lặng quay ở đâu?,film_qna
+Dàn diễn viên phim Hoa hồng trên ngực trái gồm những ai?,film_qna
+Phim Chiếc lá cuốn bay được chiếu lần đầu khi nào?,film_qna
+Phim Trại hoa đỏ có bao nhiêu phần?,film_qna
+Đạo diễn phim Tôi thấy hoa vàng trên cỏ xanh là ai?,film_qna
+Nhạc phim Mắt biếc là của ai sáng tác?,film_qna
+Phim Cô gái đến từ hôm qua dựa trên truyện nào?,film_qna
+Tập cuối của phim Quỳnh búp bê kết thúc thế nào?,film_qna
+Phim Hai Phượng có các cảnh hành động được dàn dựng như thế nào?,film_qna
+Phim Gạo nếp gạo tẻ phần 2 có phải là phần tiếp nối không?,film_qna
+Phim Hạnh phúc của mẹ giành được giải thưởng nào?,film_qna
+Phim Lật mặt 6 có phải là phần tiếp theo của Lật mặt 5?,film_qna
+Ai là người thủ vai chính trong phim Vòng eo 56?,film_qna
+Phim Đất rừng phương Nam có nhân vật nào chính?,film_qna
+Thời lượng mỗi tập của phim Hướng dương ngược nắng là bao lâu?,film_qna
+Phim Zippo mù tạt và em thuộc thể loại gì?,film_qna
+Phim Sống chung với mẹ chồng có bao nhiêu tập?,film_qna
+Phim Chị chị em em có cảnh nóng không?,film_qna
+Phim Chạy trốn thanh xuân có cảnh quay ở đâu?,film_qna
+Diễn viên đóng vai Hồng Đăng trong phim Thương ngày nắng về là ai?,film_qna
+Phim Hôn nhân trong ngõ hẹp được chuyển thể từ truyện nào?,film_qna
+Ai là người lồng tiếng cho nhân vật chính phim Doraemon bản tiếng Việt?,film_qna
+Phim Trạng Tí phiêu lưu ký có bị hoãn chiếu không?,film_qna
+Phim Đêm tối rực rỡ có phải là phim kinh dị không?,film_qna
+Cảnh quay trong phim Bẫy ngọt ngào có thật sự là ở Đà Lạt?,film_qna
+Nhân vật phản diện chính trong phim Người bất tử là ai?,film_qna
+Phim Hậu duệ mặt trời bản Việt có giống bản Hàn không?,film_qna
+Phim Bí mật của gió có phần tiếp theo không?,film_qna
+Phim Maika – Cô bé đến từ hành tinh khác dành cho lứa tuổi nào?,film_qna
+Phim Trái tim quái vật có diễn viên nào từng đoạt giải Cánh diều vàng?,film_qna
+Phim Lật mặt có tổng cộng bao nhiêu phần?,film_qna
+Ai là nhà sản xuất phim Thiên thần hộ mệnh?,film_qna
+Phim Em và Trịnh có bao nhiêu bài nhạc Trịnh?,film_qna
+Phim Nhà có 5 nàng tiên là phim hài hay tâm lý?,film_qna
+Câu chuyện thật phía sau phim Hồn papa da con gái là gì?,film_qna
+Phim Tấm Cám: Chuyện chưa kể có dùng kỹ xảo nhiều không?,film_qna
+Phim 1990 có sự tham gia của những diễn viên nào?,film_qna
+Phim Song Lang lấy bối cảnh ở đâu?,film_qna

@@ -9,34 +9,32 @@ KHÔNG được trả thêm nội dung nào khác.
 ---
 
 *intent* là một trong các hành động sau:
- - open_channel: Mở kênh truyền hình theo tên, có chứa các từ như "chương trình", "chương trình truyền hình", "thời sự", "thời tiết"... KHÔNG được nhầm lẫn với KÊNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
- - navigate_screen: Điều hướng tới màn hình khác. Trợ lý này có thể điều hướng tới các trang / màn hình: Trang/ màn hình home; Trang chủ; Quay lại / quay về / mở lại trang trước; mở / bật trang tìm kiếm. KHÔNG dùng cho mở tên nội dung cụ thể.
- - cmd_turn_on: Bật tivi / đầu thu.
- - cmd_turn_off: Tắt tivi / đầu thu.
- - cmd_raise_volume: Tăng âm lượng/âm thanh/loa; tăng âm lượng/âm thanh/loa to hơn/rõ hơn; điều chỉnh âm lượng để nghe rõ hơn.
- - cmd_reduce_volume: Giảm âm lượng/âm thanh/loa; Giảm âm lượng/âm thanh/loa nhỏ xuống; điều chỉnh âm lượng nhỏ đi.
- - cmd_max_volume: Tăng âm thanh/âm lượng/loa lên mức cao nhất/tối đa.
- - cmd_min_volume: Giảm âm thanh/âm lượng/loa xuống mức thấp nhất/bé nhất/nhỏ nhất.
- - cmd_pause: Tạm dừng; dừng lại; dừng phát; ngừng phát; dừng; pause.
- - cmd_continues: Tiếp tục; phát tiếp; bật lại; xem tiếp; play; continue.
- - cmd_fast_forward: Nếu người dùng muốn tua nhanh, chỉ khi có các từ như "tua nhanh", "tua đi", "tăng tốc", "phát nhanh", "chạy nhanh", "lướt qua", "bỏ qua", "tua đến đoạn", "skip"...
- - cmd_rewind: Nếu người dùng muốn tua lại, chỉ khi có các từ như "tua chậm", "tua lại", "lùi lại", "chậm lại", "chạy lại", "tua về đoạn"...
- - open_schedule: Mở lịch chiếu nội dung nếu có chứa thời gian cụ thể như "bảy giờ tối", "19 giờ", "18:30"... hay các từ như "lịch", "lịch chiếu", "thời gian"...
- - open_item: Mở một nội dung cụ thể theo tên nếu người dùng yêu cầu xem/mở tên nội dung thuộc một trong những thể loại "video", "phim", "kênh truyền hình", có chứa các từ như "video", "phim", "kênh truyền hình", "kênh"...kể cả khi không có từ khóa như "phim", "video", "kênh"... Nếu có vẻ là tên riêng rõ ràng (vd: "sau lời từ khước") thì vẫn chọn `open_item`. nếu không rõ nội dung thuộc thể loại nào thì điều hướng sang "cmd_search". Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
- - general_query: Dành cho các câu hỏi hoặc yêu cầu tìm hiểu **về hệ thống, chức năng, cách sử dụng, thông tin thực tế**, kể cả khi nói theo cách lịch sự hay trò chuyện. → Đặc điểm: câu hỏi mang tính khám phá hoặc hướng tới hành động.
- - cmd_search: Tìm/gợi ý nội dung hiện có theo yêu cầu (ví dụ: tên, thể loại ...) của người dùng.
- - turn_on / turn_off: Bật / tắt thiết bị.
- - navigate_app: Mở youtube.
- - small_talk: Dành cho các câu giao tiếp xã hội **mang tính cá nhân, cảm xúc, chào hỏi, đùa giỡn, nhận xét**, không nhằm thực hiện hành động nào, không tìm kiếm thông tin cụ thể từ hệ thống. → Đặc điểm: không có mục tiêu khai thác, chỉ giao tiếp.
- - gold_price_query: Hỏi giá vàng. Ví dụ: "Giá vàng hôm nay bao nhiêu?".
- - weather_query: Hỏi về thời tiết. Ví dụ: "Thời tiết hôm nay thế nào?", "Mai có mưa không?".
- - package_query: Hỏi về gói cước, dịch vụ đang dùng, đăng ký, hủy, nâng cấp...
+- open_channel: Mở kênh truyền hình theo tên, có chứa các từ như "chương trình", "chương trình truyền hình", "thời sự", "thời tiết"... KHÔNG được nhầm lẫn với KÊNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
+- navigate_screen: Điều hướng tới màn hình khác. Trợ lý này có thể điều hướng tới các trang / màn hình: Trang/ màn hình home; Trang chủ; Quay lại / quay về / mở lại trang trước; mở / bật trang tìm kiếm. KHÔNG dùng cho mở tên nội dung cụ thể.
+- cmd_turn_on: Bật tivi / đầu thu.
+- cmd_turn_off: Tắt tivi / đầu thu.
+- cmd_raise_volume: Tăng âm lượng/âm thanh/loa; tăng âm lượng/âm thanh/loa to hơn/rõ hơn; điều chỉnh âm lượng để nghe rõ hơn.
+- cmd_reduce_volume: Giảm âm lượng/âm thanh/loa; Giảm âm lượng/âm thanh/loa nhỏ xuống; điều chỉnh âm lượng nhỏ đi.
+- cmd_max_volume: Tăng âm thanh/âm lượng/loa lên mức cao nhất/tối đa.
+- cmd_min_volume: Giảm âm thanh/âm lượng/loa xuống mức thấp nhất/bé nhất/nhỏ nhất.
+- cmd_pause: Tạm dừng; dừng lại; dừng phát; ngừng phát; dừng; pause.
+- cmd_continues: Tiếp tục; phát tiếp; bật lại; xem tiếp; play; continue.
+- cmd_fast_forward: Nếu người dùng muốn tua nhanh, chỉ khi có các từ như "tua nhanh", "tua đi", "tăng tốc", "phát nhanh", "chạy nhanh", "lướt qua", "bỏ qua", "tua đến đoạn", "skip"...
+- cmd_rewind: Nếu người dùng muốn tua lại, chỉ khi có các từ như "tua chậm", "tua lại", "lùi lại", "chậm lại", "chạy lại", "tua về đoạn"...
+- open_schedule: Mở lịch chiếu nội dung nếu có chứa thời gian cụ thể như "bảy giờ tối", "19 giờ", "18:30"... hay các từ như "lịch", "lịch chiếu", "thời gian"...
+- open_item: Mở một nội dung cụ thể theo tên nếu người dùng yêu cầu xem/mở tên nội dung thuộc một trong những thể loại "video", "phim", "kênh truyền hình", có chứa các từ như "video", "phim", "kênh truyền hình", "kênh"...kể cả khi không có từ khóa như "phim", "video", "kênh"... Nếu có vẻ là tên riêng rõ ràng (vd: "sau lời từ khước") thì vẫn chọn `open_item`. nếu không rõ nội dung thuộc thể loại nào thì điều hướng sang "cmd_search". Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
+- general_query: Dành cho các câu hỏi hoặc yêu cầu mang tính tìm hiểu thông tin, hoặc trò chuyện không có mục đích hành động cụ thể. Bao gồm:**Tìm hiểu về hệ thống, chức năng, cách sử dụng, thông tin thực tế.**,**Câu chào hỏi, giao tiếp xã hội, cảm xúc, đùa giỡn, nhận xét, tâm sự.**,**Những câu nói thân thiện, không nhắm đến hành động hay thông tin nội dung.**
+- cmd_search: Tìm/gợi ý nội dung hiện có theo yêu cầu (ví dụ: tên, thể loại ...) của người dùng.
+- turn_on / turn_off: Bật / tắt thiết bị.
+- navigate_app: Mở youtube.
+- gold_price_query: Hỏi giá vàng. Ví dụ: "Giá vàng hôm nay bao nhiêu?".
+- weather_query: Hỏi về thời tiết. Ví dụ: "Thời tiết hôm nay thế nào?", "Mai có mưa không?".
+- package_query: Hỏi về gói cước, dịch vụ đang dùng, đăng ký, hủy, nâng cấp...
+- film_qna: Câu hỏi liên quan đến nội dung phim/video/kênh như "Phim A của đạo diễn nào?", "Phim B có bao nhiêu tập?", "Diễn viên chính phim C là ai?", KHÔNG nhầm lẫn với những câu hỏi tìm kiếm/gợi ý như cmd_search hay các câu hỏi chung tìm hiểu thông tin như general_query.
 
 ---
 
 **Lưu ý đặc biệt:**
 - Nếu input là: "mở [một tên nội dung cụ thể]" → mặc định là `open_item`, kể cả không có từ "phim", "video", "kênh", miễn là tên có vẻ rõ ràng (ví dụ: "mở sau lời từ khước").
 - Chỉ chọn `navigate_screen` khi người dùng nói đến hành vi chuyển màn hình, KHÔNG dùng cho mở nội dung.
-- Nếu người dùng **chỉ giao tiếp, tâm sự, đùa, chào hỏi** → chọn `small_talk`.
-- Nếu người dùng **muốn biết điều gì đó về hệ thống hoặc cách thao tác** → chọn `general_query`.
-- Không được nhầm lẫn chỉ vì câu nói có vẻ thân thiện hoặc dễ gây nhiễu.
+- Không được nhầm film_qna với cmd_search hay general_query khi người dùng hỏi rõ ràng về một nội dung cụ thể của phim/video/kênh.

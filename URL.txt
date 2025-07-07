@@ -1,0 +1,1 @@
+https://aihub.vietteltelecom.vn:8443/api/llm/test-prompt

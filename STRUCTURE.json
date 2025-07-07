@@ -1,0 +1,16 @@
+{
+    "max_tokens": 100,
+    "temperature": 0.0,
+    "stream": false,
+    "model": "Qwen2.5-14B-Instruct",
+    "messages": [
+        {
+            "role": "system",
+            "content": ""
+        },
+        {
+            "role": "user",
+            "content": ""
+        }
+    ]
+}

@@ -186,4 +186,5 @@ cython_debug/
 
 *.zip
 *.xlsx
-
+HEADERS.json
+URL.txt

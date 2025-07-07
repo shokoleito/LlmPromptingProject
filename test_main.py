@@ -5,30 +5,13 @@ import requests
 import time
 import pandas as pd
 
-URL = 'https://aihub.vietteltelecom.vn:8443/api/llm/test-prompt'
+URL = open('URL.txt', 'r').read()
 
-HEADERS = {
-    'Content-Type': 'application/json',
-    'x-api-key': 'CjuiGkZSLSyxWspiQaRfiA',
-    'Cookie': 'JSESSIONID=1482DC461E653ED54CE029D985F5B8B2'
-}
+with open('HEADERS.json', 'r') as f:
+    HEADERS = json.load(f)
 
-STRUCTURE = {
-    'max_tokens': 100,
-    'temperature': 0.0,
-    'stream': False,
-    'model': 'Qwen2.5-14B-Instruct',
-    'messages': [
-        {
-            'role': 'system',
-            'content': ''
-        },
-        {
-            'role': 'user',
-            'content': ''
-        }
-    ]
-}
+with open('STRUCTURE.json', 'r') as f:
+    STRUCTURE = json.load(f)
 
 ROUTING_PROMPT = open('ROUTING_PROMPT_AIBOX.txt', 'r', encoding='utf-8').read()
 COMMON_EXTRACT_PROMPT = open('COMMON_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
@@ -62,26 +45,22 @@ def send_request(url_route, header, data, prompt_type, query):
         print(f"Request failed: {e}")
         return None, 0
 
-def test():
-    test_cases = pd.read_csv('full_intent_20each.csv', encoding='utf-8')
+def test(test_file):
+    test_cases = pd.read_csv(test_file, encoding='utf-8')
     test_cases[['pred_intent', 'time']] = test_cases['user_input'].apply(
         lambda x: send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, x) if isinstance(x, str) else (None, 0)).apply(
         pd.Series)
     test_cases['is_true'] = (test_cases['pred_intent'] == test_cases['expected_intent'])
-    test_cases.to_csv('test_output.txt', index=False, header=False)
+    test_cases.to_csv(test_file+'_output.csv', index=False, header=False)
+    return test_cases, test_cases.groupby('pred_intent')['is_true'].mean() * 100
 
 def main():
-    prompt = open('TRANSLATION.txt', 'r', encoding='utf-8').read()
-    # test()
-    # test_cases = pd.read_csv('full_intent_20each.csv', encoding='utf-8')
-    # test_case['pred_intent'] = test_cases['user_input'].apply(lambda x: send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, x)[0] if isinstance(x, str) else 0)
-    # test_case['time'] = test_cases['user_input'].apply(lambda x: send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, x)[1])
-    # test_cases[['pred_intent', 'time']] = test_cases['user_input'].apply(lambda x: send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, x) if isinstance(x, str) else (None, 0)).apply(pd.Series)
-    # test_cases['is_true'] = (test_cases['pred_intent'] == test_cases['expected_intent'])
-    # test_cases.to_csv('test_output.txt', index=False, header=False)
-    send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'gợi ý phim giống tây du ký')
-
+    # prompt = open('TRANSLATION.txt', 'r', encoding='utf-8').read()
+    _, res = test(test_file='film_qna_testcases.csv')
+    print(res)
+    # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'gợi ý phim giống tây du ký')
     # send_request(URL, HEADERS, STRUCTURE, prompt, 'Deng Chan Yu')
     # send_request(URL, HEADERS, STRUCTURE, EXTRACT_WEATHER_QUERY_PROMPT, 'Thời tiết 5h chiều nay ở Hoàn Kiếm có nóng không?')
+
 if __name__ == '__main__':
     main()
