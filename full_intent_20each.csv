@@ -1,0 +1,482 @@
+user_input,expected_intent
+Thời sự quốc tế mở lên đi,open_program
+Chương trình buổi sáng đâu?,open_program
+Tin tức sáng nay bật đi,open_program
+Mở chương trình thời sự,open_program
+Chiếu bản tin VTV tối nay,open_program
+Cho mình chương trình dự báo thời tiết,open_program
+Bật chương trình truyền hình quốc phòng,open_program
+Mình xem chương trình thời sự nhé,open_program
+Mở chương trình an ninh hôm nay,open_program
+Chương trình thời sự 19h,open_program
+Tôi thích xem chương trình thời tiết,open_program
+Mở chương trình truyền hình kinh tế,open_program
+Thời sự trưa nay đâu rồi?,open_program
+Phát sóng thời tiết hôm nay chưa?,open_program
+Có chương trình tin tức không?,open_program
+Tối nay có chương trình gì hot?,open_program
+Xem thời tiết Hà Nội,open_program
+Tôi muốn xem thời sự như hôm qua,open_program
+Tôi muốn xem chương trình thời tiết,open_program
+Tối nay có bản tin không bạn?,open_program
+Xem kênh Fox Sports,open_item
+Tôi muốn xem Phép màu nhiệm,open_item
+Mở kênh VTV Cần Thơ,open_item
+Mở phim Avatar 2,open_item
+Xem kênh Truyền hình Quốc hội,open_item
+Chiếu The Voice,open_item
+Mở lại Người phán xử,open_item
+Cho tôi xem Gạo nếp gạo tẻ,open_item
+Chiếu Doraemon đi,open_item
+Xem Sau ánh mặt trời,open_item
+Phim Fast & Furious đi bạn,open_item
+Mở phim Cô gái đến từ hôm qua,open_item
+Bật video Thám tử lừng danh Conan,open_item
+Mở Hành trình rực rỡ,open_item
+Bật phim Chạng vạng,open_item
+Xem lại Người ấy là ai,open_item
+Xem Trò chơi con mực,open_item
+Mở phim Bố già,open_item
+Chiếu nội dung Tôi thấy hoa vàng,open_item
+Chiếu kênh VTV3,open_item
+Kiếm phim tâm lý đi,cmd_search
+Tìm phim có diễn viên Song Joong Ki,cmd_search
+Tìm nội dung đang hot,cmd_search
+Tìm video học nấu ăn,cmd_search
+Tìm gì đó giải trí nhẹ,cmd_search
+Tìm video chill để xem,cmd_search
+Tìm chương trình hài,cmd_search
+Tìm video ca nhạc,cmd_search
+Tìm kiếm phim tài liệu,cmd_search
+Tìm phim hành động,cmd_search
+Tìm thể loại hài tình cảm,cmd_search
+Tìm phim chiếu rạp mới,cmd_search
+Tìm kiếm video viral,cmd_search
+Tôi cần phim cổ trang,cmd_search
+Tìm phim lãng mạn Hàn Quốc,cmd_search
+Có phim hoạt hình nào không?,cmd_search
+Tìm kênh thể thao,cmd_search
+Gợi ý video dạy yoga,cmd_search
+Tôi muốn tìm phim Nhật Bản,cmd_search
+Tìm gì đó để xem đi,cmd_search
+Bạn làm mình cười quá trời!,small_talk
+Trợ lý vui tính ghê,small_talk
+Tôi đang chán quá,small_talk
+Nói chuyện với bạn vui thật,small_talk
+Cảm ơn nhiều nha!,small_talk
+Tôi chỉ nói chơi thôi,small_talk
+Bạn đáng yêu lắm đó,small_talk
+Bạn dễ thương ghê!,small_talk
+Bạn ngủ chưa vậy?,small_talk
+Tôi stress quá bạn ơi,small_talk
+Bạn có người yêu chưa?,small_talk
+Lâu quá không gặp!,small_talk
+Chào bạn!,small_talk
+Trò chuyện một chút cho vui nha,small_talk
+Bạn biết đùa không?,small_talk
+Bạn là người thiệt hả?,small_talk
+Bạn còn thức không?,small_talk
+"Haha, vui ghê!",small_talk
+Bạn có đó không?,small_talk
+Tôi buồn quá!,small_talk
+Tìm phim hài,cmd_search
+Tìm video nấu ăn,cmd_search
+Có phim kinh dị nào không?,cmd_search
+Tìm chương trình ca nhạc,cmd_search
+Tôi muốn xem phim Nhật,cmd_search
+Tìm kiếm phim cổ trang,cmd_search
+Tìm chương trình thiếu nhi,cmd_search
+Tìm kiếm video TikTok nổi bật,cmd_search
+Tìm nội dung hot,cmd_search
+Tìm phim có Lee Min Ho,cmd_search
+Tìm video trending,cmd_search
+Tìm video giải trí,cmd_search
+Tìm phim mới ra,cmd_search
+Tìm kênh tin tức,cmd_search
+Tìm video học tiếng Anh,cmd_search
+Tìm thể loại phim hài lãng mạn,cmd_search
+Tìm phim ngắn,cmd_search
+Tìm phim tâm lý xã hội,cmd_search
+Tìm kênh thể thao,cmd_search
+Tìm phim hành động Mỹ,cmd_search
+Gợi ý phim đi,content_recommend
+Phim gì hay hôm nay?,content_recommend
+Có gì vui để xem không?,content_recommend
+Bạn đề xuất phim hài đi,content_recommend
+Có chương trình nào mới không?,content_recommend
+Gợi ý video giải trí,content_recommend
+Cho mình gợi ý nội dung hot,content_recommend
+Phim nào đang được xem nhiều?,content_recommend
+Bạn đề xuất gì hôm nay?,content_recommend
+Phim nào xem tối nay hợp?,content_recommend
+Có phim Hàn nào hay không?,content_recommend
+Bạn thấy nên xem gì?,content_recommend
+Phim hot nhất bây giờ là gì?,content_recommend
+Bạn gợi ý chương trình gì?,content_recommend
+Có gì nhẹ nhàng xem tối nay không?,content_recommend
+Gợi ý phim tâm lý đi,content_recommend
+Bạn thấy phim nào ổn?,content_recommend
+Mình nên xem gì sau bữa tối?,content_recommend
+Phim chiếu rạp nào nên xem?,content_recommend
+Bạn có gợi ý phim hoạt hình không?,content_recommend
+Về trang chủ,navigate_screen
+Quay lại trang trước,navigate_screen
+Mở màn hình tìm kiếm,navigate_screen
+Đi tới màn hình chính,navigate_screen
+Quay lại chỗ vừa rồi,navigate_screen
+Tới trang home,navigate_screen
+Bật giao diện tìm kiếm,navigate_screen
+Quay lại,navigate_screen
+Mở lại màn hình trước,navigate_screen
+Trang chính đâu?,navigate_screen
+Mở menu chính,navigate_screen
+Quay về màn hình đầu,navigate_screen
+Quay lại video trước,navigate_screen
+Chuyển về giao diện chính,navigate_screen
+Trang tìm kiếm đâu rồi?,navigate_screen
+Chuyển tới trang explore,navigate_screen
+Bật trang discovery,navigate_screen
+Chuyển về giao diện chính,navigate_screen
+Hiển thị màn hình home,navigate_screen
+Trở về trang chủ nhanh,navigate_screen
+Tăng âm lượng,cmd_raise_volume
+Cho loa to hơn,cmd_raise_volume
+Bật tiếng lớn lên,cmd_raise_volume
+Mở âm thanh to chút,cmd_raise_volume
+Tôi muốn nghe rõ hơn,cmd_raise_volume
+Cho lớn tiếng lên,cmd_raise_volume
+Tăng âm thanh nhé,cmd_raise_volume
+Âm lượng nhỏ quá,cmd_raise_volume
+"Nghe không rõ, tăng lên",cmd_raise_volume
+Làm ơn tăng volume,cmd_raise_volume
+Volume hơi bé,cmd_raise_volume
+Cho tiếng to hết cỡ,cmd_raise_volume
+Bật âm lượng lớn,cmd_raise_volume
+Nghe nhỏ quá bạn ơi,cmd_raise_volume
+Tôi không nghe thấy,cmd_raise_volume
+Loa nhỏ quá,cmd_raise_volume
+Mở âm thanh lên,cmd_raise_volume
+Tăng âm thanh cao nhất,cmd_raise_volume
+Cho âm lượng cao hơn,cmd_raise_volume
+Tăng tiếng nhanh,cmd_raise_volume
+Giảm âm lượng,cmd_reduce_volume
+Tiếng to quá,cmd_reduce_volume
+Cho nhỏ tiếng lại,cmd_reduce_volume
+Âm lượng hơi lớn,cmd_reduce_volume
+Giảm âm thanh xuống,cmd_reduce_volume
+Tôi muốn tiếng nhỏ hơn,cmd_reduce_volume
+Hạ volume đi,cmd_reduce_volume
+Giảm tiếng chút xíu,cmd_reduce_volume
+Bớt âm lượng lại,cmd_reduce_volume
+Loa ồn quá,cmd_reduce_volume
+Cho nhỏ lại,cmd_reduce_volume
+Tắt nhỏ tiếng đi,cmd_reduce_volume
+Giảm âm lượng nhanh,cmd_reduce_volume
+Loa hơi chói tai,cmd_reduce_volume
+Giảm âm thanh nhanh lên,cmd_reduce_volume
+Tôi đang cần yên tĩnh,cmd_reduce_volume
+Cho bé tiếng thôi,cmd_reduce_volume
+Hạ âm lượng nhé,cmd_reduce_volume
+Giảm âm lượng cực thấp,cmd_reduce_volume
+Cho nhỏ lại giùm,cmd_reduce_volume
+Tăng âm lượng tối đa,cmd_max_volume
+Cho tiếng lớn hết cỡ,cmd_max_volume
+Max volume đi,cmd_max_volume
+Bật tiếng full,cmd_max_volume
+Âm lượng cao nhất luôn nhé,cmd_max_volume
+Tôi muốn nghe hết mức,cmd_max_volume
+Mở âm thanh mức cao nhất,cmd_max_volume
+Tiếng tối đa nhé,cmd_max_volume
+Cho âm lượng lên full,cmd_max_volume
+Max âm lượng,cmd_max_volume
+To hết cỡ luôn đi,cmd_max_volume
+Loa hết công suất,cmd_max_volume
+Tôi muốn tiếng to nhất,cmd_max_volume
+Volume cao nhất,cmd_max_volume
+Phát hết loa lên,cmd_max_volume
+To hết sức luôn,cmd_max_volume
+Gồng hết âm lượng,cmd_max_volume
+Max âm thanh,cmd_max_volume
+Tiếng full luôn nha,cmd_max_volume
+Cho tiếng cực đại,cmd_max_volume
+Giảm âm lượng nhỏ nhất,cmd_min_volume
+Cho tiếng bé nhất,cmd_min_volume
+Min volume,cmd_min_volume
+Tiếng nhỏ nhất có thể,cmd_min_volume
+Âm thanh nhỏ nhất luôn,cmd_min_volume
+Volume mức thấp nhất,cmd_min_volume
+Tắt gần như tiếng luôn,cmd_min_volume
+Tôi không muốn nghe gì hết,cmd_min_volume
+Cho âm lượng nhỏ xíu,cmd_min_volume
+Bé xíu luôn,cmd_min_volume
+Hạ hết tiếng,cmd_min_volume
+Nhỏ như tắt,cmd_min_volume
+Volume min,cmd_min_volume
+Min âm lượng luôn,cmd_min_volume
+Bé nhất có thể nha,cmd_min_volume
+Tắt gần hết tiếng,cmd_min_volume
+Giảm cực thấp luôn,cmd_min_volume
+Tắt gần âm thanh,cmd_min_volume
+Âm lượng thấp nhất,cmd_min_volume
+Giảm về 0 gần như,cmd_min_volume
+Tua nhanh đoạn đầu,cmd_fast_forward
+Bỏ qua phần này,cmd_fast_forward
+Lướt qua giúp,cmd_fast_forward
+Skip đoạn này đi,cmd_fast_forward
+Tăng tốc nội dung,cmd_fast_forward
+Tôi muốn tua đến đoạn sau,cmd_fast_forward
+Tua nhanh chút đi,cmd_fast_forward
+Chạy nhanh qua đoạn đầu,cmd_fast_forward
+Tua tới đoạn kết,cmd_fast_forward
+Bỏ phần giới thiệu đi,cmd_fast_forward
+Tăng tốc độ phát,cmd_fast_forward
+Tôi không thích đoạn này,cmd_fast_forward
+Tua nhanh phần nhàm chán,cmd_fast_forward
+Chạy nhanh đi,cmd_fast_forward
+Tôi muốn xem đoạn sau,cmd_fast_forward
+Tua nhanh nha,cmd_fast_forward
+Lướt qua nhanh,cmd_fast_forward
+Skip intro,cmd_fast_forward
+Bỏ qua đoạn đầu,cmd_fast_forward
+Tua tới đoạn hấp dẫn,cmd_fast_forward
+Tua lại đoạn vừa rồi,cmd_rewind
+Tôi muốn xem lại,cmd_rewind
+Lùi lại một chút,cmd_rewind
+Chạy lại cảnh đó đi,cmd_rewind
+Cho phát lại đoạn trước,cmd_rewind
+Tua chậm lại,cmd_rewind
+Lùi lại chút xíu,cmd_rewind
+Tua về đoạn trước,cmd_rewind
+Xem lại cảnh đó,cmd_rewind
+Tôi bỏ lỡ đoạn đầu,cmd_rewind
+Tua về một khúc,cmd_rewind
+Tôi chưa nghe rõ,cmd_rewind
+Xem lại từ đầu,cmd_rewind
+Tua lùi nhanh,cmd_rewind
+Cho tôi coi lại,cmd_rewind
+Tua lại giúp,cmd_rewind
+Xem lại chút đi,cmd_rewind
+Tôi muốn xem đoạn cũ,cmd_rewind
+Chiếu lại đoạn rồi,cmd_rewind
+Tua về đoạn vừa chiếu,cmd_rewind
+Tiếp tục phát,cmd_continues
+Phát tiếp đi,cmd_continues
+Play tiếp nào,cmd_continues
+Xem tiếp đoạn vừa rồi,cmd_continues
+Tiếp tục chương trình,cmd_continues
+Tiếp tục phim,cmd_continues
+Cho chạy tiếp,cmd_continues
+Bật lại xem tiếp,cmd_continues
+Tiếp phát nội dung,cmd_continues
+Phát tiếp video cũ,cmd_continues
+Tôi muốn xem tiếp,cmd_continues
+Chạy tiếp video,cmd_continues
+Tiếp tục đoạn vừa ngừng,cmd_continues
+Tiếp theo đi,cmd_continues
+Cho tiếp phim,cmd_continues
+Tiếp tục đi bạn,cmd_continues
+Phát tiếp ngay nhé,cmd_continues
+Mình muốn tiếp tục xem,cmd_continues
+Tiếp tục từ chỗ dừng,cmd_continues
+Chạy lại tiếp theo,cmd_continues
+Thời tiết hôm nay thế nào?,weather_query
+Mai có mưa không?,weather_query
+Trời có lạnh không?,weather_query
+Thời tiết Hà Nội ra sao?,weather_query
+Dự báo thời tiết hôm nay,weather_query
+Tình hình thời tiết ngày mai,weather_query
+Hôm nay có nắng không?,weather_query
+Trời có mưa không vậy?,weather_query
+Thời tiết trong tuần,weather_query
+Mai đi chơi được không?,weather_query
+Thời tiết Sài Gòn hôm nay?,weather_query
+Hà Nội hôm nay lạnh không?,weather_query
+Trời có gió không?,weather_query
+Nhiệt độ hôm nay bao nhiêu?,weather_query
+Trời có đẹp không?,weather_query
+Tình hình mưa bão,weather_query
+Xem thời tiết khu vực miền Trung,weather_query
+Thời tiết có thuận lợi không?,weather_query
+Ngày mai trời thế nào?,weather_query
+Thời tiết hôm nay ổn không?,weather_query
+Giá vàng hôm nay bao nhiêu?,gold_price_query
+Giá SJC ra sao?,gold_price_query
+Vàng lên hay xuống?,gold_price_query
+Cập nhật giá vàng,gold_price_query
+Giá vàng thế giới,gold_price_query
+Vàng tăng mạnh chưa?,gold_price_query
+Vàng hôm nay tăng hay giảm?,gold_price_query
+Vàng 9999 bao nhiêu?,gold_price_query
+Giá vàng DOJI,gold_price_query
+Giá vàng hiện tại,gold_price_query
+Mua vào bán ra bao nhiêu?,gold_price_query
+Giá vàng hôm nay ở Hà Nội,gold_price_query
+Vàng SJC hiện tại,gold_price_query
+Hôm nay có nên mua vàng?,gold_price_query
+Giá vàng chiều nay?,gold_price_query
+Vàng hôm nay thế nào?,gold_price_query
+Tôi muốn biết giá vàng,gold_price_query
+Bảng giá vàng,gold_price_query
+Vàng nhẫn bao nhiêu?,gold_price_query
+Vàng có giảm không?,gold_price_query
+Tôi đang dùng gói gì?,package_query
+Có gói nào xem phim miễn phí không?,package_query
+Tư vấn gói xem truyền hình,package_query
+Tôi muốn nâng cấp gói,package_query
+Gói VIP có gì đặc biệt?,package_query
+Chi tiết gói hiện tại,package_query
+Các gói cước đang có,package_query
+Tôi cần hủy gói hiện tại,package_query
+Đăng ký gói mới,package_query
+Gói nào có kênh quốc tế?,package_query
+Tôi đang trả bao nhiêu?,package_query
+Có gói nào tiết kiệm không?,package_query
+Tôi dùng hết dung lượng chưa?,package_query
+Tôi muốn kiểm tra gói,package_query
+Gói phim có giới hạn gì không?,package_query
+Hỗ trợ kiểm tra gói,package_query
+Tư vấn gói cho người lớn tuổi,package_query
+Tôi đang dùng gói thử đúng không?,package_query
+Khi nào hết hạn gói?,package_query
+Tôi có thể đổi gói không?,package_query
+user_input,expected_intent
+Bật tivi,cmd_turn_on
+Mở đầu thu,cmd_turn_on
+Khởi động tivi,cmd_turn_on
+Mở máy xem đi,cmd_turn_on
+Bật lại thiết bị,cmd_turn_on
+Mở thiết bị phát,cmd_turn_on
+Bật lại đầu thu,cmd_turn_on
+Mở TV lên,cmd_turn_on
+Bật màn hình,cmd_turn_on
+Khởi động lại TV,cmd_turn_on
+Bật lại giúp mình,cmd_turn_on
+Cho TV hoạt động,cmd_turn_on
+Bật hộ cái,cmd_turn_on
+Tivi bật chưa?,cmd_turn_on
+Bật nguồn đi,cmd_turn_on
+Khởi động đầu phát,cmd_turn_on
+Mở hệ thống xem đi,cmd_turn_on
+Khởi động màn hình chính,cmd_turn_on
+Bật app xem phim,cmd_turn_on
+TV chưa bật kìa,cmd_turn_on
+Tắt tivi,cmd_turn_off
+Ngắt đầu thu,cmd_turn_off
+Tắt thiết bị đi,cmd_turn_off
+Tắt hết đi,cmd_turn_off
+Tôi muốn tắt TV,cmd_turn_off
+Dừng phát và tắt,cmd_turn_off
+Tắt nguồn đi,cmd_turn_off
+Tắt hộ cái,cmd_turn_off
+Cho tivi nghỉ đi,cmd_turn_off
+Ngắt điện tivi,cmd_turn_off
+Tắt TV nhanh,cmd_turn_off
+Dừng mọi thứ lại,cmd_turn_off
+Tắt màn hình chính,cmd_turn_off
+Ngắt hệ thống phát,cmd_turn_off
+Tắt luôn đầu thu nhé,cmd_turn_off
+TV tắt rồi à?,cmd_turn_off
+Cho mình dừng hệ thống,cmd_turn_off
+Tôi không muốn xem nữa,cmd_turn_off
+Tắt app luôn,cmd_turn_off
+Dừng phát rồi tắt,cmd_turn_off
+Tạm dừng phát,cmd_pause
+Ngừng video,cmd_pause
+Dừng lại chút,cmd_pause
+Pause đi,cmd_pause
+Dừng hình lại,cmd_pause
+Cho tạm dừng phim,cmd_pause
+Tạm ngưng nội dung,cmd_pause
+Dừng nội dung lại đi,cmd_pause
+Cho nghỉ xem chút,cmd_pause
+Tôi muốn dừng,cmd_pause
+Tạm thời dừng phát,cmd_pause
+Tạm dừng ngay,cmd_pause
+Dừng lại nha,cmd_pause
+Pause nội dung này,cmd_pause
+Dừng video lại giúp tôi,cmd_pause
+Tôi muốn ngưng chút,cmd_pause
+Cho dừng tạm nhé,cmd_pause
+Tạm ngưng chương trình,cmd_pause
+Dừng phát sóng đi,cmd_pause
+Dừng hết lại đã,cmd_pause
+Mở YouTube,navigate_app
+Bật app YouTube,navigate_app
+Chuyển qua YouTube,navigate_app
+Đi tới ứng dụng YouTube,navigate_app
+Tôi muốn mở YouTube,navigate_app
+Mở ứng dụng xem video,navigate_app
+Chuyển qua app YouTube,navigate_app
+YouTube mở lên nhé,navigate_app
+Xem YouTube đi,navigate_app
+Mở ứng dụng YouTube dùm tôi,navigate_app
+Vào YouTube,navigate_app
+Khởi động YouTube,navigate_app
+App YouTube đâu rồi,navigate_app
+Xem video YouTube đi,navigate_app
+Mở kênh YouTube,navigate_app
+Chuyển tới YouTube,navigate_app
+Vào ứng dụng YouTube,navigate_app
+Khởi chạy app YouTube,navigate_app
+Tới ứng dụng video,navigate_app
+Cho tôi xem YouTube,navigate_app
+Bật thiết bị lên,turn_on
+Khởi động lại,turn_on
+Mở lại máy,turn_on
+Bật nguồn chính,turn_on
+Khởi động tất cả,turn_on
+Cho hoạt động lại,turn_on
+Khởi động hệ thống,turn_on
+Bật lại toàn bộ,turn_on
+Bật hết lên,turn_on
+Mở mọi thứ,turn_on
+Khởi động mọi thiết bị,turn_on
+Cho máy chạy,turn_on
+Mở thiết bị chính,turn_on
+Tôi muốn bật lên,turn_on
+Mở toàn bộ đi,turn_on
+Khởi động full hệ thống,turn_on
+Tôi muốn bật lại,turn_on
+Cho mọi thứ hoạt động,turn_on
+Khởi động tất cả thiết bị,turn_on
+Mở nguồn lên,turn_on
+Tắt mọi thứ,turn_off
+Tắt toàn bộ,turn_off
+Ngắt hệ thống,turn_off
+Cho tắt thiết bị,turn_off
+Tắt máy đi,turn_off
+Ngắt kết nối,turn_off
+Dừng toàn bộ,turn_off
+Tắt nguồn chính,turn_off
+Tắt hết thiết bị,turn_off
+Cho hệ thống nghỉ,turn_off
+Tôi muốn tắt toàn bộ,turn_off
+Ngắt điện,turn_off
+Dừng thiết bị,turn_off
+Dừng phát toàn bộ,turn_off
+Tắt tất cả app,turn_off
+Tắt toàn bộ màn hình,turn_off
+Ngắt toàn bộ hệ thống,turn_off
+Tôi không dùng nữa,turn_off
+Tắt toàn bộ hệ thống,turn_off
+Ngưng toàn bộ,turn_off
+Bạn được tạo ra như thế nào?,general_query
+Bạn hoạt động ra sao?,general_query
+Bạn tên là gì?,general_query
+Bạn có thể làm gì?,general_query
+Tôi đang nói chuyện với ai?,general_query
+Bạn có học từ người dùng không?,general_query
+Bạn có thể giúp tôi với phim ảnh không?,general_query
+Bạn có biết mình đang ở đâu không?,general_query
+Tôi có thể hỏi gì?,general_query
+Bạn có biết thời gian không?,general_query
+Bạn hiểu tiếng Việt tốt chứ?,general_query
+Bạn đến từ đâu?,general_query
+Bạn có thể giúp tìm phim không?,general_query
+Tại sao bạn không trả lời?,general_query
+Bạn được huấn luyện ở đâu?,general_query
+Trí tuệ nhân tạo là gì?,general_query
+Bạn có thể giúp gì ngoài phim?,general_query
+Bạn làm được những gì?,general_query
+Bạn có thể kể chuyện cười không?,general_query
+Bạn là robot hả?,general_query

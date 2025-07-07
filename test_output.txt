@@ -1,0 +1,481 @@
+Thời sự quốc tế mở lên đi,open_program,open_channel,1.227945327758789,False
+Chương trình buổi sáng đâu?,open_program,open_channel,1.122122049331665,False
+Tin tức sáng nay bật đi,open_program,open_channel,1.1807091236114502,False
+Mở chương trình thời sự,open_program,open_channel,1.012665033340454,False
+Chiếu bản tin VTV tối nay,open_program,open_schedule,1.0144672393798828,False
+Cho mình chương trình dự báo thời tiết,open_program,weather_query,1.0200309753417969,False
+Bật chương trình truyền hình quốc phòng,open_program,open_channel,1.0434131622314453,False
+Mình xem chương trình thời sự nhé,open_program,open_channel,1.008307933807373,False
+Mở chương trình an ninh hôm nay,open_program,open_schedule,1.051922082901001,False
+Chương trình thời sự 19h,open_program,open_schedule,0.9851059913635254,False
+Tôi thích xem chương trình thời tiết,open_program,open_channel,0.9778339862823486,False
+Mở chương trình truyền hình kinh tế,open_program,open_channel,1.1170599460601807,False
+Thời sự trưa nay đâu rồi?,open_program,open_schedule,1.0099141597747803,False
+Phát sóng thời tiết hôm nay chưa?,open_program,open_schedule,0.9673290252685547,False
+Có chương trình tin tức không?,open_program,open_channel,1.0697288513183594,False
+Tối nay có chương trình gì hot?,open_program,content_recommend,1.0845413208007812,False
+Xem thời tiết Hà Nội,open_program,weather_query,1.0032119750976562,False
+Tôi muốn xem thời sự như hôm qua,open_program,open_channel,1.038167953491211,False
+Tôi muốn xem chương trình thời tiết,open_program,open_channel,0.9828259944915771,False
+Tối nay có bản tin không bạn?,open_program,open_schedule,0.994966983795166,False
+Xem kênh Fox Sports,open_item,open_item,0.9863021373748779,True
+Tôi muốn xem Phép màu nhiệm,open_item,open_item,1.0293729305267334,True
+Mở kênh VTV Cần Thơ,open_item,open_channel,0.9706399440765381,False
+Mở phim Avatar 2,open_item,open_item,1.027162790298462,True
+Xem kênh Truyền hình Quốc hội,open_item,open_channel,1.0215730667114258,False
+Chiếu The Voice,open_item,open_item,1.0044820308685303,True
+Mở lại Người phán xử,open_item,open_item,1.0249249935150146,True
+Cho tôi xem Gạo nếp gạo tẻ,open_item,open_item,1.0245139598846436,True
+Chiếu Doraemon đi,open_item,open_item,0.9810450077056885,True
+Xem Sau ánh mặt trời,open_item,open_item,0.9655311107635498,True
+Phim Fast & Furious đi bạn,open_item,open_item,1.0407121181488037,True
+Mở phim Cô gái đến từ hôm qua,open_item,open_item,1.0124831199645996,True
+Bật video Thám tử lừng danh Conan,open_item,open_item,1.1261827945709229,True
+Mở Hành trình rực rỡ,open_item,open_item,1.1585333347320557,True
+Bật phim Chạng vạng,open_item,open_item,1.017096996307373,True
+Xem lại Người ấy là ai,open_item,open_item,0.9672949314117432,True
+Xem Trò chơi con mực,open_item,open_item,1.0257840156555176,True
+Mở phim Bố già,open_item,open_item,1.0214316844940186,True
+Chiếu nội dung Tôi thấy hoa vàng,open_item,open_item,1.0282502174377441,True
+Chiếu kênh VTV3,open_item,open_channel,1.0025520324707031,False
+Kiếm phim tâm lý đi,cmd_search,cmd_search,1.0855519771575928,True
+Tìm phim có diễn viên Song Joong Ki,cmd_search,cmd_search,1.1841838359832764,True
+Tìm nội dung đang hot,cmd_search,content_recommend,1.004591703414917,False
+Tìm video học nấu ăn,cmd_search,cmd_search,1.033371925354004,True
+Tìm gì đó giải trí nhẹ,cmd_search,content_recommend,1.0989108085632324,False
+Tìm video chill để xem,cmd_search,cmd_search,1.1225788593292236,True
+Tìm chương trình hài,cmd_search,cmd_search,1.1291182041168213,True
+Tìm video ca nhạc,cmd_search,cmd_search,1.0013651847839355,True
+Tìm kiếm phim tài liệu,cmd_search,cmd_search,1.0063929557800293,True
+Tìm phim hành động,cmd_search,cmd_search,0.9796209335327148,True
+Tìm thể loại hài tình cảm,cmd_search,cmd_search,0.984199047088623,True
+Tìm phim chiếu rạp mới,cmd_search,cmd_search,1.1310861110687256,True
+Tìm kiếm video viral,cmd_search,cmd_search,0.9986109733581543,True
+Tôi cần phim cổ trang,cmd_search,cmd_search,0.977337121963501,True
+Tìm phim lãng mạn Hàn Quốc,cmd_search,cmd_search,0.9660227298736572,True
+Có phim hoạt hình nào không?,cmd_search,content_recommend,0.9698922634124756,False
+Tìm kênh thể thao,cmd_search,cmd_search,0.9848811626434326,True
+Gợi ý video dạy yoga,cmd_search,content_recommend,1.0327749252319336,False
+Tôi muốn tìm phim Nhật Bản,cmd_search,cmd_search,0.971193790435791,True
+Tìm gì đó để xem đi,cmd_search,content_recommend,1.0617170333862305,False
+Bạn làm mình cười quá trời!,small_talk,small_talk,1.0940182209014893,True
+Trợ lý vui tính ghê,small_talk,small_talk,1.0212671756744385,True
+Tôi đang chán quá,small_talk,small_talk,1.008012056350708,True
+Nói chuyện với bạn vui thật,small_talk,small_talk,1.0034379959106445,True
+Cảm ơn nhiều nha!,small_talk,small_talk,0.9920778274536133,True
+Tôi chỉ nói chơi thôi,small_talk,small_talk,1.084367275238037,True
+Bạn đáng yêu lắm đó,small_talk,small_talk,1.019097089767456,True
+Bạn dễ thương ghê!,small_talk,small_talk,1.0008630752563477,True
+Bạn ngủ chưa vậy?,small_talk,small_talk,0.9931111335754395,True
+Tôi stress quá bạn ơi,small_talk,small_talk,1.0108590126037598,True
+Bạn có người yêu chưa?,small_talk,small_talk,0.9976320266723633,True
+Lâu quá không gặp!,small_talk,small_talk,1.0055460929870605,True
+Chào bạn!,small_talk,small_talk,36.35707187652588,True
+Trò chuyện một chút cho vui nha,small_talk,small_talk,1.2758729457855225,True
+Bạn biết đùa không?,small_talk,small_talk,1.3679511547088623,True
+Bạn là người thiệt hả?,small_talk,small_talk,1.0197477340698242,True
+Bạn còn thức không?,small_talk,small_talk,0.985450029373169,True
+"Haha, vui ghê!",small_talk,small_talk,1.0302071571350098,True
+Bạn có đó không?,small_talk,small_talk,1.0046892166137695,True
+Tôi buồn quá!,small_talk,small_talk,0.9888770580291748,True
+Tìm phim hài,cmd_search,cmd_search,0.9797530174255371,True
+Tìm video nấu ăn,cmd_search,cmd_search,0.9750537872314453,True
+Có phim kinh dị nào không?,cmd_search,content_recommend,0.9833579063415527,False
+Tìm chương trình ca nhạc,cmd_search,cmd_search,1.0139479637145996,True
+Tôi muốn xem phim Nhật,cmd_search,cmd_search,0.9818589687347412,True
+Tìm kiếm phim cổ trang,cmd_search,cmd_search,0.9963152408599854,True
+Tìm chương trình thiếu nhi,cmd_search,cmd_search,0.9834938049316406,True
+Tìm kiếm video TikTok nổi bật,cmd_search,cmd_search,1.021298885345459,True
+Tìm nội dung hot,cmd_search,content_recommend,0.9761998653411865,False
+Tìm phim có Lee Min Ho,cmd_search,cmd_search,0.9806482791900635,True
+Tìm video trending,cmd_search,cmd_search,1.0254418849945068,True
+Tìm video giải trí,cmd_search,cmd_search,0.9902787208557129,True
+Tìm phim mới ra,cmd_search,cmd_search,1.0050511360168457,True
+Tìm kênh tin tức,cmd_search,cmd_search,1.1220288276672363,True
+Tìm video học tiếng Anh,cmd_search,cmd_search,1.048719882965088,True
+Tìm thể loại phim hài lãng mạn,cmd_search,cmd_search,1.1077549457550049,True
+Tìm phim ngắn,cmd_search,cmd_search,0.9832789897918701,True
+Tìm phim tâm lý xã hội,cmd_search,cmd_search,0.985710859298706,True
+Tìm kênh thể thao,cmd_search,cmd_search,0.9896299839019775,True
+Tìm phim hành động Mỹ,cmd_search,cmd_search,1.0101113319396973,True
+Gợi ý phim đi,content_recommend,content_recommend,0.9799196720123291,True
+Phim gì hay hôm nay?,content_recommend,content_recommend,1.0219619274139404,True
+Có gì vui để xem không?,content_recommend,content_recommend,1.0518450736999512,True
+Bạn đề xuất phim hài đi,content_recommend,content_recommend,1.1312391757965088,True
+Có chương trình nào mới không?,content_recommend,content_recommend,0.9793791770935059,True
+Gợi ý video giải trí,content_recommend,content_recommend,1.0082359313964844,True
+Cho mình gợi ý nội dung hot,content_recommend,content_recommend,0.9624180793762207,True
+Phim nào đang được xem nhiều?,content_recommend,content_recommend,0.9674417972564697,True
+Bạn đề xuất gì hôm nay?,content_recommend,content_recommend,0.9592418670654297,True
+Phim nào xem tối nay hợp?,content_recommend,content_recommend,0.9699199199676514,True
+Có phim Hàn nào hay không?,content_recommend,content_recommend,0.9686810970306396,True
+Bạn thấy nên xem gì?,content_recommend,content_recommend,0.9912197589874268,True
+Phim hot nhất bây giờ là gì?,content_recommend,content_recommend,0.9611749649047852,True
+Bạn gợi ý chương trình gì?,content_recommend,content_recommend,0.9691312313079834,True
+Có gì nhẹ nhàng xem tối nay không?,content_recommend,content_recommend,1.0171897411346436,True
+Gợi ý phim tâm lý đi,content_recommend,content_recommend,0.9645440578460693,True
+Bạn thấy phim nào ổn?,content_recommend,content_recommend,0.970999002456665,True
+Mình nên xem gì sau bữa tối?,content_recommend,content_recommend,0.9664101600646973,True
+Phim chiếu rạp nào nên xem?,content_recommend,content_recommend,1.0120210647583008,True
+Bạn có gợi ý phim hoạt hình không?,content_recommend,content_recommend,1.0071697235107422,True
+Về trang chủ,navigate_screen,navigate_screen,1.0686969757080078,True
+Quay lại trang trước,navigate_screen,navigate_screen,0.9793410301208496,True
+Mở màn hình tìm kiếm,navigate_screen,navigate_screen,1.106173038482666,True
+Đi tới màn hình chính,navigate_screen,navigate_screen,0.9904618263244629,True
+Quay lại chỗ vừa rồi,navigate_screen,quay lại,1.0106549263000488,False
+Tới trang home,navigate_screen,navigate_screen,0.9613010883331299,True
+Bật giao diện tìm kiếm,navigate_screen,navigate_screen,1.0479180812835693,True
+Quay lại,navigate_screen,quay lại,0.994534969329834,False
+Mở lại màn hình trước,navigate_screen,navigate_screen,1.3688290119171143,True
+Trang chính đâu?,navigate_screen,navigate_screen,1.33138108253479,True
+Mở menu chính,navigate_screen,navigate_screen,1.1607661247253418,True
+Quay về màn hình đầu,navigate_screen,navigate_screen,0.9919679164886475,True
+Quay lại video trước,navigate_screen,navigate_screen,1.0388789176940918,True
+Chuyển về giao diện chính,navigate_screen,navigate_screen,0.9906449317932129,True
+Trang tìm kiếm đâu rồi?,navigate_screen,navigate_screen,1.308948278427124,True
+Chuyển tới trang explore,navigate_screen,navigate_screen,1.5908210277557373,True
+Bật trang discovery,navigate_screen,navigate_screen,1.2989790439605713,True
+Chuyển về giao diện chính,navigate_screen,navigate_screen,1.269083023071289,True
+Hiển thị màn hình home,navigate_screen,navigate_screen,1.1172590255737305,True
+Trở về trang chủ nhanh,navigate_screen,navigate_screen,1.2815799713134766,True
+Tăng âm lượng,cmd_raise_volume,cmd_raise_volume,0.9950361251831055,True
+Cho loa to hơn,cmd_raise_volume,cmd_raise_volume,1.0059568881988525,True
+Bật tiếng lớn lên,cmd_raise_volume,cmd_raise_volume,1.1293818950653076,True
+Mở âm thanh to chút,cmd_raise_volume,cmd_raise_volume,0.9941298961639404,True
+Tôi muốn nghe rõ hơn,cmd_raise_volume,cmd_raise_volume,0.9844589233398438,True
+Cho lớn tiếng lên,cmd_raise_volume,cmd_raise_volume,0.9848411083221436,True
+Tăng âm thanh nhé,cmd_raise_volume,cmd_raise_volume,1.0303199291229248,True
+Âm lượng nhỏ quá,cmd_raise_volume,cmd_reduce_volume,0.9902610778808594,False
+"Nghe không rõ, tăng lên",cmd_raise_volume,cmd_raise_volume,1.1022419929504395,True
+Làm ơn tăng volume,cmd_raise_volume,cmd_raise_volume,1.0166411399841309,True
+Volume hơi bé,cmd_raise_volume,cmd_raise_volume,1.0931620597839355,True
+Cho tiếng to hết cỡ,cmd_raise_volume,cmd_max_volume,1.1014668941497803,False
+Bật âm lượng lớn,cmd_raise_volume,cmd_max_volume,1.0674822330474854,False
+Nghe nhỏ quá bạn ơi,cmd_raise_volume,cmd_reduce_volume,1.081954002380371,False
+Tôi không nghe thấy,cmd_raise_volume,cmd_reduce_volume,1.190418004989624,False
+Loa nhỏ quá,cmd_raise_volume,cmd_reduce_volume,1.13565993309021,False
+Mở âm thanh lên,cmd_raise_volume,cmd_max_volume,1.081407070159912,False
+Tăng âm thanh cao nhất,cmd_raise_volume,cmd_max_volume,0.9991281032562256,False
+Cho âm lượng cao hơn,cmd_raise_volume,cmd_raise_volume,0.9853248596191406,True
+Tăng tiếng nhanh,cmd_raise_volume,cmd_max_volume,1.031973123550415,False
+Giảm âm lượng,cmd_reduce_volume,cmd_reduce_volume,1.0291991233825684,True
+Tiếng to quá,cmd_reduce_volume,cmd_reduce_volume,1.0968620777130127,True
+Cho nhỏ tiếng lại,cmd_reduce_volume,cmd_reduce_volume,1.1049559116363525,True
+Âm lượng hơi lớn,cmd_reduce_volume,cmd_reduce_volume,1.1887168884277344,True
+Giảm âm thanh xuống,cmd_reduce_volume,cmd_reduce_volume,1.081557035446167,True
+Tôi muốn tiếng nhỏ hơn,cmd_reduce_volume,cmd_reduce_volume,1.06870698928833,True
+Hạ volume đi,cmd_reduce_volume,cmd_reduce_volume,1.0020170211791992,True
+Giảm tiếng chút xíu,cmd_reduce_volume,cmd_reduce_volume,1.0521049499511719,True
+Bớt âm lượng lại,cmd_reduce_volume,cmd_reduce_volume,1.144028902053833,True
+Loa ồn quá,cmd_reduce_volume,cmd_reduce_volume,1.0109999179840088,True
+Cho nhỏ lại,cmd_reduce_volume,cmd_reduce_volume,1.003688097000122,True
+Tắt nhỏ tiếng đi,cmd_reduce_volume,cmd_reduce_volume,1.0417568683624268,True
+Giảm âm lượng nhanh,cmd_reduce_volume,cmd_reduce_volume,1.028960943222046,True
+Loa hơi chói tai,cmd_reduce_volume,cmd_reduce_volume,0.9929089546203613,True
+Giảm âm thanh nhanh lên,cmd_reduce_volume,cmd_reduce_volume,1.0441622734069824,True
+Tôi đang cần yên tĩnh,cmd_reduce_volume,cmd_reduce_volume,1.1852858066558838,True
+Cho bé tiếng thôi,cmd_reduce_volume,cmd_reduce_volume,1.0110390186309814,True
+Hạ âm lượng nhé,cmd_reduce_volume,cmd_reduce_volume,1.0653409957885742,True
+Giảm âm lượng cực thấp,cmd_reduce_volume,cmd_min_volume,1.0081379413604736,False
+Cho nhỏ lại giùm,cmd_reduce_volume,cmd_reduce_volume,1.0586681365966797,True
+Tăng âm lượng tối đa,cmd_max_volume,cmd_max_volume,1.019993782043457,True
+Cho tiếng lớn hết cỡ,cmd_max_volume,cmd_max_volume,0.9798221588134766,True
+Max volume đi,cmd_max_volume,cmd_max_volume,0.9948520660400391,True
+Bật tiếng full,cmd_max_volume,cmd_max_volume,0.9964230060577393,True
+Âm lượng cao nhất luôn nhé,cmd_max_volume,cmd_max_volume,0.9939849376678467,True
+Tôi muốn nghe hết mức,cmd_max_volume,cmd_max_volume,0.9886970520019531,True
+Mở âm thanh mức cao nhất,cmd_max_volume,cmd_max_volume,0.991462230682373,True
+Tiếng tối đa nhé,cmd_max_volume,cmd_max_volume,1.1579229831695557,True
+Cho âm lượng lên full,cmd_max_volume,cmd_max_volume,1.362297773361206,True
+Max âm lượng,cmd_max_volume,cmd_max_volume,1.2389800548553467,True
+To hết cỡ luôn đi,cmd_max_volume,cmd_max_volume,1.0021507740020752,True
+Loa hết công suất,cmd_max_volume,cmd_max_volume,0.9928150177001953,True
+Tôi muốn tiếng to nhất,cmd_max_volume,cmd_max_volume,1.0094959735870361,True
+Volume cao nhất,cmd_max_volume,cmd_max_volume,1.0198500156402588,True
+Phát hết loa lên,cmd_max_volume,cmd_max_volume,1.0685040950775146,True
+To hết sức luôn,cmd_max_volume,cmd_max_volume,1.0087859630584717,True
+Gồng hết âm lượng,cmd_max_volume,cmd_max_volume,1.0653400421142578,True
+Max âm thanh,cmd_max_volume,cmd_max_volume,1.0266318321228027,True
+Tiếng full luôn nha,cmd_max_volume,cmd_continues,0.9930188655853271,False
+Cho tiếng cực đại,cmd_max_volume,cmd_max_volume,0.9962201118469238,True
+Giảm âm lượng nhỏ nhất,cmd_min_volume,cmd_min_volume,0.9957711696624756,True
+Cho tiếng bé nhất,cmd_min_volume,cmd_min_volume,1.0107550621032715,True
+Min volume,cmd_min_volume,cmd_min_volume,0.9968748092651367,True
+Tiếng nhỏ nhất có thể,cmd_min_volume,cmd_min_volume,1.0388288497924805,True
+Âm thanh nhỏ nhất luôn,cmd_min_volume,cmd_min_volume,1.0419931411743164,True
+Volume mức thấp nhất,cmd_min_volume,cmd_min_volume,1.0553736686706543,True
+Tắt gần như tiếng luôn,cmd_min_volume,cmd_min_volume,1.0242681503295898,True
+Tôi không muốn nghe gì hết,cmd_min_volume,cmd_pause,1.081183910369873,False
+Cho âm lượng nhỏ xíu,cmd_min_volume,cmd_min_volume,1.0503318309783936,True
+Bé xíu luôn,cmd_min_volume,small_talk,0.9930770397186279,False
+Hạ hết tiếng,cmd_min_volume,cmd_min_volume,0.9917428493499756,True
+Nhỏ như tắt,cmd_min_volume,cmd_reduce_volume,1.0080571174621582,False
+Volume min,cmd_min_volume,cmd_min_volume,0.9928789138793945,True
+Min âm lượng luôn,cmd_min_volume,cmd_min_volume,1.0058708190917969,True
+Bé nhất có thể nha,cmd_min_volume,cmd_min_volume,0.9886689186096191,True
+Tắt gần hết tiếng,cmd_min_volume,cmd_min_volume,0.9952590465545654,True
+Giảm cực thấp luôn,cmd_min_volume,cmd_min_volume,1.0041582584381104,True
+Tắt gần âm thanh,cmd_min_volume,cmd_reduce_volume,0.9923660755157471,False
+Âm lượng thấp nhất,cmd_min_volume,cmd_min_volume,1.005336046218872,True
+Giảm về 0 gần như,cmd_min_volume,cmd_min_volume,1.062279224395752,True
+Tua nhanh đoạn đầu,cmd_fast_forward,cmd_fast_forward,1.1206982135772705,True
+Bỏ qua phần này,cmd_fast_forward,cmd_rewind,1.1416151523590088,False
+Lướt qua giúp,cmd_fast_forward,cmd_fast_forward,2.0643200874328613,True
+Skip đoạn này đi,cmd_fast_forward,cmd_fast_forward,1.0088670253753662,True
+Tăng tốc nội dung,cmd_fast_forward,cmd_fast_forward,1.2142338752746582,True
+Tôi muốn tua đến đoạn sau,cmd_fast_forward,cmd_fast_forward,1.042539119720459,True
+Tua nhanh chút đi,cmd_fast_forward,cmd_fast_forward,1.0084710121154785,True
+Chạy nhanh qua đoạn đầu,cmd_fast_forward,cmd_fast_forward,1.0066299438476562,True
+Tua tới đoạn kết,cmd_fast_forward,cmd_fast_forward,1.0212218761444092,True
+Bỏ phần giới thiệu đi,cmd_fast_forward,cmd_fast_forward,1.3068389892578125,True
+Tăng tốc độ phát,cmd_fast_forward,cmd_fast_forward,1.165031909942627,True
+Tôi không thích đoạn này,cmd_fast_forward,cmd_rewind,1.020353078842163,False
+Tua nhanh phần nhàm chán,cmd_fast_forward,cmd_fast_forward,1.009903907775879,True
+Chạy nhanh đi,cmd_fast_forward,cmd_fast_forward,1.025705099105835,True
+Tôi muốn xem đoạn sau,cmd_fast_forward,cmd_continues,1.0876548290252686,False
+Tua nhanh nha,cmd_fast_forward,cmd_fast_forward,1.1132748126983643,True
+Lướt qua nhanh,cmd_fast_forward,cmd_fast_forward,1.020158052444458,True
+Skip intro,cmd_fast_forward,cmd_fast_forward,0.9838252067565918,True
+Bỏ qua đoạn đầu,cmd_fast_forward,cmd_rewind,0.9905569553375244,False
+Tua tới đoạn hấp dẫn,cmd_fast_forward,cmd_fast_forward,0.9857339859008789,True
+Tua lại đoạn vừa rồi,cmd_rewind,cmd_rewind,0.9756639003753662,True
+Tôi muốn xem lại,cmd_rewind,cmd_rewind,0.9813120365142822,True
+Lùi lại một chút,cmd_rewind,cmd_rewind,1.0011179447174072,True
+Chạy lại cảnh đó đi,cmd_rewind,cmd_rewind,0.9960911273956299,True
+Cho phát lại đoạn trước,cmd_rewind,cmd_rewind,0.9815819263458252,True
+Tua chậm lại,cmd_rewind,cmd_rewind,0.9839727878570557,True
+Lùi lại chút xíu,cmd_rewind,cmd_rewind,1.0998737812042236,True
+Tua về đoạn trước,cmd_rewind,cmd_rewind,1.0792970657348633,True
+Xem lại cảnh đó,cmd_rewind,cmd_rewind,1.0161700248718262,True
+Tôi bỏ lỡ đoạn đầu,cmd_rewind,cmd_rewind,0.9807469844818115,True
+Tua về một khúc,cmd_rewind,cmd_rewind,1.0192909240722656,True
+Tôi chưa nghe rõ,cmd_rewind,small_talk,0.9851531982421875,False
+Xem lại từ đầu,cmd_rewind,cmd_rewind,0.9817101955413818,True
+Tua lùi nhanh,cmd_rewind,cmd_rewind,0.9908168315887451,True
+Cho tôi coi lại,cmd_rewind,cmd_rewind,0.9820311069488525,True
+Tua lại giúp,cmd_rewind,cmd_rewind,1.0381567478179932,True
+Xem lại chút đi,cmd_rewind,cmd_rewind,1.0204222202301025,True
+Tôi muốn xem đoạn cũ,cmd_rewind,cmd_rewind,1.0016016960144043,True
+Chiếu lại đoạn rồi,cmd_rewind,cmd_rewind,0.9884321689605713,True
+Tua về đoạn vừa chiếu,cmd_rewind,cmd_rewind,1.0484330654144287,True
+Tiếp tục phát,cmd_continues,cmd_continues,1.0861618518829346,True
+Phát tiếp đi,cmd_continues,cmd_continues,0.9931850433349609,True
+Play tiếp nào,cmd_continues,cmd_continues,0.9908978939056396,True
+Xem tiếp đoạn vừa rồi,cmd_continues,cmd_continues,0.9753048419952393,True
+Tiếp tục chương trình,cmd_continues,cmd_continues,1.0000638961791992,True
+Tiếp tục phim,cmd_continues,cmd_continues,1.041496992111206,True
+Cho chạy tiếp,cmd_continues,cmd_continues,1.0000109672546387,True
+Bật lại xem tiếp,cmd_continues,cmd_continues,0.9747483730316162,True
+Tiếp phát nội dung,cmd_continues,cmd_continues,0.9752731323242188,True
+Phát tiếp video cũ,cmd_continues,cmd_continues,0.9780659675598145,True
+Tôi muốn xem tiếp,cmd_continues,cmd_continues,0.9795839786529541,True
+Chạy tiếp video,cmd_continues,cmd_continues,1.000351905822754,True
+Tiếp tục đoạn vừa ngừng,cmd_continues,cmd_continues,1.075685977935791,True
+Tiếp theo đi,cmd_continues,cmd_continues,0.9820470809936523,True
+Cho tiếp phim,cmd_continues,cmd_continues,0.9867441654205322,True
+Tiếp tục đi bạn,cmd_continues,cmd_continues,1.0863938331604004,True
+Phát tiếp ngay nhé,cmd_continues,cmd_continues,1.0052311420440674,True
+Mình muốn tiếp tục xem,cmd_continues,cmd_continues,1.0088777542114258,True
+Tiếp tục từ chỗ dừng,cmd_continues,cmd_continues,0.9889049530029297,True
+Chạy lại tiếp theo,cmd_continues,cmd_rewind,1.0032789707183838,False
+Thời tiết hôm nay thế nào?,weather_query,weather_query,0.9656360149383545,True
+Mai có mưa không?,weather_query,weather_query,0.9695749282836914,True
+Trời có lạnh không?,weather_query,weather_query,1.0060148239135742,True
+Thời tiết Hà Nội ra sao?,weather_query,weather_query,0.9745280742645264,True
+Dự báo thời tiết hôm nay,weather_query,weather_query,0.9970271587371826,True
+Tình hình thời tiết ngày mai,weather_query,weather_query,0.973858118057251,True
+Hôm nay có nắng không?,weather_query,weather_query,0.9810340404510498,True
+Trời có mưa không vậy?,weather_query,weather_query,0.9884052276611328,True
+Thời tiết trong tuần,weather_query,weather_query,0.9702191352844238,True
+Mai đi chơi được không?,weather_query,small_talk,0.9838709831237793,False
+Thời tiết Sài Gòn hôm nay?,weather_query,weather_query,0.9593889713287354,True
+Hà Nội hôm nay lạnh không?,weather_query,weather_query,0.9637801647186279,True
+Trời có gió không?,weather_query,weather_query,0.9969589710235596,True
+Nhiệt độ hôm nay bao nhiêu?,weather_query,weather_query,0.95992112159729,True
+Trời có đẹp không?,weather_query,weather_query,0.9663159847259521,True
+Tình hình mưa bão,weather_query,weather_query,0.9648759365081787,True
+Xem thời tiết khu vực miền Trung,weather_query,weather_query,0.9629309177398682,True
+Thời tiết có thuận lợi không?,weather_query,weather_query,0.960831880569458,True
+Ngày mai trời thế nào?,weather_query,weather_query,0.9724459648132324,True
+Thời tiết hôm nay ổn không?,weather_query,weather_query,0.9739980697631836,True
+Giá vàng hôm nay bao nhiêu?,gold_price_query,gold_price_query,0.9836361408233643,True
+Giá SJC ra sao?,gold_price_query,gold_price_query,0.9850687980651855,True
+Vàng lên hay xuống?,gold_price_query,gold_price_query,1.0019371509552002,True
+Cập nhật giá vàng,gold_price_query,gold_price_query,1.0549819469451904,True
+Giá vàng thế giới,gold_price_query,gold_price_query,0.9851210117340088,True
+Vàng tăng mạnh chưa?,gold_price_query,gold_price_query,0.984062910079956,True
+Vàng hôm nay tăng hay giảm?,gold_price_query,gold_price_query,0.9816651344299316,True
+Vàng 9999 bao nhiêu?,gold_price_query,gold_price_query,1.0084228515625,True
+Giá vàng DOJI,gold_price_query,gold_price_query,0.9984440803527832,True
+Giá vàng hiện tại,gold_price_query,gold_price_query,0.9897270202636719,True
+Mua vào bán ra bao nhiêu?,gold_price_query,general_query,0.9623322486877441,False
+Giá vàng hôm nay ở Hà Nội,gold_price_query,gold_price_query,0.9845798015594482,True
+Vàng SJC hiện tại,gold_price_query,gold_price_query,0.9809730052947998,True
+Hôm nay có nên mua vàng?,gold_price_query,gold_price_query,0.9923849105834961,True
+Giá vàng chiều nay?,gold_price_query,gold_price_query,1.0040078163146973,True
+Vàng hôm nay thế nào?,gold_price_query,gold_price_query,0.9874200820922852,True
+Tôi muốn biết giá vàng,gold_price_query,gold_price_query,0.9842967987060547,True
+Bảng giá vàng,gold_price_query,gold_price_query,36.08275890350342,True
+Vàng nhẫn bao nhiêu?,gold_price_query,gold_price_query,0.9877409934997559,True
+Vàng có giảm không?,gold_price_query,gold_price_query,1.0070922374725342,True
+Tôi đang dùng gói gì?,package_query,package_query,0.9794678688049316,True
+Có gói nào xem phim miễn phí không?,package_query,package_query,0.9767186641693115,True
+Tư vấn gói xem truyền hình,package_query,package_query,0.9619331359863281,True
+Tôi muốn nâng cấp gói,package_query,package_query,0.9694488048553467,True
+Gói VIP có gì đặc biệt?,package_query,package_query,1.0923430919647217,True
+Chi tiết gói hiện tại,package_query,package_query,1.114948034286499,True
+Các gói cước đang có,package_query,package_query,1.0147051811218262,True
+Tôi cần hủy gói hiện tại,package_query,package_query,36.10830307006836,True
+Đăng ký gói mới,package_query,package_query,1.033048152923584,True
+Gói nào có kênh quốc tế?,package_query,package_query,1.0289638042449951,True
+Tôi đang trả bao nhiêu?,package_query,package_query,1.0848469734191895,True
+Có gói nào tiết kiệm không?,package_query,package_query,1.0832431316375732,True
+Tôi dùng hết dung lượng chưa?,package_query,package_query,1.0083389282226562,True
+Tôi muốn kiểm tra gói,package_query,package_query,0.9774112701416016,True
+Gói phim có giới hạn gì không?,package_query,package_query,1.0809321403503418,True
+Hỗ trợ kiểm tra gói,package_query,package_query,1.031937837600708,True
+Tư vấn gói cho người lớn tuổi,package_query,package_query,1.0038909912109375,True
+Tôi đang dùng gói thử đúng không?,package_query,package_query,1.017232894897461,True
+Khi nào hết hạn gói?,package_query,package_query,1.0114970207214355,True
+Tôi có thể đổi gói không?,package_query,package_query,0.9774458408355713,True
+user_input,expected_intent,small_ttalk,1.0675270557403564,False
+Bật tivi,cmd_turn_on,cmd_turn_on,1.0659739971160889,True
+Mở đầu thu,cmd_turn_on,cmd_turn_on,1.0511970520019531,True
+Khởi động tivi,cmd_turn_on,cmd_turn_on,1.04718017578125,True
+Mở máy xem đi,cmd_turn_on,cmd_turn_on,1.0009238719940186,True
+Bật lại thiết bị,cmd_turn_on,cmd_turn_on,0.9949400424957275,True
+Mở thiết bị phát,cmd_turn_on,cmd_turn_on,1.0431950092315674,True
+Bật lại đầu thu,cmd_turn_on,cmd_turn_on,1.079498052597046,True
+Mở TV lên,cmd_turn_on,cmd_turn_on,1.0309062004089355,True
+Bật màn hình,cmd_turn_on,navigate_screen,0.9808928966522217,False
+Khởi động lại TV,cmd_turn_on,cmd_turn_on,1.0237009525299072,True
+Bật lại giúp mình,cmd_turn_on,cmd_turn_on,1.0033831596374512,True
+Cho TV hoạt động,cmd_turn_on,cmd_turn_on,1.0090532302856445,True
+Bật hộ cái,cmd_turn_on,cmd_turn_on,2.134683847427368,True
+Tivi bật chưa?,cmd_turn_on,cmd_turn_on,1.1319491863250732,True
+Bật nguồn đi,cmd_turn_on,cmd_turn_on,1.0976099967956543,True
+Khởi động đầu phát,cmd_turn_on,cmd_turn_on,1.035491943359375,True
+Mở hệ thống xem đi,cmd_turn_on,navigate_screen,1.0538618564605713,False
+Khởi động màn hình chính,cmd_turn_on,navigate_screen,1.0838112831115723,False
+Bật app xem phim,cmd_turn_on,navigate_screen,2.114527940750122,False
+TV chưa bật kìa,cmd_turn_on,cmd_turn_on,1.6038992404937744,True
+Tắt tivi,cmd_turn_off,cmd_turn_off,1.2266261577606201,True
+Ngắt đầu thu,cmd_turn_off,cmd_turn_off,1.1667671203613281,True
+Tắt thiết bị đi,cmd_turn_off,cmd_turn_off,1.091372013092041,True
+Tắt hết đi,cmd_turn_off,cmd_turn_off,1.0393288135528564,True
+Tôi muốn tắt TV,cmd_turn_off,cmd_turn_off,1.1012632846832275,True
+Dừng phát và tắt,cmd_turn_off,cmd_pause,1.1466119289398193,False
+Tắt nguồn đi,cmd_turn_off,cmd_turn_off,1.1417288780212402,True
+Tắt hộ cái,cmd_turn_off,cmd_turn_off,1.6279659271240234,True
+Cho tivi nghỉ đi,cmd_turn_off,cmd_turn_off,1.1387650966644287,True
+Ngắt điện tivi,cmd_turn_off,cmd_turn_off,1.6198229789733887,True
+Tắt TV nhanh,cmd_turn_off,cmd_turn_off,1.4717369079589844,True
+Dừng mọi thứ lại,cmd_turn_off,cmd_pause,4.028008937835693,False
+Tắt màn hình chính,cmd_turn_off,cmd_turn_off,1.1814510822296143,True
+Ngắt hệ thống phát,cmd_turn_off,cmd_pause,0.9765810966491699,False
+Tắt luôn đầu thu nhé,cmd_turn_off,cmd_turn_off,1.0973708629608154,True
+TV tắt rồi à?,cmd_turn_off,general_query,1.0410969257354736,False
+Cho mình dừng hệ thống,cmd_turn_off,cmd_pause,1.0378022193908691,False
+Tôi không muốn xem nữa,cmd_turn_off,cmd_pause,0.9916846752166748,False
+Tắt app luôn,cmd_turn_off,cmd_turn_off,1.0263757705688477,True
+Dừng phát rồi tắt,cmd_turn_off,cmd_pause,1.1595478057861328,False
+Tạm dừng phát,cmd_pause,cmd_pause,1.000990867614746,True
+Ngừng video,cmd_pause,cmd_pause,1.188140869140625,True
+Dừng lại chút,cmd_pause,cmd_pause,0.9737801551818848,True
+Pause đi,cmd_pause,cmd_pause,1.036503791809082,True
+Dừng hình lại,cmd_pause,cmd_pause,0.9766666889190674,True
+Cho tạm dừng phim,cmd_pause,cmd_pause,0.9722442626953125,True
+Tạm ngưng nội dung,cmd_pause,cmd_pause,0.9856817722320557,True
+Dừng nội dung lại đi,cmd_pause,cmd_pause,0.9983820915222168,True
+Cho nghỉ xem chút,cmd_pause,cmd_pause,0.9721519947052002,True
+Tôi muốn dừng,cmd_pause,cmd_pause,1.0156102180480957,True
+Tạm thời dừng phát,cmd_pause,cmd_pause,1.4311940670013428,True
+Tạm dừng ngay,cmd_pause,cmd_pause,1.0917329788208008,True
+Dừng lại nha,cmd_pause,cmd_pause,0.9800209999084473,True
+Pause nội dung này,cmd_pause,cmd_pause,0.9679780006408691,True
+Dừng video lại giúp tôi,cmd_pause,cmd_pause,0.9883589744567871,True
+Tôi muốn ngưng chút,cmd_pause,cmd_pause,0.9642059803009033,True
+Cho dừng tạm nhé,cmd_pause,cmd_pause,0.9969427585601807,True
+Tạm ngưng chương trình,cmd_pause,cmd_pause,0.969271183013916,True
+Dừng phát sóng đi,cmd_pause,cmd_pause,1.0074408054351807,True
+Dừng hết lại đã,cmd_pause,cmd_pause,1.0018579959869385,True
+Mở YouTube,navigate_app,navigate_app,0.9679732322692871,True
+Bật app YouTube,navigate_app,navigate_app,0.9595222473144531,True
+Chuyển qua YouTube,navigate_app,navigate_app,0.9622180461883545,True
+Đi tới ứng dụng YouTube,navigate_app,navigate_app,0.9561748504638672,True
+Tôi muốn mở YouTube,navigate_app,navigate_app,0.9590198993682861,True
+Mở ứng dụng xem video,navigate_app,navigate_screen,1.5303518772125244,False
+Chuyển qua app YouTube,navigate_app,navigate_app,0.9607598781585693,True
+YouTube mở lên nhé,navigate_app,navigate_app,0.9535508155822754,True
+Xem YouTube đi,navigate_app,navigate_app,0.9631471633911133,True
+Mở ứng dụng YouTube dùm tôi,navigate_app,navigate_app,0.9739608764648438,True
+Vào YouTube,navigate_app,navigate_app,0.9549100399017334,True
+Khởi động YouTube,navigate_app,navigate_app,0.9543521404266357,True
+App YouTube đâu rồi,navigate_app,navigate_app,0.9845120906829834,True
+Xem video YouTube đi,navigate_app,navigate_app,0.9788780212402344,True
+Mở kênh YouTube,navigate_app,navigate_app,0.957700252532959,True
+Chuyển tới YouTube,navigate_app,navigate_app,0.9572463035583496,True
+Vào ứng dụng YouTube,navigate_app,navigate_app,0.9658410549163818,True
+Khởi chạy app YouTube,navigate_app,navigate_app,1.003532886505127,True
+Tới ứng dụng video,navigate_app,navigate_screen,1.0623040199279785,False
+Cho tôi xem YouTube,navigate_app,navigate_app,0.9665279388427734,True
+Bật thiết bị lên,turn_on,cmd_turn_on,1.0089380741119385,False
+Khởi động lại,turn_on,cmd_turn_on,0.9879150390625,False
+Mở lại máy,turn_on,cmd_turn_on,1.0301358699798584,False
+Bật nguồn chính,turn_on,cmd_turn_on,1.0260159969329834,False
+Khởi động tất cả,turn_on,cmd_turn_on,0.9974069595336914,False
+Cho hoạt động lại,turn_on,cmd_continues,0.9879591464996338,False
+Khởi động hệ thống,turn_on,cmd_turn_on,0.9957771301269531,False
+Bật lại toàn bộ,turn_on,cmd_turn_on,1.03867506980896,False
+Bật hết lên,turn_on,cmd_max_volume,0.9976999759674072,False
+Mở mọi thứ,turn_on,navigate_screen,0.9951190948486328,False
+Khởi động mọi thiết bị,turn_on,cmd_turn_on,1.005448818206787,False
+Cho máy chạy,turn_on,cmd_continues,0.9864439964294434,False
+Mở thiết bị chính,turn_on,cmd_turn_on,1.1127898693084717,False
+Tôi muốn bật lên,turn_on,cmd_turn_on,1.0072288513183594,False
+Mở toàn bộ đi,turn_on,navigate_screen,0.9771349430084229,False
+Khởi động full hệ thống,turn_on,cmd_turn_on,1.0109941959381104,False
+Tôi muốn bật lại,turn_on,cmd_continues,0.9954888820648193,False
+Cho mọi thứ hoạt động,turn_on,cmd_turn_on,1.012876033782959,False
+Khởi động tất cả thiết bị,turn_on,cmd_turn_on,0.9963977336883545,False
+Mở nguồn lên,turn_on,cmd_turn_on,0.9942488670349121,False
+Tắt mọi thứ,turn_off,cmd_turn_off,1.0075421333312988,False
+Tắt toàn bộ,turn_off,cmd_turn_off,1.0166988372802734,False
+Ngắt hệ thống,turn_off,cmd_pause,0.9616420269012451,False
+Cho tắt thiết bị,turn_off,cmd_turn_off,0.9980471134185791,False
+Tắt máy đi,turn_off,cmd_turn_off,0.982882022857666,False
+Ngắt kết nối,turn_off,cmd_turn_off,1.0266649723052979,False
+Dừng toàn bộ,turn_off,cmd_pause,0.9810519218444824,False
+Tắt nguồn chính,turn_off,cmd_turn_off,1.0977048873901367,False
+Tắt hết thiết bị,turn_off,cmd_turn_off,1.0595130920410156,False
+Cho hệ thống nghỉ,turn_off,cmd_turn_off,1.0005497932434082,False
+Tôi muốn tắt toàn bộ,turn_off,cmd_turn_off,1.0223259925842285,False
+Ngắt điện,turn_off,cmd_turn_off,1.0678491592407227,False
+Dừng thiết bị,turn_off,cmd_turn_off,1.0072839260101318,False
+Dừng phát toàn bộ,turn_off,cmd_pause,1.1122932434082031,False
+Tắt tất cả app,turn_off,cmd_turn_off,1.0655498504638672,False
+Tắt toàn bộ màn hình,turn_off,cmd_turn_off,1.0113861560821533,False
+Ngắt toàn bộ hệ thống,turn_off,cmd_turn_off,1.0158698558807373,False
+Tôi không dùng nữa,turn_off,cmd_turn_off,0.9991569519042969,False
+Tắt toàn bộ hệ thống,turn_off,cmd_turn_off,1.135727882385254,False
+Ngưng toàn bộ,turn_off,cmd_pause,1.0072481632232666,False
+Bạn được tạo ra như thế nào?,general_query,general_query,0.9947526454925537,True
+Bạn hoạt động ra sao?,general_query,general_query,0.9820082187652588,True
+Bạn tên là gì?,general_query,general_query,1.007451057434082,True
+Bạn có thể làm gì?,general_query,general_query,1.0258357524871826,True
+Tôi đang nói chuyện với ai?,general_query,general_query,0.9986608028411865,True
+Bạn có học từ người dùng không?,general_query,general_query,0.9700908660888672,True
+Bạn có thể giúp tôi với phim ảnh không?,general_query,cmd_search,0.9731950759887695,False
+Bạn có biết mình đang ở đâu không?,general_query,general_query,0.9893989562988281,True
+Tôi có thể hỏi gì?,general_query,general_query,0.9738140106201172,True
+Bạn có biết thời gian không?,general_query,general_query,116.57003498077393,True
+Bạn hiểu tiếng Việt tốt chứ?,general_query,small_talk,1.0682778358459473,False
+Bạn đến từ đâu?,general_query,small_talk,1.0357518196105957,False
+Bạn có thể giúp tìm phim không?,general_query,cmd_search,1.0216858386993408,False
+Tại sao bạn không trả lời?,general_query,general_query,0.9676718711853027,True
+Bạn được huấn luyện ở đâu?,general_query,general_query,1.0195162296295166,True
+Trí tuệ nhân tạo là gì?,general_query,general_query,0.9747562408447266,True
+Bạn có thể giúp gì ngoài phim?,general_query,general_query,1.0023138523101807,True
+Bạn làm được những gì?,general_query,general_query,0.978935718536377,True
+Bạn có thể kể chuyện cười không?,general_query,small_talk,1.0411200523376465,False
+Bạn là robot hả?,general_query,small_talk,0.9894750118255615,False

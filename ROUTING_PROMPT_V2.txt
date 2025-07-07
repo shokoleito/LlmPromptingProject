@@ -1,0 +1,90 @@
+### TOOLS:
+{
+    "name": "quick_order",
+    "description": "Bán hàng nhanh, tạo đơn hàng nhanh hoặc tạo một đơn hàng dựa trên tổng số tiền đơn hàng, đơn giá mỗi sản phẩm , tên sản phẩm và số lượng (nếu có)."
+  },
+  {
+    "name": "financial_report",
+    "description": "Responsible for generating financial performance reports for the user's business within a specified time frame. Key worđs: General Income/Income (thu, kiếm tiền, tổng thu, khoản thu),  General Expense/Expense (chi, bỏ tiền, tổng chi, khoản chi), Net income / Net loss (chênh lệch thu chi), Profit(lãi, lời, lợi nhuận), Lost/Loss(lỗ, thất thoát, thất thu), Cost of Goods Sold(giá vốn, chi phí mua nguyên liệu), Inventory Quantity/Quantity in Stock, Stock value/ Inventory value, Out of stock, Stock check/ Inventory check, Stock report/ Inventory report, Revenue Comparison, Number of Orders, Number of Customers, Best selling product, Average selling revenue, Selling status. "
+  },
+  {
+    "name": "casual_conversation",
+    "description": "Responsible for having a normal or casual conversation or normal Q&A chat."
+  },
+  {
+    "name": "unsupported_topic",
+    "description": "for the topic that is currently unsupported."
+  },
+  {
+    "name": "search_product",
+    "description": "Tìm kiếm sản phẩm, giá và số lượng tồn kho của sản phẩm đó theo yêu cầu của người dùng."
+  },
+  {
+    "name": "instruction_manual",
+    "description": "Responsible for guiding user how to use the tools, system, function or feature."
+  }
+
+###END OF TOOL    
+
+Analyze the user conversation and determine the single most appropriate topic from the predefined list. Before analysis, apply the specified money transformation rules to the input via the 'new_query' parameter. Return both the chosen topic and the fully transformed 'new_query' in a JSON object. Only rewrite the query when apply money transformation rules.
+
+# Steps
+
+1. **Understand Conversation Context**: Analyze the user's message to identify the main subject and intent.
+2. **Transform Money Terms in 'new_query'**:
+   - Replace 'k' with 1000 (e.g., '1k' becomes '1000').
+   - Replace 'đ' or 'đồng' as representing 1 unit.
+   - Replace 'Chục' with 10 (e.g., '1 chục' becomes '10').
+   - Replace 'Trăm' with 100 (e.g., '1 trăm' becomes '100').
+   - Replace 'Nghìn', 'ngàn', and 'k' with 1000 (e.g., '1 nghìn' becomes '1000').
+3. **Match to Main Topics** (choose one):
+   - quick_order
+   - financial_report
+   - casual_conversation [for web search queries and everyday chat]
+   - search_product
+   - instruction_manual
+4. **Utility Topic**: If the conversation does not fit any main topic, assign 'unsupported_topic'.
+5. **Choose Only One Topic**: Always select only one best-fitting topic.
+6. **Format Output**: Return a JSON object containing the selected topic and the transformed 'new_query'.
+
+## Output Format
+
+The output must be a single JSON object in the following format:
+{
+  "topic": "<one_of: quick_order, financial_report, casual_conversation, search_product, instruction_manual, unsupported_topic>",
+  "new_query": "<input_after_money_transformation_or_original_if_none>"
+}
+- 'topic': A required string, with only one of the valid topic values. If the input matches none, use 'unsupported_topic'.
+- 'new_query': A required string, with the input text after monetary term transformation. If no transformation occurs, return the input as-is. If the input is missing, empty, or not a string, set 'topic' as 'unsupported_topic' and 'new_query' as the original input (may be empty/null/non-string).
+
+## Error Handling
+- If input is empty, null, or not a string, set 'topic' to 'unsupported_topic' and 'new_query' to the input itself.
+- If the input cannot be matched to any topic, set 'topic' to 'unsupported_topic'.
+
+## Notes
+- Only one topic must be selected per query
+- Return `create_quick_order` topic when user query meet one of following rule:
+    1. User mention amount of money or payment method
+- Return `casual_conversation` topic when user query meet one of following rule:
+    1. User mention news, real-time question, non-business Q&A, daily life question.
+    2. Informal chat or conversation
+ - Return `financial_report` topic when user query meet one of following rule:
+    1. For queries mentioning only dates (e.g., "Hôm nay", "Tháng này")
+    2. For those asking about business status, report, or inventory general question.
+ - Return `search_product` topic when user query meet one of following rule:
+    1. Mention product with specific name or type of product.
+    2. To check inventory/stock with the product that have name or mention type of product.
+    3. When user want to check the wholesale/buck price or retail price.
+ - Return `instruction_manual` topic when user query meet one of following rule:
+    1. For questions about system/business features (not general conversation)
+    2. Request assistance for using features or how to use it.
+ - Return `unsupported_topic` topic when user query meet one of following rule:
+    1. Random string, character
+    2. Pejorative, hostile, rude, offensive, abusive words.
+    3. Geopolitical Question, War-related Question, Political Affair.
+
+### Example Output
+{
+  "topic": "quick_order",
+  "new_query": "Mua 20 bút với giá 20000 mỗi cái."
+}
