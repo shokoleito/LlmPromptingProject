@@ -1,0 +1,591 @@
+user_input,expected_intent
+Phim Người phán xử do ai đạo diễn?,film_qna
+Diễn viên chính trong phim Hương vị tình thân là ai?,film_qna
+Phim Mắt biếc được sản xuất năm nào?,film_qna
+Phim Thương ngày nắng về có bao nhiêu tập?,film_qna
+Phim Em là bà nội của anh thuộc thể loại gì?,film_qna
+Ai là tác giả kịch bản phim Vợ ba?,film_qna
+Phim Nhà bà Nữ có thời lượng bao lâu?,film_qna
+Phim Bố già có doanh thu bao nhiêu?,film_qna
+Bối cảnh phim Dòng sông phẳng lặng quay ở đâu?,film_qna
+Dàn diễn viên phim Hoa hồng trên ngực trái gồm những ai?,film_qna
+Phim Chiếc lá cuốn bay được chiếu lần đầu khi nào?,film_qna
+Phim Trại hoa đỏ có bao nhiêu phần?,film_qna
+Đạo diễn phim Tôi thấy hoa vàng trên cỏ xanh là ai?,film_qna
+Nhạc phim Mắt biếc là của ai sáng tác?,film_qna
+Phim Cô gái đến từ hôm qua dựa trên truyện nào?,film_qna
+Tập cuối của phim Quỳnh búp bê kết thúc thế nào?,film_qna
+Phim Hai Phượng có các cảnh hành động được dàn dựng như thế nào?,film_qna
+Phim Gạo nếp gạo tẻ phần 2 có phải là phần tiếp nối không?,film_qna
+Phim Hạnh phúc của mẹ giành được giải thưởng nào?,film_qna
+Phim Lật mặt 6 có phải là phần tiếp theo của Lật mặt 5?,film_qna
+Ai là người thủ vai chính trong phim Vòng eo 56?,film_qna
+Phim Đất rừng phương Nam có nhân vật nào chính?,film_qna
+Thời lượng mỗi tập của phim Hướng dương ngược nắng là bao lâu?,film_qna
+Phim Zippo mù tạt và em thuộc thể loại gì?,film_qna
+Phim Sống chung với mẹ chồng có bao nhiêu tập?,film_qna
+Phim Chị chị em em có cảnh nóng không?,film_qna
+Phim Chạy trốn thanh xuân có cảnh quay ở đâu?,film_qna
+Diễn viên đóng vai Hồng Đăng trong phim Thương ngày nắng về là ai?,film_qna
+Phim Hôn nhân trong ngõ hẹp được chuyển thể từ truyện nào?,film_qna
+Ai là người lồng tiếng cho nhân vật chính phim Doraemon bản tiếng Việt?,film_qna
+Phim Trạng Tí phiêu lưu ký có bị hoãn chiếu không?,film_qna
+Phim Đêm tối rực rỡ có phải là phim kinh dị không?,film_qna
+Cảnh quay trong phim Bẫy ngọt ngào có thật sự là ở Đà Lạt?,film_qna
+Nhân vật phản diện chính trong phim Người bất tử là ai?,film_qna
+Phim Hậu duệ mặt trời bản Việt có giống bản Hàn không?,film_qna
+Phim Bí mật của gió có phần tiếp theo không?,film_qna
+Phim Maika – Cô bé đến từ hành tinh khác dành cho lứa tuổi nào?,film_qna
+Phim Trái tim quái vật có diễn viên nào từng đoạt giải Cánh diều vàng?,film_qna
+Phim Lật mặt có tổng cộng bao nhiêu phần?,film_qna
+Ai là nhà sản xuất phim Thiên thần hộ mệnh?,film_qna
+Phim Em và Trịnh có bao nhiêu bài nhạc Trịnh?,film_qna
+Phim Nhà có 5 nàng tiên là phim hài hay tâm lý?,film_qna
+Câu chuyện thật phía sau phim Hồn papa da con gái là gì?,film_qna
+Phim Tấm Cám: Chuyện chưa kể có dùng kỹ xảo nhiều không?,film_qna
+Phim 1990 có sự tham gia của những diễn viên nào?,film_qna
+Phim Song Lang lấy bối cảnh ở đâu?,film_qna
+Mở phim Em và Trịnh,open_item
+Tôi muốn xem Sau ánh hào quang,open_item
+Chiếu phim Hai Phượng đi,open_item
+Tôi muốn xem lại Gạo nếp gạo tẻ,open_item
+Mở video Hương vị tình thân,open_item
+Chiếu phim điện ảnh Vợ ba,open_item
+Cho tôi xem Trại hoa đỏ,open_item
+Tôi muốn xem chương trình Rap Việt,open_item
+Phát phim Bố già,open_item
+Bật phim Lật mặt 5,open_item
+Chiếu lại Người phán xử,open_item
+Tôi muốn mở phim Sống chung với mẹ chồng,open_item
+Xem video Nhà bà Nữ,open_item
+Bật kênh chiếu phim Thương ngày nắng về,open_item
+Chiếu phim Chị chị em em,open_item
+Mở Em là bà nội của anh,open_item
+Cho tôi xem video Chiếc lá cuốn bay,open_item
+Tôi muốn xem phim Dòng sông phẳng lặng,open_item
+Chiếu phim Trái tim quái vật,open_item
+Bật chương trình Táo quân,open_item
+Mở phim Cô gái đến từ hôm qua,open_item
+Phát phim Trạng Tí phiêu lưu ký,open_item
+Chiếu phim Đất rừng phương Nam,open_item
+Mở video Bẫy ngọt ngào,open_item
+Tôi muốn xem phim Tấm Cám: Chuyện chưa kể,open_item
+Chiếu phim Hồn papa da con gái,open_item
+Bật chương trình Hẹn hò cùng mẹ,open_item
+Mở kênh chiếu phim Về nhà đi con,open_item
+Tôi muốn xem Hướng dương ngược nắng,open_item
+Chiếu video Người bất tử,open_item
+Mở lại chương trình Ký ức vui vẻ,open_item
+Tôi muốn xem phim Hậu duệ mặt trời bản Việt,open_item
+Chiếu video Maika – Cô bé đến từ hành tinh khác,open_item
+Bật phim Song Lang,open_item
+Phát phim Thiên thần hộ mệnh,open_item
+Xem phim 1990,open_item
+Tôi muốn xem phim Lật mặt 6,open_item
+Chiếu lại phim Bí mật của gió,open_item
+Xem video Nhà có 5 nàng tiên,open_item
+Bật lại phim Em gái mưa,open_item
+Mở nội dung Gạo nếp gạo tẻ phần 2,open_item
+Xem lại Vòng eo 56,open_item
+Chiếu phim Người lạ ơi,open_item
+Bật lại phim Zippo mù tạt và em,open_item
+Xem chương trình Ơn giời cậu đây rồi,open_item
+Phát phim Chạy trốn thanh xuân,open_item
+Bật video Hạnh phúc của mẹ,open_item
+Tôi muốn xem phim Lật mặt phần 1,open_item
+Mở chương trình Sàn đấu ca từ,open_item
+Chiếu phim Người vợ ba,open_item
+Phim Hương vị tình thân chiếu lúc mấy giờ?,open_schedule
+Mở lịch chiếu phim hôm nay,open_schedule
+Lịch chiếu kênh VTV1 tối nay,open_schedule
+Mấy giờ chiếu chương trình thời sự?,open_schedule
+Chiếu phim Người phán xử vào lúc nào?,open_schedule
+Thời gian phát sóng Gạo nếp gạo tẻ là khi nào?,open_schedule
+Lịch phát sóng Táo quân năm nay?,open_schedule
+Lịch chương trình hôm nay trên HTV2,open_schedule
+Tối nay có phim gì trên VTV3?,open_schedule
+19 giờ có chương trình gì?,open_schedule
+Lịch phát sóng phim Hậu duệ mặt trời,open_schedule
+Kênh VTV6 chiếu phim gì lúc 20h?,open_schedule
+Mở lịch phát sóng của kênh HTV7,open_schedule
+Phim Nhà bà Nữ chiếu mấy giờ tối?,open_schedule
+Chiếu phim Về nhà đi con lúc nào?,open_schedule
+Lịch chiếu phim Hướng dương ngược nắng,open_schedule
+Tối mai có chương trình gì hay?,open_schedule
+Phim Chiếc lá cuốn bay phát sóng khi nào?,open_schedule
+Mở lịch chiếu video yêu thích,open_schedule
+Ngày mai có phim gì hay?,open_schedule
+Lịch phát sóng phim Trái tim quái vật,open_schedule
+Thời gian phát chương trình Sàn đấu ca từ,open_schedule
+Chương trình Ơn giời cậu đây rồi chiếu khi nào?,open_schedule
+Bật lịch kênh VTV1 hôm nay,open_schedule
+Tôi muốn biết lịch phát lại của phim Bố già,open_schedule
+Chương trình Ký ức vui vẻ phát sóng lúc mấy giờ?,open_schedule
+Tối nay mấy giờ chiếu Thương ngày nắng về?,open_schedule
+Cho tôi xem lịch chiếu phim chiếu rạp,open_schedule
+Mấy giờ phát phim Trại hoa đỏ?,open_schedule
+Tối thứ 7 có phim gì?,open_schedule
+Phim Chiếc lá cuốn bay được chiếu khi nào?,open_schedule
+Bật lịch kênh truyền hình hôm nay,open_schedule
+Hôm nay có chương trình gì đặc biệt?,open_schedule
+Mở lịch chương trình giải trí buổi tối,open_schedule
+Tối nay có chương trình âm nhạc không?,open_schedule
+Chiếu phim Người bất tử khi nào?,open_schedule
+Phim Em là bà nội của anh chiếu lúc mấy giờ?,open_schedule
+Chương trình Hẹn hò cùng mẹ phát sóng mấy giờ?,open_schedule
+Chiếu phim Lật mặt 6 vào khung giờ nào?,open_schedule
+Hôm nay lúc 18:30 có gì hay không?,open_schedule
+Phim Trạng Tí được phát sóng khi nào?,open_schedule
+Lịch phát phim Maika trên kênh thiếu nhi,open_schedule
+Phim Vợ ba phát vào buổi nào?,open_schedule
+Chiếu chương trình 8 giờ tối nay,open_schedule
+Tôi muốn xem lịch các phim chiếu tối,open_schedule
+Chương trình Sàn đấu ca từ lúc mấy giờ?,open_schedule
+Lịch phát sóng phim Đất rừng phương Nam,open_schedule
+Phim Em gái mưa chiếu lúc mấy giờ?,open_schedule
+Lịch truyền hình kênh VTV9 hôm nay,open_schedule
+Chiếu phim Người lạ ơi mấy giờ?,open_schedule
+Mở kênh VTV1,open_channel
+Bật HTV2,open_channel
+Xem kênh truyền hình Quốc phòng Việt Nam,open_channel
+Mở kênh thể thao VTV6,open_channel
+Tôi muốn xem kênh HBO,open_channel
+Mở kênh VTC14,open_channel
+Xem truyền hình An Viên,open_channel
+Bật kênh giải trí,open_channel
+Cho tôi xem VTV3,open_channel
+Mở kênh truyền hình Hà Nội,open_channel
+Bật kênh HTV9,open_channel
+Xem kênh VTV5 Tây Nam Bộ,open_channel
+Tôi muốn mở kênh TodayTV,open_channel
+Bật truyền hình Nhân dân,open_channel
+Chiếu kênh truyền hình InfoTV,open_channel
+Mở kênh phim truyện,open_channel
+Xem kênh thiếu nhi,open_channel
+Bật kênh truyền hình quốc tế,open_channel
+Tôi muốn xem VTVcab1,open_channel
+Mở truyền hình SCTV,open_channel
+Xem kênh VTV7,open_channel
+Bật kênh truyền hình giáo dục,open_channel
+Tôi muốn mở truyền hình Long An,open_channel
+Mở kênh truyền hình địa phương,open_channel
+Chiếu kênh âm nhạc MTV,open_channel
+Xem kênh truyền hình quốc hội,open_channel
+Bật kênh truyền hình du lịch,open_channel
+Mở kênh thể thao Fox Sports,open_channel
+Xem kênh Discovery Channel,open_channel
+Tôi muốn xem kênh CNN,open_channel
+Bật kênh BBC News,open_channel
+Mở kênh Animal Planet,open_channel
+Chiếu kênh Cartoon Network,open_channel
+Mở truyền hình VTV8,open_channel
+Tôi muốn mở VTV4,open_channel
+Bật kênh truyền hình SCTV14,open_channel
+Xem kênh Quốc tế,open_channel
+Mở kênh truyền hình công an,open_channel
+Bật truyền hình hải quân,open_channel
+Xem kênh truyện tranh,open_channel
+Mở kênh VTVcab22,open_channel
+Chiếu kênh truyền hình thiếu nhi,open_channel
+Xem kênh truyền hình giải trí nước ngoài,open_channel
+Bật VTVcab7,open_channel
+Mở kênh thời sự quốc tế,open_channel
+Tôi muốn xem kênh lịch sử,open_channel
+Xem kênh sức khỏe,open_channel
+Bật kênh truyền hình ẩm thực,open_channel
+Mở kênh giáo dục quốc tế,open_channel
+Tìm phim hài chiếu năm 2023,cmd_search
+Tôi muốn xem phim có Trấn Thành đóng,cmd_search
+Tìm video ca nhạc của Mỹ Tâm,cmd_search
+Có phim tình cảm nào hay không?,cmd_search
+Gợi ý phim hoạt hình cho trẻ em,cmd_search
+Cho tôi danh sách phim kinh dị mới,cmd_search
+Tìm phim hành động nước ngoài,cmd_search
+Tìm chương trình nấu ăn,cmd_search
+Gợi ý video học tiếng Anh,cmd_search
+Tôi muốn xem các phim đoạt giải Oscar,cmd_search
+Tìm phim có chủ đề gia đình,cmd_search
+Gợi ý phim cổ trang Trung Quốc,cmd_search
+Tìm chương trình truyền hình thực tế,cmd_search
+Tìm phim võ thuật Việt Nam,cmd_search
+Tìm kiếm phim ma hay,cmd_search
+Có phim nào giống Em chưa 18 không?,cmd_search
+Cho tôi gợi ý các phim truyền hình dài tập,cmd_search
+Tìm phim Hàn Quốc nổi tiếng,cmd_search
+Tôi muốn tìm chương trình game show vui nhộn,cmd_search
+Tìm phim hài có Hoài Linh,cmd_search
+Gợi ý phim học đường,cmd_search
+Tìm video thể thao,cmd_search
+Tìm phim về tình yêu tuổi học trò,cmd_search
+Tôi muốn tìm phim tài liệu Việt Nam,cmd_search
+Gợi ý chương trình âm nhạc,cmd_search
+Tìm kiếm nội dung về sức khỏe,cmd_search
+Tôi muốn xem phim lãng mạn,cmd_search
+Gợi ý phim có nữ chính mạnh mẽ,cmd_search
+Tìm phim phiêu lưu giả tưởng,cmd_search
+Tìm kiếm phim chiếu rạp năm ngoái,cmd_search
+Gợi ý video clip về du lịch,cmd_search
+Tìm chương trình hài Tết,cmd_search
+Tìm kiếm phim ca nhạc,cmd_search
+Gợi ý phim hoạt hình Nhật Bản,cmd_search
+Tìm kiếm video hài ngắn,cmd_search
+Có phim khoa học viễn tưởng nào không?,cmd_search
+Tìm video về thiên nhiên,cmd_search
+Tìm kiếm nội dung học tập cho bé,cmd_search
+Gợi ý chương trình phù hợp gia đình,cmd_search
+Tôi muốn tìm phim về đề tài chiến tranh,cmd_search
+Tìm phim có cảnh quay đẹp,cmd_search
+Tìm phim tâm lý xã hội,cmd_search
+Tìm phim truyền hình nổi bật trên HTV,cmd_search
+Tôi muốn xem phim dựa trên truyện tranh,cmd_search
+Tìm chương trình khởi nghiệp,cmd_search
+Gợi ý phim lẻ ngắn,cmd_search
+Tìm kiếm các series nhiều phần,cmd_search
+Tìm chương trình về công nghệ,cmd_search
+Gợi ý phim tình cảm buồn,cmd_search
+Ứng dụng này có cần đăng nhập không?,general_query
+Cách sử dụng chức năng tìm kiếm thế nào?,general_query
+Tôi có thể xem lại lịch sử xem ở đâu?,general_query
+Làm sao để bật phụ đề cho phim?,general_query
+Có thể lưu phim lại xem sau không?,general_query
+Ứng dụng có hỗ trợ chế độ trẻ em không?,general_query
+Tôi muốn đổi ngôn ngữ giao diện,general_query
+Cách điều chỉnh tốc độ phát video?,general_query
+Làm sao để cài đặt giờ tắt tự động?,general_query
+Ứng dụng có chạy trên tivi không?,general_query
+Cách nâng cấp tài khoản?,general_query
+Tôi có thể dùng tài khoản này trên nhiều thiết bị không?,general_query
+Làm sao để gửi phản hồi?,general_query
+Tôi muốn đổi mật khẩu,general_query
+Có thể chia sẻ tài khoản không?,general_query
+Tôi nên làm gì khi video không phát?,general_query
+Có hỗ trợ phụ đề tiếng Anh không?,general_query
+Tôi có thể xóa lịch sử xem không?,general_query
+Làm sao để bật chế độ tối?,general_query
+Ứng dụng có quảng cáo không?,general_query
+Cách tắt âm thanh khi phát video?,general_query
+Tôi muốn kiểm tra tốc độ mạng,general_query
+Có thể xem ngoại tuyến không?,general_query
+Ứng dụng có phiên bản cho iPad không?,general_query
+Tôi không thấy phim yêu thích?,general_query
+Cách đăng xuất khỏi ứng dụng?,general_query
+Tôi có thể đề xuất phim cho hệ thống không?,general_query
+Cách thêm phim vào danh sách yêu thích?,general_query
+Ứng dụng có hỗ trợ đa ngôn ngữ không?,general_query
+Tôi muốn đổi tên tài khoản,general_query
+Làm sao để báo lỗi?,general_query
+Ứng dụng này có bản quyền phim không?,general_query
+Tôi muốn kiểm tra gói cước đang dùng,general_query
+Có chức năng khóa trẻ em không?,general_query
+Làm sao để bật chế độ HD?,general_query
+Ứng dụng có tự động cập nhật không?,general_query
+Tôi có thể tắt gợi ý nội dung không?,general_query
+Cách kiểm tra dung lượng đã xem?,general_query
+Ứng dụng có giao diện cho người khiếm thị không?,general_query
+Có cần kết nối internet mới xem được không?,general_query
+Tôi muốn liên hệ hỗ trợ khách hàng,general_query
+Cách xem phim có lồng tiếng?,general_query
+Tôi có thể tua nhanh video không?,general_query
+Ứng dụng có bản dùng thử miễn phí không?,general_query
+Tôi muốn thay đổi email đăng ký,general_query
+Làm sao để kích hoạt mã khuyến mãi?,general_query
+Tôi muốn xem hướng dẫn sử dụng,general_query
+Ứng dụng này có hợp tác với Netflix không?,general_query
+Tôi có thể giới thiệu bạn bè không?,general_query
+Về trang chủ,navigate_screen
+Quay lại trang trước,navigate_screen
+Mở màn hình tìm kiếm,navigate_screen
+Đi tới màn hình chính,navigate_screen
+Quay lại chỗ vừa rồi,navigate_screen
+Tới trang home,navigate_screen
+Bật giao diện tìm kiếm,navigate_screen
+Quay lại,navigate_screen
+Mở lại màn hình trước,navigate_screen
+Trang chính đâu?,navigate_screen
+Mở menu chính,navigate_screen
+Quay về màn hình đầu,navigate_screen
+Quay lại video trước,navigate_screen
+Chuyển về giao diện chính,navigate_screen
+Trang tìm kiếm đâu rồi?,navigate_screen
+Chuyển tới trang explore,navigate_screen
+Bật trang discovery,navigate_screen
+Chuyển về giao diện chính,navigate_screen
+Hiển thị màn hình home,navigate_screen
+Trở về trang chủ nhanh,navigate_screen
+Tăng âm lượng,cmd_raise_volume
+Cho loa to hơn,cmd_raise_volume
+Bật tiếng lớn lên,cmd_raise_volume
+Mở âm thanh to chút,cmd_raise_volume
+Tôi muốn nghe rõ hơn,cmd_raise_volume
+Cho lớn tiếng lên,cmd_raise_volume
+Tăng âm thanh nhé,cmd_raise_volume
+Âm lượng nhỏ quá,cmd_raise_volume
+"Nghe không rõ, tăng lên",cmd_raise_volume
+Làm ơn tăng volume,cmd_raise_volume
+Volume hơi bé,cmd_raise_volume
+Cho tiếng to hết cỡ,cmd_raise_volume
+Bật âm lượng lớn,cmd_raise_volume
+Nghe nhỏ quá bạn ơi,cmd_raise_volume
+Tôi không nghe thấy,cmd_raise_volume
+Loa nhỏ quá,cmd_raise_volume
+Mở âm thanh lên,cmd_raise_volume
+Tăng âm thanh cao nhất,cmd_raise_volume
+Cho âm lượng cao hơn,cmd_raise_volume
+Tăng tiếng nhanh,cmd_raise_volume
+Giảm âm lượng,cmd_reduce_volume
+Tiếng to quá,cmd_reduce_volume
+Cho nhỏ tiếng lại,cmd_reduce_volume
+Âm lượng hơi lớn,cmd_reduce_volume
+Giảm âm thanh xuống,cmd_reduce_volume
+Tôi muốn tiếng nhỏ hơn,cmd_reduce_volume
+Hạ volume đi,cmd_reduce_volume
+Giảm tiếng chút xíu,cmd_reduce_volume
+Bớt âm lượng lại,cmd_reduce_volume
+Loa ồn quá,cmd_reduce_volume
+Cho nhỏ lại,cmd_reduce_volume
+Tắt nhỏ tiếng đi,cmd_reduce_volume
+Giảm âm lượng nhanh,cmd_reduce_volume
+Loa hơi chói tai,cmd_reduce_volume
+Giảm âm thanh nhanh lên,cmd_reduce_volume
+Tôi đang cần yên tĩnh,cmd_reduce_volume
+Cho bé tiếng thôi,cmd_reduce_volume
+Hạ âm lượng nhé,cmd_reduce_volume
+Giảm âm lượng cực thấp,cmd_reduce_volume
+Cho nhỏ lại giùm,cmd_reduce_volume
+Tăng âm lượng tối đa,cmd_max_volume
+Cho tiếng lớn hết cỡ,cmd_max_volume
+Max volume đi,cmd_max_volume
+Bật tiếng full,cmd_max_volume
+Âm lượng cao nhất luôn nhé,cmd_max_volume
+Tôi muốn nghe hết mức,cmd_max_volume
+Mở âm thanh mức cao nhất,cmd_max_volume
+Tiếng tối đa nhé,cmd_max_volume
+Cho âm lượng lên full,cmd_max_volume
+Max âm lượng,cmd_max_volume
+To hết cỡ luôn đi,cmd_max_volume
+Loa hết công suất,cmd_max_volume
+Tôi muốn tiếng to nhất,cmd_max_volume
+Volume cao nhất,cmd_max_volume
+Phát hết loa lên,cmd_max_volume
+To hết sức luôn,cmd_max_volume
+Gồng hết âm lượng,cmd_max_volume
+Max âm thanh,cmd_max_volume
+Tiếng full luôn nha,cmd_max_volume
+Cho tiếng cực đại,cmd_max_volume
+Giảm âm lượng nhỏ nhất,cmd_min_volume
+Cho tiếng bé nhất,cmd_min_volume
+Min volume,cmd_min_volume
+Tiếng nhỏ nhất có thể,cmd_min_volume
+Âm thanh nhỏ nhất luôn,cmd_min_volume
+Volume mức thấp nhất,cmd_min_volume
+Tôi không muốn nghe gì hết,cmd_min_volume
+Hạ hết tiếng,cmd_min_volume
+Volume min,cmd_min_volume
+Min âm lượng luôn,cmd_min_volume
+Bé nhất có thể nha,cmd_min_volume
+Tắt gần hết tiếng,cmd_min_volume
+Giảm cực thấp luôn,cmd_min_volume
+Tắt âm thanh,cmd_min_volume
+Âm lượng thấp nhất,cmd_min_volume
+Giảm về 0,cmd_min_volume
+Tua nhanh đoạn đầu,cmd_fast_forward
+Bỏ qua phần này,cmd_fast_forward
+Lướt qua giúp,cmd_fast_forward
+Skip đoạn này đi,cmd_fast_forward
+Tăng tốc nội dung,cmd_fast_forward
+Tôi muốn tua đến đoạn sau,cmd_fast_forward
+Tua nhanh chút đi,cmd_fast_forward
+Chạy nhanh qua đoạn đầu,cmd_fast_forward
+Tua tới đoạn kết,cmd_fast_forward
+Bỏ phần giới thiệu đi,cmd_fast_forward
+Tăng tốc độ phát,cmd_fast_forward
+Tôi không thích đoạn này,cmd_fast_forward
+Tua nhanh phần nhàm chán,cmd_fast_forward
+Chạy nhanh đi,cmd_fast_forward
+Tôi muốn xem đoạn sau,cmd_fast_forward
+Tua nhanh nha,cmd_fast_forward
+Lướt qua nhanh,cmd_fast_forward
+Skip intro,cmd_fast_forward
+Bỏ qua đoạn đầu,cmd_fast_forward
+Tua tới đoạn hấp dẫn,cmd_fast_forward
+Tua lại đoạn vừa rồi,cmd_rewind
+Tôi muốn xem lại,cmd_rewind
+Lùi lại một chút,cmd_rewind
+Chạy lại cảnh đó đi,cmd_rewind
+Cho phát lại đoạn trước,cmd_rewind
+Tua chậm lại,cmd_rewind
+Lùi lại chút xíu,cmd_rewind
+Tua về đoạn trước,cmd_rewind
+Xem lại cảnh đó,cmd_rewind
+Tôi bỏ lỡ đoạn đầu,cmd_rewind
+Tua về một khúc,cmd_rewind
+Tôi chưa nghe rõ,cmd_rewind
+Xem lại từ đầu,cmd_rewind
+Tua lùi nhanh,cmd_rewind
+Cho tôi coi lại,cmd_rewind
+Tua lại giúp,cmd_rewind
+Xem lại chút đi,cmd_rewind
+Tôi muốn xem đoạn cũ,cmd_rewind
+Chiếu lại đoạn rồi,cmd_rewind
+Tua về đoạn vừa chiếu,cmd_rewind
+Tiếp tục phát,cmd_continues
+Phát tiếp đi,cmd_continues
+Play tiếp nào,cmd_continues
+Xem tiếp đoạn vừa rồi,cmd_continues
+Tiếp tục chương trình,cmd_continues
+Tiếp tục phim,cmd_continues
+Cho chạy tiếp,cmd_continues
+Bật lại xem tiếp,cmd_continues
+Tiếp phát nội dung,cmd_continues
+Phát tiếp video cũ,cmd_continues
+Tôi muốn xem tiếp,cmd_continues
+Chạy tiếp video,cmd_continues
+Tiếp tục đoạn vừa ngừng,cmd_continues
+Tiếp theo đi,cmd_continues
+Cho tiếp phim,cmd_continues
+Tiếp tục đi bạn,cmd_continues
+Phát tiếp ngay nhé,cmd_continues
+Mình muốn tiếp tục xem,cmd_continues
+Tiếp tục từ chỗ dừng,cmd_continues
+Chạy lại tiếp theo,cmd_continues
+Thời tiết hôm nay thế nào?,weather_query
+Mai có mưa không?,weather_query
+Trời có lạnh không?,weather_query
+Thời tiết Hà Nội ra sao?,weather_query
+Dự báo thời tiết hôm nay,weather_query
+Tình hình thời tiết ngày mai,weather_query
+Hôm nay có nắng không?,weather_query
+Trời có mưa không vậy?,weather_query
+Thời tiết trong tuần,weather_query
+Mai đi chơi được không?,weather_query
+Thời tiết Sài Gòn hôm nay?,weather_query
+Hà Nội hôm nay lạnh không?,weather_query
+Trời có gió không?,weather_query
+Nhiệt độ hôm nay bao nhiêu?,weather_query
+Trời có đẹp không?,weather_query
+Tình hình mưa bão,weather_query
+Xem thời tiết khu vực miền Trung,weather_query
+Thời tiết có thuận lợi không?,weather_query
+Ngày mai trời thế nào?,weather_query
+Thời tiết hôm nay ổn không?,weather_query
+Giá vàng hôm nay bao nhiêu?,gold_price_query
+Giá SJC ra sao?,gold_price_query
+Vàng lên hay xuống?,gold_price_query
+Cập nhật giá vàng,gold_price_query
+Giá vàng thế giới,gold_price_query
+Vàng tăng mạnh chưa?,gold_price_query
+Vàng hôm nay tăng hay giảm?,gold_price_query
+Vàng 9999 bao nhiêu?,gold_price_query
+Giá vàng DOJI,gold_price_query
+Giá vàng hiện tại,gold_price_query
+Mua vào bán ra bao nhiêu?,gold_price_query
+Giá vàng hôm nay ở Hà Nội,gold_price_query
+Vàng SJC hiện tại,gold_price_query
+Hôm nay có nên mua vàng?,gold_price_query
+Giá vàng chiều nay?,gold_price_query
+Vàng hôm nay thế nào?,gold_price_query
+Tôi muốn biết giá vàng,gold_price_query
+Bảng giá vàng,gold_price_query
+Vàng nhẫn bao nhiêu?,gold_price_query
+Vàng có giảm không?,gold_price_query
+Tôi đang dùng gói gì?,package_query
+Có gói nào xem phim miễn phí không?,package_query
+Tư vấn gói xem truyền hình,package_query
+Tôi muốn nâng cấp gói,package_query
+Gói VIP có gì đặc biệt?,package_query
+Chi tiết gói hiện tại,package_query
+Các gói cước đang có,package_query
+Tôi cần hủy gói hiện tại,package_query
+Đăng ký gói mới,package_query
+Gói nào có kênh quốc tế?,package_query
+Tôi đang trả bao nhiêu?,package_query
+Có gói nào tiết kiệm không?,package_query
+Tôi dùng hết dung lượng chưa?,package_query
+Tôi muốn kiểm tra gói,package_query
+Gói phim có giới hạn gì không?,package_query
+Hỗ trợ kiểm tra gói,package_query
+Tư vấn gói cho người lớn tuổi,package_query
+Tôi đang dùng gói thử đúng không?,package_query
+Khi nào hết hạn gói?,package_query
+Tôi có thể đổi gói không?,package_query
+user_input,expected_intent
+Bật tivi,cmd_turn_on
+Mở đầu thu,cmd_turn_on
+Khởi động tivi,cmd_turn_on
+Mở máy xem đi,cmd_turn_on
+Bật lại thiết bị,cmd_turn_on
+Mở thiết bị phát,cmd_turn_on
+Bật lại đầu thu,cmd_turn_on
+Mở TV lên,cmd_turn_on
+Bật màn hình,cmd_turn_on
+Khởi động lại TV,cmd_turn_on
+Bật lại giúp mình,cmd_turn_on
+Cho TV hoạt động,cmd_turn_on
+Bật hộ cái,cmd_turn_on
+Tivi bật chưa?,cmd_turn_on
+Bật nguồn đi,cmd_turn_on
+Khởi động đầu phát,cmd_turn_on
+Mở hệ thống xem đi,cmd_turn_on
+Khởi động màn hình chính,cmd_turn_on
+Bật app xem phim,cmd_turn_on
+TV chưa bật kìa,cmd_turn_on
+Tắt tivi,cmd_turn_off
+Ngắt đầu thu,cmd_turn_off
+Tắt thiết bị đi,cmd_turn_off
+Tắt hết đi,cmd_turn_off
+Tôi muốn tắt TV,cmd_turn_off
+Dừng phát và tắt,cmd_turn_off
+Tắt nguồn đi,cmd_turn_off
+Tắt hộ cái,cmd_turn_off
+Cho tivi nghỉ đi,cmd_turn_off
+Ngắt điện tivi,cmd_turn_off
+Tắt TV nhanh,cmd_turn_off
+Dừng mọi thứ lại,cmd_turn_off
+Tắt màn hình chính,cmd_turn_off
+Ngắt hệ thống phát,cmd_turn_off
+Tắt luôn đầu thu nhé,cmd_turn_off
+TV tắt rồi à?,cmd_turn_off
+Cho mình dừng hệ thống,cmd_turn_off
+Tôi không muốn xem nữa,cmd_turn_off
+Tắt app luôn,cmd_turn_off
+Dừng phát rồi tắt,cmd_turn_off
+Tạm dừng phát,cmd_pause
+Ngừng video,cmd_pause
+Dừng lại chút,cmd_pause
+Pause đi,cmd_pause
+Dừng hình lại,cmd_pause
+Cho tạm dừng phim,cmd_pause
+Tạm ngưng nội dung,cmd_pause
+Dừng nội dung lại đi,cmd_pause
+Cho nghỉ xem chút,cmd_pause
+Tôi muốn dừng,cmd_pause
+Tạm thời dừng phát,cmd_pause
+Tạm dừng ngay,cmd_pause
+Dừng lại nha,cmd_pause
+Pause nội dung này,cmd_pause
+Dừng video lại giúp tôi,cmd_pause
+Tôi muốn ngưng chút,cmd_pause
+Cho dừng tạm nhé,cmd_pause
+Tạm ngưng chương trình,cmd_pause
+Dừng phát sóng đi,cmd_pause
+Dừng hết lại đã,cmd_pause
+Mở YouTube,navigate_app
+Bật app YouTube,navigate_app
+Chuyển qua YouTube,navigate_app
+Đi tới ứng dụng YouTube,navigate_app
+Tôi muốn mở YouTube,navigate_app
+Mở ứng dụng xem video,navigate_app
+Chuyển qua app YouTube,navigate_app
+YouTube mở lên nhé,navigate_app
+Xem YouTube đi,navigate_app
+Mở ứng dụng YouTube dùm tôi,navigate_app
+Vào YouTube,navigate_app
+Khởi động YouTube,navigate_app
+App YouTube đâu rồi,navigate_app
+Xem video YouTube đi,navigate_app
+Mở kênh YouTube,navigate_app
+Chuyển tới YouTube,navigate_app
+Vào ứng dụng YouTube,navigate_app
+Khởi chạy app YouTube,navigate_app
+Tới ứng dụng video,navigate_app
+Cho tôi xem YouTube,navigate_app

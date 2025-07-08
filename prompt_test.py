@@ -5,19 +5,20 @@ import requests
 import time
 import pandas as pd
 
-URL = open('URL.txt', 'r').read()
+URL = open('./config/URL.txt', 'r').read()
 
-with open('HEADERS.json', 'r') as f:
+with open('./config/HEADERS.json', 'r') as f:
     HEADERS = json.load(f)
 
-with open('STRUCTURE.json', 'r') as f:
+with open('./config/STRUCTURE.json', 'r') as f:
     STRUCTURE = json.load(f)
 
-ROUTING_PROMPT = open('ROUTING_PROMPT_AIBOX.txt', 'r', encoding='utf-8').read()
-COMMON_EXTRACT_PROMPT = open('COMMON_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
-CHANNEL_EXTRACT_PROMPT = open('CHANNEL_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
-GOLD_PRICE_EXTRACT_PROMPT = open('EXTRACT_GOLD_PRICE_PROMPT.txt', 'r', encoding='utf-8').read()
-EXTRACT_WEATHER_QUERY_PROMPT = open('EXTRACT_WEATHER_QUERY_PROMPT.txt', 'r', encoding='utf-8').read()
+ROUTING_PROMPT = open('./prompts/ROUTING_PROMPT_AIBOX.txt', 'r', encoding='utf-8').read()
+COMMON_EXTRACT_PROMPT = open('./prompts/COMMON_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
+CHANNEL_EXTRACT_PROMPT = open('./prompts/CHANNEL_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
+GOLD_PRICE_EXTRACT_PROMPT = open('./prompts/EXTRACT_GOLD_PRICE_PROMPT.txt', 'r', encoding='utf-8').read()
+EXTRACT_WEATHER_QUERY_PROMPT = open('./prompts/EXTRACT_WEATHER_QUERY_PROMPT.txt', 'r', encoding='utf-8').read()
+EXTRACT_VOLUME_REDUCE = open('./prompts/EXTRACT_VOLUME.txt', 'r', encoding='utf-8').read()
 
 def send_request(url_route, header, data, prompt_type, query):
     tmp = copy.deepcopy(data)
@@ -46,18 +47,22 @@ def send_request(url_route, header, data, prompt_type, query):
         return None, 0
 
 def test(test_file):
-    test_cases = pd.read_csv(test_file+'.csv', encoding='utf-8')
+    test_cases = pd.read_csv('./tests/'+test_file+'.csv', encoding='utf-8')
     test_cases[['pred_intent', 'time']] = test_cases['user_input'].apply(
         lambda x: send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, x) if isinstance(x, str) else (None, 0)).apply(
         pd.Series)
     test_cases['is_true'] = (test_cases['pred_intent'] == test_cases['expected_intent'])
-    test_cases.to_csv(test_file+'_output.csv', index=False, header=False)
-    return test_cases, test_cases.groupby('expected_intent')['is_true'].mean() * 100
+    test_cases.to_csv('./tests/'+test_file+'_output.csv', index=False, header=False)
+    accuracy = test_cases.groupby('expected_intent')['is_true'].mean().reset_index()
+    accuracy.columns = ['expected_intent', 'accuracy']
+    accuracy.to_csv('./tests/'+test_file+'_accuracy.csv', index=False)
 
 def main():
     # prompt = open('TRANSLATION.txt', 'r', encoding='utf-8').read()
-    _, res = test(test_file='film_qna_testcases')
-    print(res)
+    # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'nhỏ xuống')
+    send_request(URL, HEADERS, STRUCTURE, EXTRACT_VOLUME_REDUCE, 'tiếng to quá tôi muốn giảm xuống mức 10')
+    # test(test_file='full_test_intent')
+
     # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'gợi ý phim giống tây du ký')
     # send_request(URL, HEADERS, STRUCTURE, prompt, 'Deng Chan Yu')
     # send_request(URL, HEADERS, STRUCTURE, EXTRACT_WEATHER_QUERY_PROMPT, 'Thời tiết 5h chiều nay ở Hoàn Kiếm có nóng không?')

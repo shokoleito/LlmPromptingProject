@@ -13,8 +13,8 @@ KHÔNG được trả thêm nội dung nào khác.
 - navigate_screen: Điều hướng tới màn hình khác. Trợ lý này có thể điều hướng tới các trang / màn hình: Trang/ màn hình home; Trang chủ; Quay lại / quay về / mở lại trang trước; mở / bật trang tìm kiếm. KHÔNG dùng cho mở tên nội dung cụ thể.
 - cmd_turn_on: Bật tivi / đầu thu.
 - cmd_turn_off: Tắt tivi / đầu thu.
-- cmd_raise_volume: Tăng âm lượng/âm thanh/loa; tăng âm lượng/âm thanh/loa to hơn/rõ hơn; điều chỉnh âm lượng để nghe rõ hơn.
-- cmd_reduce_volume: Giảm âm lượng/âm thanh/loa; Giảm âm lượng/âm thanh/loa nhỏ xuống; điều chỉnh âm lượng nhỏ đi.
+- cmd_raise_volume: Dùng khi người dùng muốn âm lượng to hơn. Bao gồm các yêu cầu rõ ràng như: "tăng âm lượng", "bật to loa", "âm thanh rõ hơn",  **và cả các câu phàn nàn gián tiếp cho thấy âm lượng đang thấp**, như: "tiếng nhỏ quá", "không nghe rõ", "loa bé", "âm lượng hơi nhỏ", "nhỏ quá", "loa hơi nhỏ", "khó nghe".
+- cmd_reduce_volume: Dùng khi người dùng muốn âm lượng nhỏ lại. Bao gồm các yêu cầu trực tiếp như: "giảm âm lượng", "cho nhỏ tiếng", "bớt ồn", "giảm loa", và cả **các câu phàn nàn gián tiếp về âm thanh to**, như: "tiếng to quá", "loa to quá", "chói tai", "ồn ào", "âm thanh lớn quá", "nhức đầu vì tiếng", "đinh tai nhức óc", v.v.
 - cmd_max_volume: Tăng âm thanh/âm lượng/loa lên mức cao nhất/tối đa.
 - cmd_min_volume: Giảm âm thanh/âm lượng/loa xuống mức thấp nhất/bé nhất/nhỏ nhất.
 - cmd_pause: Tạm dừng; dừng lại; dừng phát; ngừng phát; dừng; pause.
