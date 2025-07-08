@@ -1,0 +1,51 @@
+user_input,expected_intent
+Phim Hương vị tình thân chiếu lúc mấy giờ?,open_schedule
+Mở lịch chiếu phim hôm nay,open_schedule
+Lịch chiếu kênh VTV1 tối nay,open_schedule
+Mấy giờ chiếu chương trình thời sự?,open_schedule
+Chiếu phim Người phán xử vào lúc nào?,open_schedule
+Thời gian phát sóng Gạo nếp gạo tẻ là khi nào?,open_schedule
+Lịch phát sóng Táo quân năm nay?,open_schedule
+Lịch chương trình hôm nay trên HTV2,open_schedule
+Tối nay có phim gì trên VTV3?,open_schedule
+19 giờ có chương trình gì?,open_schedule
+Lịch phát sóng phim Hậu duệ mặt trời,open_schedule
+Kênh VTV6 chiếu phim gì lúc 20h?,open_schedule
+Mở lịch phát sóng của kênh HTV7,open_schedule
+Phim Nhà bà Nữ chiếu mấy giờ tối?,open_schedule
+Chiếu phim Về nhà đi con lúc nào?,open_schedule
+Lịch chiếu phim Hướng dương ngược nắng,open_schedule
+Tối mai có chương trình gì hay?,open_schedule
+Phim Chiếc lá cuốn bay phát sóng khi nào?,open_schedule
+Mở lịch chiếu video yêu thích,open_schedule
+Ngày mai có phim gì hay?,open_schedule
+Lịch phát sóng phim Trái tim quái vật,open_schedule
+Thời gian phát chương trình Sàn đấu ca từ,open_schedule
+Chương trình Ơn giời cậu đây rồi chiếu khi nào?,open_schedule
+Bật lịch kênh VTV1 hôm nay,open_schedule
+Tôi muốn biết lịch phát lại của phim Bố già,open_schedule
+Chương trình Ký ức vui vẻ phát sóng lúc mấy giờ?,open_schedule
+Tối nay mấy giờ chiếu Thương ngày nắng về?,open_schedule
+Cho tôi xem lịch chiếu phim chiếu rạp,open_schedule
+Mấy giờ phát phim Trại hoa đỏ?,open_schedule
+Tối thứ 7 có phim gì?,open_schedule
+Phim Chiếc lá cuốn bay được chiếu khi nào?,open_schedule
+Bật lịch kênh truyền hình hôm nay,open_schedule
+Hôm nay có chương trình gì đặc biệt?,open_schedule
+Mở lịch chương trình giải trí buổi tối,open_schedule
+Tối nay có chương trình âm nhạc không?,open_schedule
+Chiếu phim Người bất tử khi nào?,open_schedule
+Phim Em là bà nội của anh chiếu lúc mấy giờ?,open_schedule
+Chương trình Hẹn hò cùng mẹ phát sóng mấy giờ?,open_schedule
+Chiếu phim Lật mặt 6 vào khung giờ nào?,open_schedule
+Hôm nay lúc 18:30 có gì hay không?,open_schedule
+Phim Trạng Tí được phát sóng khi nào?,open_schedule
+Lịch phát phim Maika trên kênh thiếu nhi,open_schedule
+Phim Vợ ba phát vào buổi nào?,open_schedule
+Chiếu chương trình 8 giờ tối nay,open_schedule
+Tôi muốn xem lịch các phim chiếu tối,open_schedule
+Chương trình Sàn đấu ca từ lúc mấy giờ?,open_schedule
+Lịch phát sóng phim Đất rừng phương Nam,open_schedule
+Phim Em gái mưa chiếu lúc mấy giờ?,open_schedule
+Lịch truyền hình kênh VTV9 hôm nay,open_schedule
+Chiếu phim Người lạ ơi mấy giờ?,open_schedule

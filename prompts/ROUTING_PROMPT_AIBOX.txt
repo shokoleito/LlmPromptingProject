@@ -9,7 +9,7 @@ KHÔNG được trả thêm nội dung nào khác.
 ---
 
 *intent* là một trong các hành động sau:
-- open_channel: Mở kênh truyền hình theo tên, có chứa các từ như "chương trình", "chương trình truyền hình", "thời sự", "thời tiết"... KHÔNG được nhầm lẫn với KÊNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
+- open_channel: Mở kênh truyền hình theo tên, có chứa các từ như "kênh", "kênh truyền hình", "vtv1", "an ninh tv"... KHÔNG được nhầm lẫn với CHƯƠNG TRÌNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
 - navigate_screen: Điều hướng tới màn hình khác. Trợ lý này có thể điều hướng tới các trang / màn hình: Trang/ màn hình home; Trang chủ; Quay lại / quay về / mở lại trang trước; mở / bật trang tìm kiếm. KHÔNG dùng cho mở tên nội dung cụ thể.
 - cmd_turn_on: Bật tivi / đầu thu.
 - cmd_turn_off: Tắt tivi / đầu thu.

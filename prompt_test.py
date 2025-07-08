@@ -46,21 +46,22 @@ def send_request(url_route, header, data, prompt_type, query):
         return None, 0
 
 def test(test_file):
-    test_cases = pd.read_csv(test_file, encoding='utf-8')
+    test_cases = pd.read_csv(test_file+'.csv', encoding='utf-8')
     test_cases[['pred_intent', 'time']] = test_cases['user_input'].apply(
         lambda x: send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, x) if isinstance(x, str) else (None, 0)).apply(
         pd.Series)
     test_cases['is_true'] = (test_cases['pred_intent'] == test_cases['expected_intent'])
     test_cases.to_csv(test_file+'_output.csv', index=False, header=False)
-    return test_cases, test_cases.groupby('pred_intent')['is_true'].mean() * 100
+    return test_cases, test_cases.groupby('expected_intent')['is_true'].mean() * 100
 
 def main():
     # prompt = open('TRANSLATION.txt', 'r', encoding='utf-8').read()
-    _, res = test(test_file='film_qna_testcases.csv')
+    _, res = test(test_file='film_qna_testcases')
     print(res)
     # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'gợi ý phim giống tây du ký')
     # send_request(URL, HEADERS, STRUCTURE, prompt, 'Deng Chan Yu')
     # send_request(URL, HEADERS, STRUCTURE, EXTRACT_WEATHER_QUERY_PROMPT, 'Thời tiết 5h chiều nay ở Hoàn Kiếm có nóng không?')
+    # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'diễn viên phương anh đào đóng phim nào?')
 
 if __name__ == '__main__':
     main()

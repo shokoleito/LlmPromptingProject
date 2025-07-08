@@ -1,0 +1,51 @@
+user_input,expected_intent
+Mở phim Em và Trịnh,open_item
+Tôi muốn xem Sau ánh hào quang,open_item
+Chiếu phim Hai Phượng đi,open_item
+Tôi muốn xem lại Gạo nếp gạo tẻ,open_item
+Mở video Hương vị tình thân,open_item
+Chiếu phim điện ảnh Vợ ba,open_item
+Cho tôi xem Trại hoa đỏ,open_item
+Tôi muốn xem chương trình Rap Việt,open_item
+Phát phim Bố già,open_item
+Bật phim Lật mặt 5,open_item
+Chiếu lại Người phán xử,open_item
+Tôi muốn mở phim Sống chung với mẹ chồng,open_item
+Xem video Nhà bà Nữ,open_item
+Bật kênh chiếu phim Thương ngày nắng về,open_item
+Chiếu phim Chị chị em em,open_item
+Mở Em là bà nội của anh,open_item
+Cho tôi xem video Chiếc lá cuốn bay,open_item
+Tôi muốn xem phim Dòng sông phẳng lặng,open_item
+Chiếu phim Trái tim quái vật,open_item
+Bật chương trình Táo quân,open_item
+Mở phim Cô gái đến từ hôm qua,open_item
+Phát phim Trạng Tí phiêu lưu ký,open_item
+Chiếu phim Đất rừng phương Nam,open_item
+Mở video Bẫy ngọt ngào,open_item
+Tôi muốn xem phim Tấm Cám: Chuyện chưa kể,open_item
+Chiếu phim Hồn papa da con gái,open_item
+Bật chương trình Hẹn hò cùng mẹ,open_item
+Mở kênh chiếu phim Về nhà đi con,open_item
+Tôi muốn xem Hướng dương ngược nắng,open_item
+Chiếu video Người bất tử,open_item
+Mở lại chương trình Ký ức vui vẻ,open_item
+Tôi muốn xem phim Hậu duệ mặt trời bản Việt,open_item
+Chiếu video Maika – Cô bé đến từ hành tinh khác,open_item
+Bật phim Song Lang,open_item
+Phát phim Thiên thần hộ mệnh,open_item
+Xem phim 1990,open_item
+Tôi muốn xem phim Lật mặt 6,open_item
+Chiếu lại phim Bí mật của gió,open_item
+Xem video Nhà có 5 nàng tiên,open_item
+Bật lại phim Em gái mưa,open_item
+Mở nội dung Gạo nếp gạo tẻ phần 2,open_item
+Xem lại Vòng eo 56,open_item
+Chiếu phim Người lạ ơi,open_item
+Bật lại phim Zippo mù tạt và em,open_item
+Xem chương trình Ơn giời cậu đây rồi,open_item
+Phát phim Chạy trốn thanh xuân,open_item
+Bật video Hạnh phúc của mẹ,open_item
+Tôi muốn xem phim Lật mặt phần 1,open_item
+Mở chương trình Sàn đấu ca từ,open_item
+Chiếu phim Người vợ ba,open_item
