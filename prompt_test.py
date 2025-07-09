@@ -19,6 +19,7 @@ CHANNEL_EXTRACT_PROMPT = open('./prompts/CHANNEL_EXTRACT_PROMPT.txt', 'r', encod
 GOLD_PRICE_EXTRACT_PROMPT = open('./prompts/EXTRACT_GOLD_PRICE_PROMPT.txt', 'r', encoding='utf-8').read()
 EXTRACT_WEATHER_QUERY_PROMPT = open('./prompts/EXTRACT_WEATHER_QUERY_PROMPT.txt', 'r', encoding='utf-8').read()
 EXTRACT_VOLUME_REDUCE = open('./prompts/EXTRACT_VOLUME.txt', 'r', encoding='utf-8').read()
+EXTRACT_FORWARD = open('./prompts/EXTRACT_FORWARD_PROMPT.txt', 'r', encoding='utf-8').read()
 
 def send_request(url_route, header, data, prompt_type, query):
     tmp = copy.deepcopy(data)
@@ -59,11 +60,11 @@ def test(test_file):
 
 def main():
     # prompt = open('TRANSLATION.txt', 'r', encoding='utf-8').read()
-    # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'nhỏ xuống')
-    send_request(URL, HEADERS, STRUCTURE, EXTRACT_VOLUME_REDUCE, 'tiếng to quá tôi muốn giảm xuống mức 10')
+    send_request(URL, HEADERS, STRUCTURE, EXTRACT_FORWARD, 'tua đến đoạn 2 tiếng 17 phút 12 giây')
+    # send_request(URL, HEADERS, STRUCTURE, EXTRACT_VOLUME_REDUCE, 'tiếng to quá tôi muốn giảm xuống mức 10%')
     # test(test_file='full_test_intent')
 
-    # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'gợi ý phim giống tây du ký')
+    # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'Bật kênh chiếu phim Thương ngày nắng về')
     # send_request(URL, HEADERS, STRUCTURE, prompt, 'Deng Chan Yu')
     # send_request(URL, HEADERS, STRUCTURE, EXTRACT_WEATHER_QUERY_PROMPT, 'Thời tiết 5h chiều nay ở Hoàn Kiếm có nóng không?')
     # send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'diễn viên phương anh đào đóng phim nào?')

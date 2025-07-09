@@ -253,8 +253,6 @@ Tôi muốn đổi ngôn ngữ giao diện,general_query
 Cách điều chỉnh tốc độ phát video?,general_query
 Làm sao để cài đặt giờ tắt tự động?,general_query
 Ứng dụng có chạy trên tivi không?,general_query
-Cách nâng cấp tài khoản?,general_query
-Tôi có thể dùng tài khoản này trên nhiều thiết bị không?,general_query
 Làm sao để gửi phản hồi?,general_query
 Tôi muốn đổi mật khẩu,general_query
 Có thể chia sẻ tài khoản không?,general_query
@@ -323,13 +321,11 @@ Tăng âm thanh nhé,cmd_raise_volume
 "Nghe không rõ, tăng lên",cmd_raise_volume
 Làm ơn tăng volume,cmd_raise_volume
 Volume hơi bé,cmd_raise_volume
-Cho tiếng to hết cỡ,cmd_raise_volume
 Bật âm lượng lớn,cmd_raise_volume
 Nghe nhỏ quá bạn ơi,cmd_raise_volume
 Tôi không nghe thấy,cmd_raise_volume
 Loa nhỏ quá,cmd_raise_volume
 Mở âm thanh lên,cmd_raise_volume
-Tăng âm thanh cao nhất,cmd_raise_volume
 Cho âm lượng cao hơn,cmd_raise_volume
 Tăng tiếng nhanh,cmd_raise_volume
 Giảm âm lượng,cmd_reduce_volume
@@ -347,10 +343,8 @@ Tắt nhỏ tiếng đi,cmd_reduce_volume
 Giảm âm lượng nhanh,cmd_reduce_volume
 Loa hơi chói tai,cmd_reduce_volume
 Giảm âm thanh nhanh lên,cmd_reduce_volume
-Tôi đang cần yên tĩnh,cmd_reduce_volume
 Cho bé tiếng thôi,cmd_reduce_volume
 Hạ âm lượng nhé,cmd_reduce_volume
-Giảm âm lượng cực thấp,cmd_reduce_volume
 Cho nhỏ lại giùm,cmd_reduce_volume
 Tăng âm lượng tối đa,cmd_max_volume
 Cho tiếng lớn hết cỡ,cmd_max_volume
@@ -508,7 +502,6 @@ Tư vấn gói cho người lớn tuổi,package_query
 Tôi đang dùng gói thử đúng không?,package_query
 Khi nào hết hạn gói?,package_query
 Tôi có thể đổi gói không?,package_query
-user_input,expected_intent
 Bật tivi,cmd_turn_on
 Mở đầu thu,cmd_turn_on
 Khởi động tivi,cmd_turn_on

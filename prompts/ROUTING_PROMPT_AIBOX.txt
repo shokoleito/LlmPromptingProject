@@ -9,23 +9,22 @@ KHÔNG được trả thêm nội dung nào khác.
 ---
 
 *intent* là một trong các hành động sau:
-- open_channel: Mở kênh truyền hình theo tên, có chứa các từ như "kênh", "kênh truyền hình", "vtv1", "an ninh tv"... KHÔNG được nhầm lẫn với CHƯƠNG TRÌNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
+- open_channel: Mở **kênh truyền hình cụ thể** (ví dụ: "VTV1", "An Ninh TV",...), khi người dùng **muốn mở kênh**, không phải nội dung cụ thể.  KHÔNG dùng nếu câu chứa tên **một phim, chương trình hoặc video cụ thể** → chuyển sang `open_item`.  Nếu có cụm như: `"bật kênh chiếu phim X"`, `"kênh đang phát phim Y"` → chọn `open_item`, vì mục tiêu là xem nội dung cụ thể.KHÔNG được nhầm lẫn với CHƯƠNG TRÌNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
 - navigate_screen: Điều hướng tới màn hình khác. Trợ lý này có thể điều hướng tới các trang / màn hình: Trang/ màn hình home; Trang chủ; Quay lại / quay về / mở lại trang trước; mở / bật trang tìm kiếm. KHÔNG dùng cho mở tên nội dung cụ thể.
 - cmd_turn_on: Bật tivi / đầu thu.
 - cmd_turn_off: Tắt tivi / đầu thu.
-- cmd_raise_volume: Dùng khi người dùng muốn âm lượng to hơn. Bao gồm các yêu cầu rõ ràng như: "tăng âm lượng", "bật to loa", "âm thanh rõ hơn",  **và cả các câu phàn nàn gián tiếp cho thấy âm lượng đang thấp**, như: "tiếng nhỏ quá", "không nghe rõ", "loa bé", "âm lượng hơi nhỏ", "nhỏ quá", "loa hơi nhỏ", "khó nghe".
-- cmd_reduce_volume: Dùng khi người dùng muốn âm lượng nhỏ lại. Bao gồm các yêu cầu trực tiếp như: "giảm âm lượng", "cho nhỏ tiếng", "bớt ồn", "giảm loa", và cả **các câu phàn nàn gián tiếp về âm thanh to**, như: "tiếng to quá", "loa to quá", "chói tai", "ồn ào", "âm thanh lớn quá", "nhức đầu vì tiếng", "đinh tai nhức óc", v.v.
-- cmd_max_volume: Tăng âm thanh/âm lượng/loa lên mức cao nhất/tối đa.
-- cmd_min_volume: Giảm âm thanh/âm lượng/loa xuống mức thấp nhất/bé nhất/nhỏ nhất.
+- cmd_raise_volume: Dùng cho tất cả các yêu cầu làm âm lượng to hơn, **nhưng không yêu cầu tới mức tối đa**. Bao gồm cả: "bật âm lượng lớn", "âm thanh to hơn", "tăng loa", "cho to tiếng", "âm lượng hơi nhỏ", "không nghe rõ", ...
+- cmd_reduce_volume: Dùng khi người dùng muốn **giảm âm lượng một mức vừa phải, không phải về mức nhỏ nhất**. Bao gồm các yêu cầu như:  "giảm âm lượng", "nhỏ hơn", "giảm đi", "bớt ồn", "giảm tiếng", "cho nhỏ chút",  và các câu than phiền như: "loa to quá", "âm thanh lớn", "chói tai", "nhức đầu vì tiếng".  KHÔNG dùng nếu người dùng có từ khóa chỉ mức cực hạn như: "nhỏ nhất", "min", "volume về 0".
+- cmd_max_volume: Chỉ dùng khi người dùng muốn tăng âm lượng lên **mức cao nhất có thể**. Chỉ chọn `cmd_max_volume` nếu có các cụm từ khóa rõ ràng như:"tối đa", "max", "to nhất", "lớn nhất", "hết cỡ", "max volume", "mức cao nhất", "full volume", "hết mức".KHÔNG chọn nếu chỉ nói "bật âm lượng lớn", "mở loa to", "bật to" → đó là `cmd_raise_volume`.
+- cmd_min_volume: Dùng khi người dùng muốn **giảm âm lượng về mức nhỏ nhất có thể**. Chỉ chọn nếu có các từ khóa rõ ràng như: "nhỏ nhất", "min", "thấp nhất", "về 0", "bé nhất", "âm lượng thấp nhất", "volume min", "mức tối thiểu", "min volume".KHÔNG chọn nếu chỉ có các cụm như: "giảm âm lượng", "nhỏ hơn", "cho nhỏ tiếng" → đó là `cmd_reduce_volume`
 - cmd_pause: Tạm dừng; dừng lại; dừng phát; ngừng phát; dừng; pause.
 - cmd_continues: Tiếp tục; phát tiếp; bật lại; xem tiếp; play; continue.
 - cmd_fast_forward: Nếu người dùng muốn tua nhanh, chỉ khi có các từ như "tua nhanh", "tua đi", "tăng tốc", "phát nhanh", "chạy nhanh", "lướt qua", "bỏ qua", "tua đến đoạn", "skip"...
 - cmd_rewind: Nếu người dùng muốn tua lại, chỉ khi có các từ như "tua chậm", "tua lại", "lùi lại", "chậm lại", "chạy lại", "tua về đoạn"...
 - open_schedule: Mở lịch chiếu nội dung nếu có chứa thời gian cụ thể như "bảy giờ tối", "19 giờ", "18:30"... hay các từ như "lịch", "lịch chiếu", "thời gian"...
-- open_item: Mở một nội dung cụ thể theo tên nếu người dùng yêu cầu xem/mở tên nội dung thuộc một trong những thể loại "video", "phim", "kênh truyền hình", có chứa các từ như "video", "phim", "kênh truyền hình", "kênh"...kể cả khi không có từ khóa như "phim", "video", "kênh"... Nếu có vẻ là tên riêng rõ ràng (vd: "sau lời từ khước") thì vẫn chọn `open_item`. nếu không rõ nội dung thuộc thể loại nào thì điều hướng sang "cmd_search". Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
+- open_item: Mở một nội dung phim/video/chương trình cụ thể theo tên mà người dùng yêu cầu **xem/phát/mở**, có chứa các từ như "video", "phim", "chương trình truyền hình", "chương trình"...kể cả khi không có từ khóa như "phim", "video", "chương trình"... Nếu có vẻ là tên riêng rõ ràng (vd: "sau lời từ khước") thì vẫn chọn `open_item`. nếu không rõ nội dung thuộc thể loại nào thì điều hướng sang "cmd_search". Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule". KHÔNG nhầm với `cmd_search` nếu người dùng có hành vi yêu cầu hành động trực tiếp ("xem", "mở", "bật").
 - general_query: Dành cho các câu hỏi hoặc yêu cầu mang tính tìm hiểu thông tin, hoặc trò chuyện không có mục đích hành động cụ thể. Bao gồm:**Tìm hiểu về hệ thống, chức năng, cách sử dụng, thông tin thực tế.**,**Câu chào hỏi, giao tiếp xã hội, cảm xúc, đùa giỡn, nhận xét, tâm sự.**,**Những câu nói thân thiện, không nhắm đến hành động hay thông tin nội dung.**
-- cmd_search: Tìm/gợi ý nội dung hiện có theo yêu cầu (ví dụ: tên, thể loại ...) của người dùng.
-- turn_on / turn_off: Bật / tắt thiết bị.
+- cmd_search: Dùng khi người dùng **chưa chỉ định rõ nội dung cụ thể** mà chỉ muốn tìm kiếm, gợi ý thể loại, từ khóa, nhóm nội dung. KHÔNG dùng nếu người dùng đã nêu tên cụ thể và có hành vi mở/xem → chuyển sang `open_item`.
 - navigate_app: Mở youtube.
 - gold_price_query: Hỏi giá vàng. Ví dụ: "Giá vàng hôm nay bao nhiêu?".
 - weather_query: Hỏi về thời tiết. Ví dụ: "Thời tiết hôm nay thế nào?", "Mai có mưa không?".

@@ -9,7 +9,7 @@ Trả về đúng JSON:
 
 
 *Quy tắc*
-	•	channel là tên kênh truyền hình, KHÔNG chứa từ như "kênh", "chương trình"..., KHÔNG bao gồm thông tin phụ như thời gian (giờ/ngày)...
-	•	hour: giờ phát sóng (nếu có các cụm như "bảy giờ tối", "19 giờ", "18:30"...)
-	•	day: ngày phát sóng (nếu có các cụm như "hôm nay", "ngày mai", "hôm qua", "chủ nhật"...)
-	•	Chỉ được trích xuất thông tin từ input, KHÔNG cho phép tự suy luận. Nếu không rõ thông tin nào → điền null.
+- channel là tên kênh truyền hình, KHÔNG chứa từ như "kênh", "chương trình"..., KHÔNG bao gồm thông tin phụ như thời gian (giờ/ngày)...
+- hour: giờ phát sóng (nếu có các cụm như "bảy giờ tối", "19 giờ", "18:30"...)
+- day: ngày phát sóng (nếu có các cụm như "hôm nay", "ngày mai", "hôm qua", "chủ nhật"...)
+- Chỉ được trích xuất thông tin từ input, KHÔNG cho phép tự suy luận. Nếu không rõ thông tin nào → điền null.
