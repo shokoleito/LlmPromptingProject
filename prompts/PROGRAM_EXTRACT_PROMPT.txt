@@ -10,8 +10,7 @@ Trả về đúng JSON:
 
 
 *Quy tắc*
-	• item_name là tên kênh truyền hình, KHÔNG chứa từ như "mở", "kênh"..., KHÔNG bao gồm thông tin phụ như thời gian (giờ/ngày)...
-	• **Nếu tên kênh bị phát âm sai hoặc viết cách ra** (vd: `"vtv cáp 13"`, `"vê tê vê cáp 13"`, `"vtv cab mười ba"`) thì phải **chuẩn hóa** về tên chính xác (vd: `"vtvcab13"`)
+	• item_name là tên chương trình truyền hình, KHÔNG chứa từ như "mở", "chương trình"..., KHÔNG bao gồm thông tin phụ như thời gian (giờ/ngày)...
 	• channel là tên kênh truyền hình mà chương trình được phát sóng, KHÔNG chứa từ như "kênh"..., KHÔNG bao gồm thông tin phụ như thời gian (giờ/ngày)...
 	• hour: giờ phát sóng (nếu có các cụm như "19h", "20:00", "năm giờ chiều"...)
 	• day: ngày phát sóng (nếu có các cụm như "hôm nay", "ngày mai", "hôm qua", "chủ nhật"...)

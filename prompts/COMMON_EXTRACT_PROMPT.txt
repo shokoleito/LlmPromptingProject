@@ -8,10 +8,10 @@ Trả về đúng JSON:
 "category": string,
 }
 
-
 *Quy tắc*
-	•	item_name: tên của kênh / video / phim, khi trích xuất KHÔNG bao gồm từ như "mở", "video", "phim", "kênh", "chương trình"...
-	•	people: danh sách tên người / nhân vật có trong input, nếu tên người là tên Trung Quốc phiên âm Tiếng Anh, dịch sang phiên âm Hán Việt. **Lưu ý**: Luôn trả ra phiên âm Hán Việt bằng Tiếng Việt, không được phép giữ phiên âm Tiếng Anh. Ví dụ: BaiLu -> Bạch Lộc. Deng Chan Yu -> Đặng Thiền Ngọc.
-	•	country: quốc gia được trích xuất từ trong input, KHÔNG cho phép tự infer thông tin để điền vào. Nếu không được đề cập rõ ràng ở input -> điền null.
-	•	category: thể loại trích xuất thông tin từ input, KHÔNG cho phép tự infer thông tin để điền vào. Nếu không được đề cập rõ ràng ở input -> điền null.
-	•	Chỉ được trích xuất thông tin để điền vào các trường từ input, KHÔNG cho phép tự infer. Nếu không rõ thông tin nào → điền null.
+- item_name: tên của kênh / video / phim, khi trích xuất KHÔNG bao gồm từ như "mở", "video", "phim", "kênh",...
+- **Nếu tên kênh bị phát âm sai hoặc viết cách ra** (vd: `"vtv cáp 13"`, `"vê tê vê cáp 13"`, `"vtv cab mười ba"`) thì phải **chuẩn hóa** về tên chính xác (vd: `"vtvcab13"`)
+- people: danh sách tên người / nhân vật có trong input.
+- country: quốc gia được trích xuất từ trong input, KHÔNG cho phép tự infer thông tin để điền vào. Nếu không được đề cập rõ ràng ở input -> điền null.
+- category: thể loại trích xuất thông tin từ input, KHÔNG cho phép tự infer thông tin để điền vào. Nếu không được đề cập rõ ràng ở input -> điền null.
+- Chỉ được trích xuất thông tin để điền vào các trường từ input, KHÔNG cho phép tự infer. Nếu không rõ thông tin nào → điền null.

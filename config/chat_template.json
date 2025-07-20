@@ -1,0 +1,16 @@
+{
+  "prompt": {
+    "max_tokens": 256,
+    "temperature": 0.0,
+    "top_k": 0.0,
+    "top_p": 0.0,
+    "repetition_penalty": 0.0,
+    "stop_sequences": "",
+    "stream": false,
+    "model": "Qwen2.5-3B-Instruct",
+    "messages": [
+      {"role": "system", "content": ""},
+      {"role": "user", "content": ""}
+    ]
+  }
+}

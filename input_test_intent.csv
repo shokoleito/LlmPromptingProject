@@ -1,0 +1,1182 @@
+,user_input,expected_intent
+0,Phim Người phán xử do ai đạo diễn?,film_qna
+1,Diễn viên chính trong phim Hương vị tình thân là ai?,film_qna
+2,Phim Mắt biếc được sản xuất năm nào?,film_qna
+3,Phim Thương ngày nắng về có bao nhiêu tập?,film_qna
+4,Phim Em là bà nội của anh thuộc thể loại gì?,film_qna
+5,Ai là tác giả kịch bản phim Vợ ba?,film_qna
+6,Phim Nhà bà Nữ có thời lượng bao lâu?,film_qna
+7,Phim Bố già có doanh thu bao nhiêu?,film_qna
+8,Bối cảnh phim Dòng sông phẳng lặng quay ở đâu?,film_qna
+9,Dàn diễn viên phim Hoa hồng trên ngực trái gồm những ai?,film_qna
+10,Phim Chiếc lá cuốn bay được chiếu lần đầu khi nào?,film_qna
+11,Phim Trại hoa đỏ có bao nhiêu phần?,film_qna
+12,Đạo diễn phim Tôi thấy hoa vàng trên cỏ xanh là ai?,film_qna
+13,Nhạc phim Mắt biếc là của ai sáng tác?,film_qna
+14,Phim Cô gái đến từ hôm qua dựa trên truyện nào?,film_qna
+15,Tập cuối của phim Quỳnh búp bê kết thúc thế nào?,film_qna
+16,Phim Hai Phượng có các cảnh hành động được dàn dựng như thế nào?,film_qna
+17,Phim Gạo nếp gạo tẻ phần 2 có phải là phần tiếp nối không?,film_qna
+18,Phim Hạnh phúc của mẹ giành được giải thưởng nào?,film_qna
+19,Phim Lật mặt 6 có phải là phần tiếp theo của Lật mặt 5?,film_qna
+20,Ai là người thủ vai chính trong phim Vòng eo 56?,film_qna
+21,Phim Đất rừng phương Nam có nhân vật nào chính?,film_qna
+22,Thời lượng mỗi tập của phim Hướng dương ngược nắng là bao lâu?,film_qna
+23,Phim Zippo mù tạt và em thuộc thể loại gì?,film_qna
+24,Phim Sống chung với mẹ chồng có bao nhiêu tập?,film_qna
+25,Phim Chị chị em em có cảnh nóng không?,film_qna
+26,Phim Chạy trốn thanh xuân có cảnh quay ở đâu?,film_qna
+27,Diễn viên đóng vai Hồng Đăng trong phim Thương ngày nắng về là ai?,film_qna
+28,Phim Hôn nhân trong ngõ hẹp được chuyển thể từ truyện nào?,film_qna
+29,Ai là người lồng tiếng cho nhân vật chính phim Doraemon bản tiếng Việt?,film_qna
+30,Phim Trạng Tí phiêu lưu ký có bị hoãn chiếu không?,general_query
+31,Phim Đêm tối rực rỡ có phải là phim kinh dị không?,film_qna
+32,Cảnh quay trong phim Bẫy ngọt ngào có thật sự là ở Đà Lạt?,film_qna
+33,Nhân vật phản diện chính trong phim Người bất tử là ai?,film_qna
+34,Phim Hậu duệ mặt trời bản Việt có giống bản Hàn không?,film_qna
+35,Phim Bí mật của gió có phần tiếp theo không?,film_qna
+36,Phim Maika – Cô bé đến từ hành tinh khác dành cho lứa tuổi nào?,film_qna
+37,Phim Trái tim quái vật có diễn viên nào từng đoạt giải Cánh diều vàng?,film_qna
+38,Phim Lật mặt có tổng cộng bao nhiêu phần?,film_qna
+39,Ai là nhà sản xuất phim Thiên thần hộ mệnh?,film_qna
+40,Phim Em và Trịnh có bao nhiêu bài nhạc Trịnh?,film_qna
+41,Phim Nhà có 5 nàng tiên là phim hài hay tâm lý?,film_qna
+42,Câu chuyện thật phía sau phim Hồn papa da con gái là gì?,film_qna
+43,Phim Tấm Cám: Chuyện chưa kể có dùng kỹ xảo nhiều không?,film_qna
+44,Phim 1990 có sự tham gia của những diễn viên nào?,film_qna
+45,Phim Song Lang lấy bối cảnh ở đâu?,film_qna
+46,Mở phim Em và Trịnh,open_item
+47,Tôi muốn xem Sau ánh hào quang,open_item
+48,Chiếu phim Hai Phượng đi,open_item
+49,Tôi muốn xem lại Gạo nếp gạo tẻ,open_item
+50,Mở video Hương vị tình thân,open_item
+51,Chiếu phim điện ảnh Vợ ba,open_item
+52,Cho tôi xem Trại hoa đỏ,open_item
+53,Tôi muốn xem chương trình Rap Việt,open_program
+54,Phát phim Bố già,open_item
+55,Bật phim Lật mặt 5,open_item
+56,Chiếu lại Người phán xử,open_item
+57,Tôi muốn mở phim Sống chung với mẹ chồng,open_item
+58,Xem video Nhà bà Nữ,open_item
+59,Bật kênh chiếu phim Thương ngày nắng về,open_item
+60,Chiếu phim Chị chị em em,open_item
+61,Mở Em là bà nội của anh,open_item
+62,Cho tôi xem video Chiếc lá cuốn bay,open_item
+63,Tôi muốn xem phim Dòng sông phẳng lặng,open_item
+64,Chiếu phim Trái tim quái vật,open_item
+65,Bật chương trình Táo quân,open_program
+66,Mở phim Cô gái đến từ hôm qua,open_item
+67,Phát phim Trạng Tí phiêu lưu ký,open_item
+68,Chiếu phim Đất rừng phương Nam,open_item
+69,Mở video Bẫy ngọt ngào,open_item
+70,Tôi muốn xem phim Tấm Cám: Chuyện chưa kể,open_item
+71,Chiếu phim Hồn papa da con gái,open_item
+72,Bật chương trình Hẹn hò cùng mẹ,open_item
+73,Mở kênh chiếu phim Về nhà đi con,open_item
+74,Tôi muốn xem Hướng dương ngược nắng,open_item
+75,Chiếu video Người bất tử,open_item
+76,Mở lại chương trình Ký ức vui vẻ,open_program
+77,Tôi muốn xem phim Hậu duệ mặt trời bản Việt,open_item
+78,Chiếu video Maika – Cô bé đến từ hành tinh khác,open_item
+79,Bật phim Song Lang,open_item
+80,Phát phim Thiên thần hộ mệnh,open_item
+81,Xem phim 1990,open_item
+82,Tôi muốn xem phim Lật mặt 6,open_item
+83,Chiếu lại phim Bí mật của gió,open_item
+84,Xem video Nhà có 5 nàng tiên,open_item
+85,Bật lại phim Em gái mưa,open_item
+86,Mở nội dung Gạo nếp gạo tẻ phần 2,open_item
+87,Xem lại Vòng eo 56,open_item
+88,Chiếu phim Người lạ ơi,open_item
+89,Bật lại phim Zippo mù tạt và em,open_item
+90,Xem chương trình Ơn giời cậu đây rồi,open_item
+91,Phát phim Chạy trốn thanh xuân,open_item
+92,Bật video Hạnh phúc của mẹ,open_item
+93,Tôi muốn xem phim Lật mặt phần 1,open_item
+94,Mở chương trình Sàn đấu ca từ,open_program
+95,Chiếu phim Người vợ ba,open_item
+96,Phim Hương vị tình thân chiếu lúc mấy giờ?,general_query
+97,Mở lịch chiếu phim hôm nay,open_schedule
+98,Lịch chiếu kênh VTV1 tối nay,open_schedule
+99,Mấy giờ chiếu chương trình thời sự?,open_schedule
+100,Chiếu phim Người phán xử vào lúc nào?,open_schedule
+101,Thời gian phát sóng Gạo nếp gạo tẻ là khi nào?,open_schedule
+102,Lịch phát sóng Táo quân năm nay?,open_schedule
+103,Lịch chương trình hôm nay trên HTV2,open_schedule
+104,Tối nay có phim gì trên VTV3?,open_schedule
+105,19 giờ có chương trình gì?,open_schedule
+106,Lịch phát sóng phim Hậu duệ mặt trời,open_schedule
+107,Kênh VTV6 chiếu phim gì lúc 20h?,open_schedule
+108,Mở lịch phát sóng của kênh HTV7,open_schedule
+109,Chiếu phim Về nhà đi con lúc nào?,open_schedule
+110,Lịch chiếu phim Hướng dương ngược nắng,open_schedule
+111,Tối mai có chương trình gì hay?,open_schedule
+112,Phim Chiếc lá cuốn bay phát sóng khi nào?,open_schedule
+113,Mở lịch chiếu video yêu thích,open_schedule
+114,Ngày mai có phim gì hay?,open_schedule
+115,Lịch phát sóng phim Trái tim quái vật,open_schedule
+116,Thời gian phát chương trình Sàn đấu ca từ,open_schedule
+117,Chương trình Ơn giời cậu đây rồi chiếu khi nào?,open_schedule
+118,Bật lịch kênh VTV1 hôm nay,open_schedule
+119,Tôi muốn biết lịch phát lại của phim Bố già,open_schedule
+120,Chương trình Ký ức vui vẻ phát sóng lúc mấy giờ?,open_schedule
+121,Tối nay mấy giờ chiếu Thương ngày nắng về?,open_schedule
+122,Mấy giờ phát phim Trại hoa đỏ?,open_schedule
+123,Tối thứ 7 có phim gì?,open_schedule
+124,Phim Chiếc lá cuốn bay được chiếu khi nào?,open_schedule
+125,Bật lịch kênh truyền hình hôm nay,open_schedule
+126,Hôm nay có chương trình gì đặc biệt?,open_schedule
+127,Mở lịch chương trình giải trí buổi tối,open_schedule
+128,Tối nay có chương trình âm nhạc không?,open_schedule
+129,Chiếu phim Người bất tử khi nào?,open_schedule
+130,Phim Em là bà nội của anh chiếu lúc mấy giờ?,open_schedule
+131,Chương trình Hẹn hò cùng mẹ phát sóng mấy giờ?,open_schedule
+132,Chiếu phim Lật mặt 6 vào khung giờ nào?,open_schedule
+133,Hôm nay lúc 18:30 có gì hay không?,open_schedule
+134,Phim Trạng Tí được phát sóng khi nào?,open_schedule
+135,Lịch phát phim Maika trên kênh thiếu nhi,open_schedule
+136,Phim Vợ ba phát vào buổi nào?,open_schedule
+137,Chiếu chương trình 8 giờ tối nay,open_schedule
+138,Tôi muốn xem lịch các phim chiếu tối,open_schedule
+139,Chương trình Sàn đấu ca từ lúc mấy giờ?,open_schedule
+140,Lịch phát sóng phim Đất rừng phương Nam,open_schedule
+141,Phim Em gái mưa chiếu lúc mấy giờ?,open_schedule
+142,Lịch truyền hình kênh VTV9 hôm nay,open_schedule
+143,Chiếu phim Người lạ ơi mấy giờ?,open_schedule
+144,Mở kênh VTV1,open_item
+145,Bật HTV2,open_item
+146,Xem kênh truyền hình Quốc phòng Việt Nam,open_item
+147,Mở kênh thể thao VTV6,open_item
+148,Tôi muốn xem kênh HBO,open_item
+149,Mở kênh VTC14,open_item
+150,Xem truyền hình An Viên,open_item
+151,Bật kênh giải trí,open_item
+152,Cho tôi xem VTV3,open_item
+153,Mở kênh truyền hình Hà Nội,open_item
+154,Bật kênh HTV9,open_item
+155,Xem kênh VTV5 Tây Nam Bộ,open_item
+156,Tôi muốn mở kênh TodayTV,open_item
+157,Bật truyền hình Nhân dân,open_item
+158,Chiếu kênh truyền hình InfoTV,open_item
+159,Mở kênh phim truyện,open_item
+160,Xem kênh thiếu nhi,open_item
+161,Bật kênh truyền hình quốc tế,open_item
+162,Tôi muốn xem VTVcab1,open_item
+163,Mở truyền hình SCTV,open_item
+164,Xem kênh VTV7,open_item
+165,Bật kênh truyền hình giáo dục,open_item
+166,Tôi muốn mở truyền hình Long An,open_item
+167,Mở kênh truyền hình địa phương,open_item
+168,Chiếu kênh âm nhạc MTV,open_item
+169,Xem kênh truyền hình quốc hội,open_item
+170,Bật kênh truyền hình du lịch,open_item
+171,Mở kênh thể thao Fox Sports,open_item
+172,Xem kênh Discovery Channel,open_item
+173,Tôi muốn xem kênh CNN,open_item
+174,Bật kênh BBC News,open_item
+175,Mở kênh Animal Planet,open_item
+176,Chiếu kênh Cartoon Network,open_item
+177,Mở truyền hình VTV8,open_item
+178,Tôi muốn mở VTV4,open_item
+179,Bật kênh truyền hình SCTV14,open_item
+180,Xem kênh Quốc tế,open_item
+181,Mở kênh truyền hình công an,open_item
+182,Bật truyền hình hải quân,open_item
+183,Xem kênh truyện tranh,open_item
+184,Mở kênh VTVcab22,open_item
+185,Chiếu kênh truyền hình thiếu nhi,open_item
+186,Xem kênh truyền hình giải trí nước ngoài,open_item
+187,Bật VTVcab7,open_item
+188,Mở kênh thời sự quốc tế,open_item
+189,Tôi muốn xem kênh lịch sử,open_item
+190,Xem kênh sức khỏe,open_item
+191,Bật kênh truyền hình ẩm thực,open_item
+192,Mở kênh giáo dục quốc tế,open_item
+193,Tìm phim hài chiếu năm 2023,cmd_search
+194,Tôi muốn xem phim có Trấn Thành đóng,cmd_search
+195,Tìm video ca nhạc của Mỹ Tâm,cmd_search
+196,Có phim tình cảm nào hay không?,cmd_search
+197,Gợi ý phim hoạt hình cho trẻ em,cmd_search
+198,Cho tôi danh sách phim kinh dị mới,cmd_search
+199,Tìm phim hành động nước ngoài,cmd_search
+200,Tìm chương trình nấu ăn,cmd_search
+201,Gợi ý video học tiếng Anh,cmd_search
+202,Tôi muốn xem các phim đoạt giải Oscar,cmd_search
+203,Tìm phim có chủ đề gia đình,cmd_search
+204,Gợi ý phim cổ trang Trung Quốc,cmd_search
+205,Tìm chương trình truyền hình thực tế,cmd_search
+206,Tìm phim võ thuật Việt Nam,cmd_search
+207,Tìm kiếm phim ma hay,cmd_search
+208,Có phim nào giống Em chưa 18 không?,cmd_search
+209,Cho tôi gợi ý các phim truyền hình dài tập,cmd_search
+210,Tìm phim Hàn Quốc nổi tiếng,cmd_search
+211,Tôi muốn tìm chương trình game show vui nhộn,cmd_search
+212,Tìm phim hài có Hoài Linh,cmd_search
+213,Gợi ý phim học đường,cmd_search
+214,Tìm video thể thao,cmd_search
+215,Tìm phim về tình yêu tuổi học trò,cmd_search
+216,Tôi muốn tìm phim tài liệu Việt Nam,cmd_search
+217,Gợi ý chương trình âm nhạc,cmd_search
+218,Tìm kiếm nội dung về sức khỏe,cmd_search
+219,Tôi muốn xem phim lãng mạn,cmd_search
+220,Gợi ý phim có nữ chính mạnh mẽ,cmd_search
+221,Tìm phim phiêu lưu giả tưởng,cmd_search
+222,Tìm kiếm phim chiếu rạp năm ngoái,cmd_search
+223,Gợi ý video clip về du lịch,cmd_search
+224,Tìm chương trình hài Tết,cmd_search
+225,Tìm kiếm phim ca nhạc,cmd_search
+226,Gợi ý phim hoạt hình Nhật Bản,cmd_search
+227,Tìm kiếm video hài ngắn,cmd_search
+228,Có phim khoa học viễn tưởng nào không?,cmd_search
+229,Tìm video về thiên nhiên,cmd_search
+230,Tìm kiếm nội dung học tập cho bé,cmd_search
+231,Gợi ý chương trình phù hợp gia đình,cmd_search
+232,Tôi muốn tìm phim về đề tài chiến tranh,cmd_search
+233,Tìm phim có cảnh quay đẹp,cmd_search
+234,Tìm phim tâm lý xã hội,cmd_search
+235,Tìm phim truyền hình nổi bật trên HTV,cmd_search
+236,Tôi muốn xem phim dựa trên truyện tranh,cmd_search
+237,Tìm chương trình khởi nghiệp,cmd_search
+238,Gợi ý phim lẻ ngắn,cmd_search
+239,Tìm kiếm các series nhiều phần,cmd_search
+240,Tìm chương trình về công nghệ,cmd_search
+241,Gợi ý phim tình cảm buồn,cmd_search
+242,Ứng dụng này có cần đăng nhập không?,general_query
+243,Cách sử dụng chức năng tìm kiếm thế nào?,general_query
+244,Tôi có thể xem lại lịch sử xem ở đâu?,general_query
+245,Làm sao để bật phụ đề cho phim?,general_query
+246,Có thể lưu phim lại xem sau không?,general_query
+247,Ứng dụng có hỗ trợ chế độ trẻ em không?,general_query
+248,Tôi muốn đổi ngôn ngữ giao diện,general_query
+249,Cách điều chỉnh tốc độ phát video?,general_query
+250,Làm sao để cài đặt giờ tắt tự động?,general_query
+251,Ứng dụng có chạy trên tivi không?,general_query
+252,Làm sao để gửi phản hồi?,general_query
+253,Tôi muốn đổi mật khẩu,general_query
+254,Có thể chia sẻ tài khoản không?,general_query
+255,Tôi nên làm gì khi video không phát?,general_query
+256,Có hỗ trợ phụ đề tiếng Anh không?,general_query
+257,Tôi có thể xóa lịch sử xem không?,general_query
+258,Làm sao để bật chế độ tối?,general_query
+259,Ứng dụng có quảng cáo không?,general_query
+260,Cách tắt âm thanh khi phát video?,general_query
+261,Tôi muốn kiểm tra tốc độ mạng,general_query
+262,Có thể xem ngoại tuyến không?,general_query
+263,Ứng dụng có phiên bản cho iPad không?,general_query
+264,Tôi không thấy phim yêu thích?,general_query
+265,Cách đăng xuất khỏi ứng dụng?,general_query
+266,Tôi có thể đề xuất phim cho hệ thống không?,general_query
+267,Cách thêm phim vào danh sách yêu thích?,general_query
+268,Ứng dụng có hỗ trợ đa ngôn ngữ không?,general_query
+269,Tôi muốn đổi tên tài khoản,general_query
+270,Làm sao để báo lỗi?,general_query
+271,Ứng dụng này có bản quyền phim không?,general_query
+272,Tôi muốn kiểm tra gói cước đang dùng,package_query
+273,Có chức năng khóa trẻ em không?,general_query
+274,Làm sao để bật chế độ HD?,general_query
+275,Ứng dụng có tự động cập nhật không?,general_query
+276,Tôi có thể tắt gợi ý nội dung không?,general_query
+277,Cách kiểm tra dung lượng đã xem?,general_query
+278,Ứng dụng có giao diện cho người khiếm thị không?,general_query
+279,Có cần kết nối internet mới xem được không?,general_query
+280,Tôi muốn liên hệ hỗ trợ khách hàng,general_query
+281,Cách xem phim có lồng tiếng?,general_query
+282,Tôi có thể tua nhanh video không?,general_query
+283,Ứng dụng có bản dùng thử miễn phí không?,general_query
+284,Tôi muốn thay đổi email đăng ký,package_query
+285,Làm sao để kích hoạt mã khuyến mãi?,package_query
+286,Tôi muốn xem hướng dẫn sử dụng,general_query
+287,Ứng dụng này có hợp tác với Netflix không?,general_query
+288,Tôi có thể giới thiệu bạn bè không?,general_query
+289,Về trang chủ,navigate_screen
+290,Quay lại trang trước,navigate_screen
+291,Mở màn hình tìm kiếm,navigate_screen
+292,Đi tới màn hình chính,navigate_screen
+293,Quay lại chỗ vừa rồi,navigate_screen
+294,Tới trang home,navigate_screen
+295,Bật giao diện tìm kiếm,navigate_screen
+296,Quay lại,navigate_screen
+297,Mở lại màn hình trước,navigate_screen
+298,Trang chính đâu?,navigate_screen
+299,Mở menu chính,navigate_screen
+300,Quay về màn hình đầu,navigate_screen
+301,Quay lại video trước,navigate_screen
+302,Chuyển về giao diện chính,navigate_screen
+303,Trang tìm kiếm đâu rồi?,navigate_screen
+304,Chuyển tới trang explore,navigate_screen
+305,Bật trang discovery,navigate_screen
+306,Hiển thị màn hình home,navigate_screen
+307,Trở về trang chủ nhanh,navigate_screen
+308,Tăng âm lượng,cmd_raise_volume
+309,Cho loa to hơn,cmd_raise_volume
+310,Bật tiếng lớn lên,cmd_raise_volume
+311,Mở âm thanh to chút,cmd_raise_volume
+312,Tôi muốn nghe rõ hơn,cmd_raise_volume
+313,Cho lớn tiếng lên,cmd_raise_volume
+314,Tăng âm thanh nhé,cmd_raise_volume
+315,Âm lượng nhỏ quá,cmd_raise_volume
+316,"Nghe không rõ, tăng lên",cmd_raise_volume
+317,Làm ơn tăng volume,cmd_raise_volume
+318,Volume hơi bé,cmd_raise_volume
+319,Bật âm lượng lớn,cmd_raise_volume
+320,Nghe nhỏ quá bạn ơi,cmd_raise_volume
+321,Tôi không nghe thấy,cmd_raise_volume
+322,Loa nhỏ quá,cmd_raise_volume
+323,Mở âm thanh lên,cmd_raise_volume
+324,Cho âm lượng cao hơn,cmd_raise_volume
+325,Tăng tiếng nhanh,cmd_raise_volume
+326,Giảm âm lượng,cmd_reduce_volume
+327,Tiếng to quá,cmd_reduce_volume
+328,Cho nhỏ tiếng lại,cmd_reduce_volume
+329,Âm lượng hơi lớn,cmd_reduce_volume
+330,Giảm âm thanh xuống,cmd_reduce_volume
+331,Tôi muốn tiếng nhỏ hơn,cmd_reduce_volume
+332,Hạ volume đi,cmd_reduce_volume
+333,Giảm tiếng chút xíu,cmd_reduce_volume
+334,Bớt âm lượng lại,cmd_reduce_volume
+335,Loa ồn quá,cmd_reduce_volume
+336,Cho nhỏ lại,cmd_reduce_volume
+337,Tắt nhỏ tiếng đi,cmd_reduce_volume
+338,Giảm âm lượng nhanh,cmd_reduce_volume
+339,Loa hơi chói tai,cmd_reduce_volume
+340,Giảm âm thanh nhanh lên,cmd_reduce_volume
+341,Cho bé tiếng thôi,cmd_reduce_volume
+342,Hạ âm lượng nhé,cmd_reduce_volume
+343,Cho nhỏ lại giùm,cmd_reduce_volume
+344,Tăng âm lượng tối đa,cmd_max_volume
+345,Cho tiếng lớn hết cỡ,cmd_max_volume
+346,Max volume đi,cmd_max_volume
+347,Bật tiếng full,cmd_max_volume
+348,Âm lượng cao nhất luôn nhé,cmd_max_volume
+349,Tôi muốn nghe hết mức,cmd_max_volume
+350,Mở âm thanh mức cao nhất,cmd_max_volume
+351,Tiếng tối đa nhé,cmd_max_volume
+352,Cho âm lượng lên full,cmd_max_volume
+353,Max âm lượng,cmd_max_volume
+354,To hết cỡ luôn đi,cmd_max_volume
+355,Loa hết công suất,cmd_max_volume
+356,Tôi muốn tiếng to nhất,cmd_max_volume
+357,Volume cao nhất,cmd_max_volume
+358,Phát hết loa lên,cmd_max_volume
+359,To hết sức luôn,general_query
+360,Gồng hết âm lượng,cmd_max_volume
+361,Max âm thanh,cmd_max_volume
+362,Tiếng full luôn nha,cmd_max_volume
+363,Cho tiếng cực đại,cmd_max_volume
+364,Giảm âm lượng nhỏ nhất,cmd_min_volume
+365,Cho tiếng bé nhất,cmd_min_volume
+366,Min volume,cmd_min_volume
+367,Tiếng nhỏ nhất có thể,cmd_min_volume
+368,Âm thanh nhỏ nhất luôn,cmd_min_volume
+369,Volume mức thấp nhất,cmd_min_volume
+370,Tôi không muốn nghe gì hết,general_query
+371,Hạ hết tiếng,cmd_min_volume
+372,Volume min,cmd_min_volume
+373,Min âm lượng luôn,cmd_min_volume
+374,Bé nhất có thể nha,general_query
+375,Tắt gần hết tiếng,cmd_min_volume
+376,Giảm cực thấp luôn,cmd_min_volume
+377,Tắt âm thanh,cmd_min_volume
+378,Âm lượng thấp nhất,cmd_min_volume
+379,Giảm về 0,cmd_min_volume
+380,Tua nhanh đoạn đầu,cmd_fast_forward
+381,Bỏ qua phần này,cmd_fast_forward
+382,Lướt qua giúp,cmd_fast_forward
+383,Skip đoạn này đi,cmd_fast_forward
+384,Tăng tốc nội dung,cmd_fast_forward
+385,Tôi muốn tua đến đoạn sau,cmd_fast_forward
+386,Tua nhanh chút đi,cmd_fast_forward
+387,Chạy nhanh qua đoạn đầu,cmd_fast_forward
+388,Tua tới đoạn kết,cmd_fast_forward
+389,Bỏ phần giới thiệu đi,cmd_fast_forward
+390,Tăng tốc độ phát,cmd_fast_forward
+391,Tôi không thích đoạn này,general_query
+392,Tua nhanh phần nhàm chán,cmd_fast_forward
+393,Chạy nhanh đi,cmd_fast_forward
+394,Tôi muốn xem đoạn sau,cmd_fast_forward
+395,Tua nhanh nha,cmd_fast_forward
+396,Lướt qua nhanh,cmd_fast_forward
+397,Skip intro,cmd_fast_forward
+398,Bỏ qua đoạn đầu,cmd_fast_forward
+399,Tua tới đoạn hấp dẫn,cmd_fast_forward
+400,Tua lại đoạn vừa rồi,cmd_rewind
+401,Tôi muốn xem lại,cmd_rewind
+402,Lùi lại một chút,cmd_rewind
+403,Chạy lại cảnh đó đi,cmd_rewind
+404,Cho phát lại đoạn trước,cmd_rewind
+405,Tua chậm lại,cmd_rewind
+406,Lùi lại chút xíu,cmd_rewind
+407,Tua về đoạn trước,cmd_rewind
+408,Xem lại cảnh đó,cmd_rewind
+409,Tôi bỏ lỡ đoạn đầu,cmd_rewind
+410,Tua về một khúc,cmd_rewind
+411,Tôi chưa nghe rõ,general_query
+412,Xem lại từ đầu,cmd_rewind
+413,Tua lùi nhanh,cmd_rewind
+414,Cho tôi coi lại,cmd_rewind
+415,Tua lại giúp,cmd_rewind
+416,Xem lại chút đi,cmd_rewind
+417,Tôi muốn xem đoạn cũ,cmd_rewind
+418,Chiếu lại đoạn rồi,cmd_rewind
+419,Tua về đoạn vừa chiếu,cmd_rewind
+420,Tiếp tục phát,cmd_continues
+421,Phát tiếp đi,cmd_continues
+422,Play tiếp nào,cmd_continues
+423,Xem tiếp đoạn vừa rồi,cmd_continues
+424,Tiếp tục chương trình,cmd_continues
+425,Tiếp tục phim,cmd_continues
+426,Cho chạy tiếp,cmd_continues
+427,Bật lại xem tiếp,cmd_continues
+428,Tiếp phát nội dung,cmd_continues
+429,Phát tiếp video cũ,cmd_continues
+430,Tôi muốn xem tiếp,cmd_continues
+431,Chạy tiếp video,cmd_continues
+432,Tiếp tục đoạn vừa ngừng,cmd_continues
+433,Tiếp theo đi,cmd_continues
+434,Cho tiếp phim,cmd_continues
+435,Tiếp tục đi bạn,cmd_continues
+436,Phát tiếp ngay nhé,cmd_continues
+437,Mình muốn tiếp tục xem,cmd_continues
+438,Tiếp tục từ chỗ dừng,cmd_continues
+439,Chạy lại tiếp theo,cmd_continues
+440,Thời tiết hôm nay thế nào?,weather_query
+441,Mai có mưa không?,weather_query
+442,Trời có lạnh không?,weather_query
+443,Thời tiết Hà Nội ra sao?,weather_query
+444,Dự báo thời tiết hôm nay,weather_query
+445,Tình hình thời tiết ngày mai,weather_query
+446,Hôm nay có nắng không?,weather_query
+447,Trời có mưa không vậy?,weather_query
+448,Thời tiết trong tuần,weather_query
+449,Mai đi chơi được không?,general_query
+450,Thời tiết Sài Gòn hôm nay?,weather_query
+451,Hà Nội hôm nay lạnh không?,weather_query
+452,Trời có gió không?,weather_query
+453,Nhiệt độ hôm nay bao nhiêu?,weather_query
+454,Trời có đẹp không?,weather_query
+455,Tình hình mưa bão,weather_query
+456,Xem thời tiết khu vực miền Trung,weather_query
+457,Thời tiết có thuận lợi không?,weather_query
+458,Ngày mai trời thế nào?,weather_query
+459,Thời tiết hôm nay ổn không?,weather_query
+460,Giá vàng hôm nay bao nhiêu?,gold_price_query
+461,Giá SJC ra sao?,gold_price_query
+462,Vàng lên hay xuống?,general_query
+463,Cập nhật giá vàng,gold_price_query
+464,Giá vàng thế giới,gold_price_query
+465,Vàng tăng mạnh chưa?,gold_price_query
+466,Vàng hôm nay tăng hay giảm?,gold_price_query
+467,Vàng 9999 bao nhiêu?,gold_price_query
+468,Giá vàng DOJI,gold_price_query
+469,Giá vàng hiện tại,gold_price_query
+470,Mua vào bán ra bao nhiêu?,general_query
+471,Giá vàng hôm nay ở Hà Nội,gold_price_query
+472,Vàng SJC hiện tại,gold_price_query
+473,Hôm nay có nên mua vàng?,general_query
+474,Giá vàng chiều nay?,gold_price_query
+475,Vàng hôm nay thế nào?,gold_price_query
+476,Tôi muốn biết giá vàng,gold_price_query
+477,Bảng giá vàng,gold_price_query
+478,Vàng nhẫn bao nhiêu?,gold_price_query
+479,Vàng có giảm không?,gold_price_query
+480,Tôi đang dùng gói gì?,package_query
+481,Có gói nào xem phim miễn phí không?,package_query
+482,Tư vấn gói xem truyền hình,package_query
+483,Tôi muốn nâng cấp gói,package_query
+484,Gói VIP có gì đặc biệt?,package_query
+485,Chi tiết gói hiện tại,package_query
+486,Các gói cước đang có,package_query
+487,Tôi cần hủy gói hiện tại,package_query
+488,Đăng ký gói mới,package_query
+489,Gói nào có kênh quốc tế?,package_query
+490,Tôi đang trả bao nhiêu?,package_query
+491,Có gói nào tiết kiệm không?,package_query
+492,Tôi dùng hết dung lượng chưa?,package_query
+493,Tôi muốn kiểm tra gói,package_query
+494,Gói phim có giới hạn gì không?,package_query
+495,Hỗ trợ kiểm tra gói,package_query
+496,Tư vấn gói cho người lớn tuổi,package_query
+497,Tôi đang dùng gói thử đúng không?,package_query
+498,Khi nào hết hạn gói?,package_query
+499,Tôi có thể đổi gói không?,package_query
+500,Bật tivi,cmd_turn_on
+501,Mở đầu thu,cmd_turn_on
+502,Khởi động tivi,cmd_turn_on
+503,Mở máy xem đi,cmd_turn_on
+504,Bật lại thiết bị,cmd_turn_on
+505,Mở thiết bị phát,cmd_turn_on
+506,Bật lại đầu thu,cmd_turn_on
+507,Mở TV lên,cmd_turn_on
+508,Bật màn hình,cmd_turn_on
+509,Khởi động lại TV,cmd_turn_on
+510,Bật lại giúp mình,cmd_continues
+511,Cho TV hoạt động,cmd_turn_on
+512,Bật hộ cái,cmd_turn_on
+513,Tivi bật chưa?,cmd_turn_on
+514,Bật nguồn đi,cmd_turn_on
+515,Khởi động đầu phát,cmd_turn_on
+516,Mở hệ thống xem đi,navigate_screen
+517,Khởi động màn hình chính,navigate_screen
+518,Bật app xem phim,cmd_turn_on
+519,TV chưa bật kìa,cmd_turn_on
+520,Tắt tivi,cmd_turn_off
+521,Ngắt đầu thu,cmd_turn_off
+522,Tắt thiết bị đi,cmd_turn_off
+523,Tắt hết đi,cmd_turn_off
+524,Tôi muốn tắt TV,cmd_turn_off
+525,Tắt nguồn đi,cmd_turn_off
+526,Tắt hộ cái,cmd_turn_off
+527,Cho tivi nghỉ đi,cmd_turn_off
+528,Ngắt điện tivi,cmd_turn_off
+529,Tắt TV nhanh,cmd_turn_off
+530,Dừng mọi thứ lại,cmd_turn_off
+531,Tắt màn hình chính,navigate_screen
+532,Ngắt hệ thống phát,cmd_turn_off
+533,Tắt luôn đầu thu nhé,cmd_turn_off
+534,TV tắt rồi à?,cmd_turn_off
+535,Cho mình dừng hệ thống,cmd_turn_off
+536,Tôi không muốn xem nữa,cmd_turn_off
+537,Tắt app luôn,cmd_turn_off
+538,Tạm dừng phát,cmd_pause
+539,Ngừng video,cmd_pause
+540,Dừng lại chút,cmd_pause
+541,Pause đi,cmd_pause
+542,Dừng hình lại,cmd_pause
+543,Cho tạm dừng phim,cmd_pause
+544,Tạm ngưng nội dung,cmd_pause
+545,Dừng nội dung lại đi,cmd_pause
+546,Cho nghỉ xem chút,cmd_pause
+547,Tôi muốn dừng,cmd_pause
+548,Tạm thời dừng phát,cmd_pause
+549,Tạm dừng ngay,cmd_pause
+550,Dừng lại nha,cmd_pause
+551,Pause nội dung này,cmd_pause
+552,Dừng video lại giúp tôi,cmd_pause
+553,Tôi muốn ngưng chút,cmd_pause
+554,Cho dừng tạm nhé,cmd_pause
+555,Tạm ngưng chương trình,cmd_pause
+556,Dừng phát sóng đi,cmd_pause
+557,Dừng hết lại đã,cmd_pause
+558,Mở YouTube,navigate_app
+559,Bật app YouTube,navigate_app
+560,Chuyển qua YouTube,navigate_app
+561,Đi tới ứng dụng YouTube,navigate_app
+562,Tôi muốn mở YouTube,navigate_app
+563,Mở ứng dụng xem video,navigate_app
+564,Chuyển qua app YouTube,navigate_app
+565,YouTube mở lên nhé,navigate_app
+566,Xem YouTube đi,navigate_app
+567,Mở ứng dụng YouTube dùm tôi,navigate_app
+568,Vào YouTube,navigate_app
+569,Khởi động YouTube,navigate_app
+570,App YouTube đâu rồi,navigate_app
+571,Xem video YouTube đi,navigate_app
+572,Mở kênh YouTube,navigate_app
+573,Chuyển tới YouTube,navigate_app
+574,Vào ứng dụng YouTube,navigate_app
+575,Khởi chạy app YouTube,navigate_app
+576,Tới ứng dụng video,navigate_app
+577,Cho tôi xem YouTube,navigate_app
+578,Thủ tướng hiện tại là ai?,general_query
+579,Hôm nay là thứ mấy?,general_query
+580,Bây giờ mấy giờ rồi?,general_query
+581,Ngày mai có mưa không?,weather_query
+582,Tổng thống Mỹ hiện tại là ai?,general_query
+583,Việt Nam có bao nhiêu tỉnh?,general_query
+584,Ai là người giàu nhất thế giới hiện nay?,general_query
+585,SEA Games 2025 tổ chức ở đâu?,general_query
+586,Hà Nội hôm nay thời tiết thế nào?,weather_query
+587,Múi giờ Việt Nam là bao nhiêu?,general_query
+588,Ngày quốc tế phụ nữ là ngày nào?,general_query
+589,Diện tích Việt Nam là bao nhiêu?,general_query
+590,Cách nấu bún bò Huế như thế nào?,general_query
+591,Lễ 2/9 năm nay được nghỉ mấy ngày?,general_query
+592,Giá USD hôm nay là bao nhiêu?,general_query
+593,Lễ Tết Nguyên đán 2026 rơi vào ngày nào?,general_query
+594,Đơn vị đo tốc độ internet là gì?,general_query
+595,Ai là người sáng lập Apple?,general_query
+596,Trái đất quay quanh mặt trời mất bao lâu?,general_query
+597,Điện thoại nào đang hot nhất hiện nay?,general_query
+598,TikTok có nguồn gốc từ nước nào?,general_query
+599,Sông dài nhất Việt Nam là sông nào?,general_query
+600,Lúc nào là mùa hoa tam giác mạch ở Hà Giang?,general_query
+601,Tác giả của truyện Harry Potter là ai?,general_query
+602,Múi giờ GMT+7 là ở đâu?,general_query
+603,Người Việt Nam đầu tiên bay vào vũ trụ là ai?,general_query
+604,Năm nay có bao nhiêu ngày?,general_query
+605,Trên kênh VTV3 tối nay có chiếu chương trình gì nổi bật không?,open_schedule
+606,Cách nấu món bún riêu cua truyền thống như thế nào bạn nhỉ?,general_query
+607,Dịp lễ 30/4 – 1/5 năm nay được nghỉ bao nhiêu ngày?,general_query
+608,Tỷ giá đồng đô la Mỹ hôm nay ở ngân hàng Vietcombank là bao nhiêu?,general_query
+609,Tết Nguyên đán năm 2026 sẽ rơi vào ngày nào vậy bạn?,general_query
+610,Đơn vị chuẩn dùng để đo tốc độ mạng internet là gì?,general_query
+611,Ai là người đã sáng lập ra tập đoàn công nghệ Apple?,general_query
+612,Trái Đất quay một vòng quanh Mặt Trời mất bao nhiêu thời gian vậy?,general_query
+613,Hiện tại có điện thoại nào đang được ưa chuộng nhất ở Việt Nam?,general_query
+614,Ứng dụng TikTok có nguồn gốc từ quốc gia nào nhỉ?,general_query
+615,Con sông nào dài nhất ở Việt Nam hiện nay?,general_query
+616,Vào khoảng tháng mấy thì hoa tam giác mạch nở rộ ở Hà Giang?,general_query
+617,Trận đấu bóng đá giữa Việt Nam và Thái Lan sẽ diễn ra vào ngày nào vậy?,open_schedule
+618,Ai là tác giả của bộ truyện Harry Potter nổi tiếng?,general_query
+619,Múi giờ GMT+7 tương ứng với những quốc gia nào?,general_query
+620,Ai là người Việt Nam đầu tiên từng bay vào vũ trụ vậy?,general_query
+621,"Trong năm nay có tất cả bao nhiêu ngày, có năm nhuận không?",general_query
+622,Có đúng hay không khi nói Chiến tranh Việt Nam,general_query
+623,Đàm phán thuế quan giữa Mỹ và Việt Nam có chuyển biến ntn rồi,general_query
+624,Chiến sự Nga - Ukraina đã xong chưa,general_query
+625,Vận hành chính quyền 2 cấp bắt đầu từ ngày nào,general_query
+626,Hải Dương nay sáp nhập với tỉnh nào,general_query
+627,Tứ trụ ở Việt Nam là ai,general_query
+628,Vùng kinh tế trọng điểm phía Nam gồm những tỉnh thành nào,general_query
+629,Bún đậu mắm tôm là món gì,general_query
+630,"Hà Giang đợt này có mưa không, bây giờ đang là mùa hoa gì",weather_query
+631,Đường vành đai trên cao hiện tại có thông thoáng không,general_query
+632,Có 800 triệu nên mua xe điện Vin hay mua Huyndai,general_query
+633,Phim Tây Du Ký có bao nhiêu tập vậy?,film_qna
+634,VTV1 tối nay chiếu chương trình gì?,open_schedule
+635,Ai đóng vai Đường Tăng trong Tây Du Ký?,film_qna
+636,Bộ phim Mắt Biếc được công chiếu năm nào?,film_qna
+637,Người ấy là ai phát sóng vào thứ mấy?,film_qna
+638,Phim Squid Game có bao nhiêu phần rồi?,film_qna
+639,HTV7 có phát bản tin thời sự buổi sáng không?,open_schedule
+640,Phim Hương Vị Tình Thân thuộc thể loại gì?,film_qna
+641,Diễn viên chính trong Tháng Năm Rực Rỡ là ai?,film_qna
+642,Phim Đi giữa trời rực rỡ có kết thúc thế nào?,film_qna
+643,Chương trình Rap Việt mùa 3 có bao nhiêu tập?,film_qna
+644,Phim Avatar 2 dài bao lâu?,film_qna
+645,Kênh VTV3 có chiếu phim buổi tối không?,open_schedule
+646,Phim Chiếc Lá Bay có cái kết ra sao?,film_qna
+647,Sao Nhập Ngũ có bao nhiêu mùa rồi nhỉ?,film_qna
+648,Phim Lật Mặt phần mới nhất ra mắt khi nào?,film_qna
+649,Chương trình Ơn Giời Cậu Đây Rồi còn phát không?,open_schedule
+650,Phim Harry Potter có tổng cộng bao nhiêu tập?,film_qna
+651,VTV2 chuyên chiếu nội dung gì?,film_qna
+652,Phim Tiếng Sét Trong Mưa có mấy tập?,film_qna
+653,Diễn viên nào đóng vai chính trong Gái Già Lắm Chiêu?,film_qna
+654,Ký sự miền Tây chiếu vào khung giờ nào?,open_schedule
+655,Có thể xem lại chương trình Người Kể Chuyện Tình ở đâu?,film_qna
+656,Phim Nhà Bà Nữ thuộc thể loại gì?,film_qna
+657,VTV Cần Thơ có chiếu phim nước ngoài không?,film_qna
+658,Chương trình thiếu nhi phát lúc mấy giờ vậy?,open_schedule
+659,Phim Thương Ngày Nắng Về có 2 phần đúng không?,film_qna
+660,Nội dung chính của phim Song Lang là gì vậy?,film_qna
+661,Phim Về Nhà Đi Con chiếu trên kênh nào?,film_qna
+662,Ai là MC của chương trình Chúng Tôi Là Chiến Sĩ?,film_qna
+663,Phim Khom lưng có bao nhiêu tập,film_qna
+664,Chị đại học đường phát song song lúc mấy giờ,open_schedule
+665,Phim Hương Vị Tình Thân có bao nhiêu tập?,film_qna
+666,Chương trình Ơn Giời Cậu Đây Rồi có bao nhiêu mùa,film_qna
+667,Phim Quỳnh Búp Bê được phát sóng trên kênh nào?,film_qna
+668,Chương trình Rap Việt mùa 3 bắt đầu từ ngày nào,film_qna
+669,Phim Về Nhà Đi Con bắt đầu chiếu khi nào?,film_qna
+670,Chương trình Giọng Ải Giọng Ai có bao nhiêu tập,film_qna
+671,Chương trình Sao Nhập Ngũ có bao nhiêu mùa,film_qna
+672,Chương trình Nhanh Như Chớp có thể xem lại ở đâu,film_qna
+673,Phim Tiếng Sét Trong Mưa có phần tiếp theo không,film_qna
+674,Phim Hoa Hồng Trên Ngực Trái được quay ở đâu,film_qna
+675,Phim Thương Ngày Nắng Về thuộc thể loại gì,film_qna
+676,Phim Sống Chung Với Mẹ Chồng dài bao nhiêu tập,film_qna
+677,Hoa nở nhớ trăng có những diễn viên nào,film_qna
+678,Phim Khom Lưng có phụ đề tiếng Anh không,film_qna
+679,Chương trình Vietnam’s Got Talent mùa mới nhất khi nào phát sóng,open_schedule
+680,Chương trình Ai Là Triệu Phú có bao nhiêu vòng chơi,film_qna
+681,Chương trình Ký Ức Vui Vẻ có người dẫn chương trình là ai,film_qna
+682,Phim Người Theo Đuổi Ánh Sáng chiếu trên kênh nào,film_qna
+683,Phim Thủy Hử có cảnh hành động không,film_qna
+684,Phim Bố Già có lồng tiếng không,film_qna
+685,Phim tiếng Sét Trong Mưa ai là đạo diễn,film_qna
+686,Các thí sinh nổi bật mùa này của Rap Việt là ai,film_qna
+687,Ai là người dẫn chương trình của Rap Việt,film_qna
+688,Rap Việt có phiên bản quốc tế không,film_qna
+689,Có thể xem các phần thi battle trên TV360 không,film_qna
+690,Chương trình ai là triệu phú có các phiên bản đặc biệt không,film_qna
+691,Ai là người thắng giải cao nhất trong lịch sử chương trình ai là triệu phú,film_qna
+692,Ai là huấn luyện viên mùa hiện tại của Rap Việt,film_qna
+693,Thời lượng mỗi tập Rap Việt là bao lâu,film_qna
+694,The Face Vietnam phát sóng trên kênh nào,film_qna
+695,MC chương trình Sao Hỏa Sao Kim ,film_qna
+696,Ký Ức Vui Vẻ có những trò chơi gì trong mỗi tập,film_qna
+697,ai là triệu phú trên kênh VTV3 nhỉ,film_qna
+698,trò chơi âm nhạc còn chiếu trên VTV3 không,film_qna
+699,video Bí quyết giảm cân an toàn cho phụ nữ sau sinh dài mấy phút,film_qna
+700,"video Giai Điệu Giảm Lo Âu, Giảm Stress Hiệu Quả do ai thể hiện",film_qna
+701,video 5 Môn Thể Thao Đốt Calo Nhiều Nhất Cho Chị Em Giảm Cân gồm những môn thể thao nào,film_qna
+702,Bản tin thể thao 21 - 12: Bóng chuyền nữ Việt Nam sẽ tập huấn dài ngày tại Cuba do ai thuyết minh,film_qna
+703,video Hướng Dẫn Trẻ Tự Vệ do chuyên gia nào hướng dẫn,film_qna
+704,Giá vàng SJC hôm nay tăng hay giảm so với hôm qua?,gold_price_query
+705,Một chỉ vàng 9999 hôm nay bao nhiêu tiền?,gold_price_query
+706,Vàng DOJI ở TP.HCM hôm nay bán ra giá bao nhiêu?,gold_price_query
+707,Có nên mua vàng vào thời điểm cuối tuần không?,general_query
+708,Vàng miếng và vàng trang sức hôm nay chênh lệch bao nhiêu?,gold_price_query
+709,Giá vàng 24K hôm nay tại Hà Nội là bao nhiêu?,gold_price_query
+710,Vàng nhẫn hôm nay ở Đà Nẵng đang có giá thế nào?,gold_price_query
+711,Giá vàng thế giới hiện giờ có tác động đến trong nước không?,general_query
+712,Lúc này mua vàng để đầu tư có an toàn không?,general_query
+713,Sáng nay vàng có biến động mạnh không?,gold_price_query
+714,So sánh giá vàng giữa SJC và PNJ hôm nay như thế nào?,general_query
+715,Tôi nên mua vàng 18K hay 24K hôm nay để tích trữ?,general_query
+716,Vàng hôm nay có xu hướng tăng tiếp không?,general_query
+717,Dự báo giá vàng tuần tới thế nào?,general_query
+718,Giá vàng DOJI hôm nay ở các tỉnh có đồng nhất không?,gold_price_query
+719,Mức chênh lệch mua bán vàng hôm nay là bao nhiêu?,gold_price_query
+720,Giá vàng tại ngân hàng hôm nay cao hơn ngoài tiệm không?,general_query
+721,Tôi nên bán vàng lúc này hay giữ lại?,general_query
+722,Giá vàng hôm nay có bị ảnh hưởng bởi tỷ giá USD không?,general_query
+723,Vàng SJC hôm nay có khan hàng không?,general_query
+724,"Giá vàng đang lên nhanh, có phải do đầu cơ không?",general_query
+725,Có trang web nào cập nhật giá vàng theo giờ không?,general_query
+726,Chiều nay giá vàng có thể giảm không?,general_query
+727,Người dân đang mua hay bán vàng nhiều hôm nay?,general_query
+728,Vàng hôm nay có lập đỉnh mới không?,general_query
+729,Giá vàng ở Nha Trang hôm nay có cao hơn TP.HCM không?,general_query
+730,Mua vàng hôm nay có được ưu đãi gì không?,general_query
+731,Giá vàng 18K hôm nay tại tiệm lớn là bao nhiêu?,general_query
+732,Có thể xem biểu đồ giá vàng hôm nay ở đâu?,general_query
+733,Tại sao vàng hôm nay lại giảm so với đầu tuần?,general_query
+734,Lãi suất ngân hàng hiện nay có khiến giá vàng biến động không,general_query
+735,Giá vàng hôm nay được niêm yết khác nhau ở các tiệm không,general_query
+736,Có báo cáo nào dự đoán giá vàng tuần này không,general_query
+737,Giá vàng hôm nay ảnh hưởng thế nào đến thị trường bất động sản,general_query
+738,Mức tăng giá vàng hôm nay có đáng lo ngại không,general_query
+739,"Nên theo dõi giá vàng theo giờ, ngày hay tuần",general_query
+740,Có xu hướng nào cho giá vàng từ giờ đến cuối quý không,general_query
+741,Giá vàng hôm nay có bị ảnh hưởng bởi giá dầu thế giới không,general_query
+742,Vàng tây hôm nay tại tiệm Kim Ngân giá bao nhiêu,general_query
+743,Vàng hôm nay có bị tác động bởi thị trường chứng khoán không,general_query
+744,"So với tháng trước, giá vàng hôm nay chênh lệch bao nhiêu",general_query
+745,Mua vàng ở ngân hàng hôm nay có lợi gì hơn,general_query
+746,mua vàng đầu tháng hay cuối tháng sẽ tốt hơn,general_query
+747,Giá vàng hôm nay tăng hay giảm,general_query
+748,10970k có mua được 1 chỉ vàng không,general_query
+749,Giá vàng SJC hôm nay là bao nhiêu,general_query
+750,Giá vàng 9999  hiện tại là bao nhiêu một lượng,general_query
+751,Giá vàng đang biến động như thế nào trong phiên giao dịch hôm nay,general_query
+752,Liệu giá vàng có tiếp tục tăng/giảm trong những giờ tới không,general_query
+753,Dự báo giá vàng trong 6 tháng cuối năm 2025 là bao nhiêu,general_query
+754,Các chuyên gia đang nhận định gì về giá vàng hiện tại,general_query
+755,Vàng có phải là kênh trú ẩn an toàn trong thời kỳ khủng hoảng không,general_query
+756,Có những loại vàng nào phổ biến trên thị trường và sự khác biệt giữa chúng,general_query
+757,Liệu đây có phải thời điểm tốt để đầu tư vào vàng không,general_query
+758,Sự mạnh lên/yếu đi của đồng USD tác động thế nào đến giá vàng,general_query
+759,"Xung đột địa chính trị Trung Đông, Ukraine ảnh hưởng thế nào đến giá vàng",general_query
+760,Đồ thị giá vàng 24h qua diễn biến ra sao,gold_price_query
+761,Xu hướng giá vàng trong tuần này,general_query
+762,Giá vàng DOJI Châu hôm nay bao nhiêu,gold_price_query
+763,Thời tiết hôm nay ở Hà Nội như thế nào?,weather_query
+764,Nhiệt độ hiện tại tại TP.HCM là bao nhiêu?,weather_query
+765,Hôm đó ở Nha Trang có độ ẩm bao nhiêu,weather_query
+766,Cho tôi biết hôm nay có bão không ở Nha Trang,weather_query
+767,Cho tôi biết trời có nắng vào cuối tuần ở Vũng Tàu không,weather_query
+768,cho tôi biết sáng mai ở Huế trời có đẹp không ,weather_query
+769,Liệu tuần sau Vũng Tàu có gió không,weather_query
+770,hôm nay ở TP.HCM có sương mù không,weather_query
+771,Nhiệt độ ở Đà Nẵng hôm nay bao nhiêu,weather_query
+772,Dự báo có sương mù không ở Hà Nội vào tối nay.,weather_query
+773,Dự báo có mưa không ở TP.HCM vào lúc 5 giờ chiều.,weather_query
+774,Dự báo có mưa không ở Huế vào ngày 10/7.,weather_query
+775,Cho tôi biết có bão ngày 10/7 ở Hà Nội không,weather_query
+776,Cho tôi biết chiều nay ở Ninh Bình có lạnh không ,weather_query
+777,Cho tôi biết sáng mai ở Huế có lạnh không,weather_query
+778,Ngày 10/7 Buôn Ma Thuột có sương mù không,weather_query
+779,Ở Đà Nẵng cuối tuần thời tiết thế nào,weather_query
+780,cuối tuần ở Hà Nội nhiệt độ bao nhiêu ,weather_query
+781,Ở Huế ngày mai độ ẩm bao nhiêu,weather_query
+782,Liệu ngày mai Hải Phòng có bão không,weather_query
+783,Hôm đó ở Cần Thơ có mưa không ,weather_query
+784,Tôi muốn biết có sương mù vào sáng mai tại Buôn Ma Thuột không ,weather_query
+785,Liệu cuối tuần Hà Nội trời có nắng không,weather_query
+786,Ở Hà Nội sáng mai có mưa không,weather_query
+787,cho tôi biết gió như thế nào ở Hải Phòng,weather_query
+788,thứ bảy này ở Đà Nẵng có lạnh không,weather_query
+789,Nha Trang sáng mai có mưa không,weather_query
+790,Niệt độ Hải Phòng vào ngày mai ,weather_query
+791,TP.HCM tối nay có lạnh không,weather_query
+792,Tôi muốn biết độ ẩm tại Đà Nẵng là bao nhiêu,weather_query
+793,Cần Thơ thứ bảy này thời tiết,weather_query
+794,Cần Thơ hôm nay có mưa không ,weather_query
+795,Liệu cuối tuần Vũng Tàu có bão không,weather_query
+796,Hôm đó ở TP.HCM có nhiệt độ bao nhiêu,weather_query
+797,Liệu tuần sau Vũng Tàu có lạnh không,weather_query
+798,Nhiệt độ ngày mai ở Huế có giảm không,weather_query
+799,Vũng Tàu vào lúc 5 giờ chiều có lạnh không ,weather_query
+800,Dự báo ngày mai ở Hà Nội có mưa không ,weather_query
+801,thứ bảy này ở Hà Nội trời có đẹp không,weather_query
+802,Liệu ngày mai TP.HCM có sương mù không,weather_query
+803,Tôi muốn biết độ ẩm tại Nha Trang là bao nhiêu ,weather_query
+804,Ở Lào Cai chiều nay có sương mù không,weather_query
+805,cuối tuần ở Nha Trang nhiệt độ không?,weather_query
+806,Tôi muốn biết có lạnh không vào sáng mai ở Lào Cai.,weather_query
+807,Liệu ngày 10/7 Buôn Ma Thuột có có lạnh không,weather_query
+808,Cho tôi biết hôm nay ở Hải Phòng thời tiết có đẹp không,weather_query
+809,Dự báo có sương mù không ở Đà Nẵng vào chiều nay.,weather_query
+810,Liệu thứ bảy này Cần Thơ có lạnh không,weather_query
+811,Tôi muốn biết gió như thế nào tuần sau tại Nha Trang.,weather_query
+812,Cho tôi biết thời tiết sáng mai ở Buôn Ma Thuột.,weather_query
+813,ngày mai ở Đà Nẵng có mưa không,weather_query
+814,lúc 5 giờ chiều ở Buôn Ma Thuột nhiệt độ tăng hay giảm ,weather_query
+815,Dự báo trời có nắng không ở Lào Cai vào chiều nay.,weather_query
+816,Cần Thơ vào tối nay có mưa không,weather_query
+817,TP.HCM cuối tuần trời có đẹp không,weather_query
+818,cuối tuần ở Huế có lạnh không,weather_query
+819,TP.HCM vào lúc 5 giờ chiều trời có nắng không,weather_query
+820,Đà Nẵng vào hôm nay thời tiết như thế nào ,weather_query
+821,Ở Hà Nội tối nay thời tiết thế nào?,weather_query
+822,Liệu sáng mai Hà Nội có độ ẩm bao nhiêu,weather_query
+823,ngày mai ở Huế trời có đẹp không ,weather_query
+824,Dự báo thời tiết ở Hải Phòng vào ngày mùng 5 tháng 7 ,weather_query
+825,Liệu tuần sau trời có đẹp không,weather_query
+826,Dự báo độ ẩm bao nhiêu ở Hải Phòng vào hôm nay.,weather_query
+827,Ở TP.HCM hôm nay có lạnh không,weather_query
+828,Lào Cai vào chiều nay có bão không,weather_query
+829,Tôi muốn biết trời có nắng không lúc 5 giờ chiều tại Huế.,weather_query
+830,Liệu cuối tuần ở Hưng Yên trời có đẹp không,weather_query
+831,Vũng Tàu tuần sau thời tiết ra sao?,weather_query
+832,Ở Đà Nẵng thứ bảy này có mưa không ,weather_query
+833,Cho tôi biết gió như thế nào lúc 5 giờ chiều ở Huế.,weather_query
+834,Bạn có thể cho tôi biết thời tiết tối nay ở Vũng Tàu không?,weather_query
+835,Hà Nội vào tuần sau gió mạnh không,weather_query
+836,Ở Nha Trang tuần sau độ ẩm bao nhiêu,weather_query
+837,Tôi muốn biết trời có đẹp không ngày 10/7 tại Hải Phòng.,weather_query
+838,TP.HCM lúc 5 giờ chiều nhiệt độ ra sao?,weather_query
+839,Cho tôi biết gió như thế nào tuần sau ở TP.HCM.,weather_query
+840,Liệu thứ bảy này TP.HCM có độ ẩm bao nhiêu,weather_query
+841,Liệu tối nay Đà Nẵng trời có đẹp không,weather_query
+842,Cà Mau vào tối nay có bão không,weather_query
+843,TP.HCM tối nay độ ẩm bao nhiêu,weather_query
+844,Tây Ninh chiều nay có sương mù không,weather_query
+845,Ở Vũng Tàu tối nay có lạnh không,weather_query
+846,Ở Huế sáng mai có bão không ,weather_query
+847,Liệu hôm nay Vũng Tàu có sương mù không,weather_query
+848,cuối tuần ở Cần Thơ trời có nắng không,weather_query
+849,Ở Lào Cai cuối tuần thời tiết thế nào?,weather_query
+850,tối nay ở Vĩnh Long trời có đẹp không,weather_query
+851,Cho tôi biết thời tiết tuần sau ở Hải Phòng.,weather_query
+852,Cho tôi biết thời tiết tuần sau ở TP.HCM.,weather_query
+853,Ở Lào Cai chiều nay có lạnh không,weather_query
+854,dự báo thời tiết ngày mai,weather_query
+855,Ở Đà Nẵng ngày mai có mưa không,weather_query
+856,Nhiệt độ ở Quảng Ngãi,weather_query
+857,Hà Nội lúc 5 giờ chiều độ ẩm bao nhiêu,weather_query
+858,Dự báo có sương mù ở Hà Nội vào ngày mai.,weather_query
+859,Cho tôi biết lượng sương mù lúc 5 giờ chiều ở Bắc Ninh ,weather_query
+860,thứ bảy tuần này ở Nha Trang có lạnh không,weather_query
+861,Hôm đó ở Hải Phòng có mưa không,weather_query
+862,Cho tôi biết độ ẩm chiều nay ở TP.HCM.,weather_query
+863,Nhiệt độ ngày mai tăng hay giảm ở miền bắc,weather_query
+864,Độ ẩm không khí là bao nhiêu phần trăm,weather_query
+865,Dự báo thời tiết cho ngày mai ở HN,weather_query
+866,Có khả năng mưa rào/dông vào chiều nay không,weather_query
+867,Chỉ số tia UV hôm nay là bao nhiêu?,weather_query
+868,Chất lượng không khí ở khu vực này hiện tại như thế nào,weather_query
+869,Mực nước triều cường ở miền trung có cao không,weather_query
+870,Bạn có lời khuyên nào về trang phục phù hợp với thời tiết hiện tại không,weather_query
+871,Thời tiết mùa này ở Hà Giang thường như thế nào,weather_query
+872,Thời tiết ở Huế mùa này hợp để đến không,weather_query
+873,Lượng mưa trung bình trong tháng này so với cùng kỳ năm trước là bao nhiêu,weather_query
+874,Thời tiết có tác động gì đến tâm trạng con người,general_query
+875,Khoảng cách tầm nhìn xa hiện tại là bao nhiêu km,general_query
+876,Dự báo thời tiết cho chuyến du lịch sắp tới của tôi ở Cà Mau,weather_query
+877,"Thời tiết hiện tại có gây ra nguy cơ cháy rừng không, đặc biệt ở các khu vực khô hanh",weather_query
+878,Có thông tin về áp thấp nhiệt đới hoặc xoáy thuận nhiệt đới nào đang hoạt động trên biển Đông không,weather_query
+879,khu vực tokyo ở nhật bản ngày mai có mưa ko,weather_query
+880,thời tiết bay từ Hà Nội đến Nhật bản ngày mai có ổn không,weather_query
+881,Cho tôi thông tin về gói cước VIP,package_query
+882,tôi muốn xem các trận c1 bao gồm trận độc quyền thì đăng ký gói nào,package_query
+883,tôi muốn xem các trận c1 bao gồm trận độc quyền thì đăng ký gói nào? Cho tôi biết giá từng gói có thể đăng ký,package_query
+884,tôi muốn xem trọn vẹn mùa giải ngoại hạng anh thì nên mua gói cước nào,package_query
+885,tôi muốn xem trọn vẹn mùa giải ngoại hạng anh thì nên mua gói cước nào? Giá gói cước nào là hợp lý,package_query
+886,tôi chỉ cần 120 kênh truyền hình thì gói cước nào là hợp lý,package_query
+887,giải thích cho tôi tại 1 thời điểm xem trên 1 thiết bị là sao,package_query
+888,giải thích cho tôi xem đồng thời 2 thiết bị là sao,package_query
+889,các gói cước có được miến phí data không và miễn phí như thế nào?,package_query
+890,tôi thích xem phim thì nên đăng ký gói cước nào,package_query
+891,nếu tôi đăng ký gói cước hbo go thì tôi có thể xem phim không,package_query
+892,Gói STANDARD có xem được K+ không,package_query
+893,gói vsport có miễn phí data không,package_query
+894,gói vip mobile khác gì gói vcine,package_query
+895,Gói nào có kho phim HBO GO,package_query
+896,Gói STANDARD có xem bóng đá Ngoại hạng Anh không,package_query
+897,Tôi muốn biết gói VIP có hỗ trợ xem trên tivi không?,package_query
+898,Gói VCINE có xem được Cúp C1 không,package_query
+899,Tôi nên chọn gói nào nếu muốn xem K+ và phim HBO,package_query
+900,"Tôi chỉ dùng điện thoại để xem, nên dùng gói nào",package_query
+901,Gói nào giá rẻ nhất mà vẫn có thể xem Cúp C1,package_query
+902,Tôi muốn vừa xem phim vừa xem truyền hình thì nên chọn gói nào,package_query
+903,Có gói nào miễn phí data 4G/5G Viettel không,package_query
+904,"Tôi muốn xem trên 2 thiết bị cùng lúc, gói nào hỗ trợ",package_query
+905,"Nếu tôi chỉ quan tâm phim chiếu rạp và chương trình HOT, tôi nên dùng gói nào",package_query
+906,Gói nào có nhiều kênh truyền hình nhất,package_query
+907,"Tôi cần xem cả K+ và Ngoại hạng Anh, nên chọn gói nào",package_query
+908,Gói VIP MOBILE và STANDARD chênh nhau bao nhiêu tiền,package_query
+909,Vì sao gói VIP K+ HD lại đắt hơn các gói khác,package_query
+910,"So với gói VSPORT, gói VCINE có giá rẻ hơn nhưng có gì bị cắt giảm",package_query
+911,"Gói VIP có giá gấp đôi STANDARD, có đáng không",package_query
+912,Gói VCINE giá 20.000đ có khác biệt gì nhiều so với gói VIP MOBILE 40.000đ,package_query
+913,"Với 40.000đ, tôi nên chọn gói nào là hợp lý nhất",package_query
+914,Gói nào có giá thấp mà vẫn xem được K+,package_query
+915,Gói nào đáng tiền nhất nếu tôi chỉ xem phim,package_query
+916,Các gói có được giảm giá hay khuyến mãi không,package_query
+917,Gói cước nào rẻ nhất hiện nay,package_query
+918,"Gói nào đắt nhất, có gì đặc biệt",package_query
+919,Có gói nào dưới 50.000đ không,package_query
+920,Mức giá từ 40.000đ đến 80.000đ có những gói nào,package_query
+921,"Tôi muốn dùng gói tầm trung, khoảng 50.000đ, có gói nào phù hợp",package_query
+922,Gói cước nào dùng được cho eSIM,package_query
+923,Có thể sử dụng cùng lúc nhiều gói cước không,package_query
+924,Nếu đăng ký gói vip khi còn gói vcine thì có bị mất ưu đãi cũ không,package_query
+925,có gói cước nào hỗ trợ chuyển vùng quốc tế (roaming) không,package_query
+926,"Tôi từng dùng gói STANDARD, giờ muốn nâng cấp nên chọn gói nào",package_query
+927,trẻ em có thể dùng gói nào để xem nội dung hoạt hình,package_query
+928,Tôi muốn mua gói cho bố mẹ xem truyền hình gợi ý giúp,package_query
+929,Có gói nào phù hợp cho người lớn tuổi dễ sử dụng không,package_query
+930,"Tôi là sinh viên, có gói nào ưu đãi riêng không",package_query
+931,gói vip có thời hạn bao lâu,package_query
+932,Có bảng tổng hợp so sánh các gói không để tôi dễ chọn,package_query
+933,"Tôi chỉ xem nhẹ nhàng, mỗi ngày 30 phút có gói nào rẻ phù hợp không",package_query
+934,"Tôi không rành công nghệ, gói nào dễ dùng nhất",package_query
+935,"Nếu tôi chỉ xem truyền hình quốc gia, cần mua gói nào",package_query
+936,tôi muốn xem k+ hãy gợi ý cho tôi vài gói,package_query
+937,cho tôi xin thông tin gói cước,package_query
+938,cho tôi thông tin tất cả các gói cước hiện tại,package_query
+939,gói cước áp dụng cho thuê bao trả trước hay trả sau,package_query
+940,giá các gói cước hiện tại là bao nhiêu,package_query
+941,giá tất cả các gói cước hiện tại là bao nhiêu,package_query
+942,thời hạn sử dụng của các gói cước là bao lâu,package_query
+943,các gói cước này có tự động gia hạn không,package_query
+944,nếu tài khoản không đủ thì các gói cước có tự động gia hạn không,package_query
+945,nếu tài khoản không đủ thì có thể đăng ký gói cước không,package_query
+946,dung lượng data của các gói cước là bao nhiêu,package_query
+947,dung lượng data của các gói cước có được cộng dồn không,package_query
+948,có gói cước nào miễn phí gọi nội mạng không,package_query
+949,có gói cước nào có khuyễn mãi đi kèm khi đăng ký không,package_query
+950,hướng dẫn tôi cách đăng ký các gói cước,package_query
+951,có thể đăng ký gói cước lại ngay sau khi hủy không,package_query
+952,các gói cước này áp dụng cho những thiết bị nào,package_query
+953,các gói cước có sử dụng được khi chuyển vùng quốc tế không,package_query
+954,có sử dụng được gói cước khi đi du lịch nước ngoài không,package_query
+955,các gói cước có giới hạn số thiết bị truy cập không,package_query
+956,khi cần hỗ trợ thì liên hệ tổng đài như thế nào,package_query
+957,hướng dẫn tra cứu lịch sử đăng ký gói cước,package_query
+958,hướng dẫn tra thông tin gói đang dùng,package_query
+959,danh sách các gói cước mua thêm,package_query
+960,cho tôi thông tin gói c1,package_query
+961,hiện tại có bao nhiêu gói cước mua thêm,package_query
+962,cho tôi thông tin gói k+ hd,package_query
+963,cho tôi thông tin gói galaxy,package_query
+964,cho tôi thông tin gói hbo go,package_query
+965,gói cước nào được miễn phí data,package_query
+966,hướng dẫn tôi cách hủy các gói cước,package_query
+967,"Tôi hay xem bóng đá châu Âu, nên đăng ký gói nào",package_query
+968,Gói VCINE có bao nhiêu kênh truyền hình,package_query
+969,gói vip k+ hd có xem được mấy thiết bị cùng lúc,package_query
+970,người trung tuổi và người già thì nên mua gói cước nào được,package_query
+971,tôi ở nước ngoài có đăng ký mua gói xem TV 360 được không,package_query
+972,"Hôm nay tôi đăng ký gói Vsport, mai tôi bay sang Nhật Bản sống thì có được sử dụng tiếp đc gói này ko",package_query
+973,Có các gói combo nào kết hợp dịch vụ Internet Viettel và TV360 không,package_query
+974,có được hoàn tiền khi hủy gói cước mới đăng ký không,package_query
+975,Số lượng kênh truyền hình trong mỗi gói là bao nhiêu,package_query
+976,tôi muốn xem ngoại hạng anh thì nên mua gói nào,package_query
+977,gói nào xem được kênh K+,package_query
+978,tôi muốn xem các phim Hot nhất thì nên mua gói cước nào,package_query
+979,tài khoản tôi còn 35k thì đăng ký được gói nào,package_query
+980,có gói cước nào đăng ký được theo tuần,package_query
+981,tôi muốn đăng ký theo ngày thì mua gói nào được,package_query
+982,Gói Vcine có xem được kênh K+ không,package_query
+983,Có thể đăng ký gói K+HD qua cú pháp tin nhắn không? Cú pháp là gì?,package_query
+984,gói cước nào hỗ trợ tính năng xem Offline,package_query
+985,Các phương thức thanh toán nào được hỗ trợ khi đăng ký gói cước TV360,package_query
+986, tôi có đang dùng dịch vụ gì của TV360 ko,package_query
+987,tôi muốn mua gói trên TV360 thì làm như thế nào,package_query
+988,đang trong chu kỳ dùng gói Vip giờ tôi đăng ký thêm gói Galaxy thì có xem nội dung ở cả 2 gói không,package_query
+989,Tôi đang dùng gói K+HD giờ muốn xem nội dung gói C1 thì làm sao,package_query
+990,tôi muốn xem các trận đấu UEFA Nations league thì mua gói nào cho hợp lý,package_query
+991,Xem các trận Serie A thì nên mua gói nào,package_query
+992,Xem các trận cup châu âu thì nên mua gói nào,package_query
+993,tôi chỉ xem trên điện thoại thì mua được gói cước nào,package_query
+994,Gói cước nào cho phép tải xuống,package_query
+995,TV360 có những gói cước chính nào,package_query
+996,"Tôi muốn xem phim âu mỹ, phim của HBO thì đăng ký gói nào",package_query
+997,những gói nào trên TV360 xem được phim độc quyền,package_query
+998,"muốn xem phim hot, phim phát sóng song song thì nên mua gói nào",package_query
+999,tôi sắp hết thời gian dùng gói VIP giờ muốn gia hạn tiếp thì làm như thế nào,package_query
+1000,tôi vừa muốn xem phim hot vừa muốn xem trực tiếp các trận C1 thì mua gói nào được,package_query
+1001,Tại sao tôi nên dùng các gói của TV360 thay vì đăng ký Netflix,package_query
+1002,tôi ko dùng thuê bao VT thì có đăng ký gói và sử dụng TV360 được không,package_query
+1003,Thuê bao trả trước được đăng ký những gói nào,package_query
+1004,"Các gói của TV360 xem được trên 2 thiết bị là những gói nào, và đó là những thiết bị gì",package_query
+1005,"Các trận đấu ngoại hạng anh, cúp C1, Seria A, Euro league thì sẽ chiếu trên kênh khác còn 5 kênh K+ lại chiếu chương trình khác à",package_query
+1006,"5 kênh K+ là những kênh nào, có giới hạn thiết bị khi xem kênh K+ không",package_query
+1007,"Xem worlCup, Euro thì nên mua gói nào",package_query
+1008,tại một thời điểm trên 1 thiết bị là như thế nào,package_query
+1009,Thuê bao trả sau có được đăng ký mua gói TV360 không,package_query
+1010,tôi muốn hủy gói đã đăng ký thì làm như thế nào,package_query
+1011,hủy gói trên web TV360 ntn? Trên app điện thoại ntn,package_query
+1012,muốn nâng cấp gói VIP lên VIP mobile thì làm như thế nào,package_query
+1013,gói Vip của TV360 có đăng ký được trên sms không,package_query
+1014,Gợi ý cho tôi vài bộ phim hành động hay đi.,cmd_search
+1015,Có phim gì hấp dẫn không?,cmd_search
+1016,Hôm nay nên xem phim gì nhỉ?,cmd_search
+1017,Cho tôi xem video nào thú vị đi.,cmd_search
+1018,Có phim nào đang hot không bạn?,cmd_search
+1019,Gợi ý phim tâm lý hay cho tối nay đi.,cmd_search
+1020,Tôi nên xem gì bây giờ?,cmd_search
+1021,Có video giải trí nào vui vui không?,cmd_search
+1022,Gợi ý cho tôi một phim lãng mạn nhẹ nhàng.,cmd_search
+1023,Có nội dung gì mới không?,cmd_search
+1024,Giới thiệu phim hài để tôi xem cuối tuần.,cmd_search
+1025,Cho tôi danh sách phim đang thịnh hành.,cmd_search
+1026,Có gì đang trend trên mạng không?,cmd_search
+1027,"Mình muốn xem phim hành động Mỹ, có gì không?",cmd_search
+1028,Phim Việt Nam nào đáng xem hiện tại?,cmd_search
+1029,Video nào hài hước mà ngắn gọn không?,cmd_search
+1030,Có series nào đáng xem không bạn?,cmd_search
+1031,"Tôi muốn xem phim kinh dị nhưng nhẹ thôi, gợi ý nhé.",cmd_search
+1032,Phim nào xem không chán nhỉ?,cmd_search
+1033,Gợi ý chương trình truyền hình hấp dẫn tối nay.,cmd_search
+1034,Có clip nào đang viral không?,cmd_search
+1035,Có video nào học mà không chán không?,cmd_search
+1036,"Tôi đang buồn, có phim nào vui không?",general_query
+1037,Gợi ý một bộ phim cho cả gia đình xem đi.,cmd_search
+1038,Có phim hoạt hình nào dễ thương không?,cmd_search
+1039,Phim hành động nào mới ra vậy?,cmd_search
+1040,Cho tôi vài gợi ý nội dung hay trên VTV1.,cmd_search
+1041,Video ngắn nào truyền cảm hứng không?,cmd_search
+1042,"Gợi ý phim dễ hiểu, nhẹ nhàng tối nay đi.",cmd_search
+1043,Có gì hay để xem trong vòng 10 phút không?,cmd_search
+1044,Tôi muốn nghe nhạc vui nhộn hài hước.,cmd_search
+1045,Gợi ý phim xem buổi tối đi,cmd_search
+1046,Có gì hay để xem cuối tuần?,cmd_search
+1047,Tối nay nên coi gì nhỉ?,cmd_search
+1048,Có nội dung nào mới hôm nay không?,cmd_search
+1049,Gợi ý video ngắn để xem trong giờ nghỉ trưa,cmd_search
+1050,Có phim nào phù hợp cho cả gia đình không?,cmd_search
+1051,Mình muốn tìm phim thiếu nhi,cmd_search
+1052,Có gì dễ xem cho người lớn tuổi không?,cmd_search
+1053,Gợi ý phim cho cặp đôi xem chung với nhau,cmd_search
+1054,Có chương trình nào cho học sinh không?,cmd_search
+1055,Hôm nay có phim gì hay không,cmd_search
+1056,gợi ý cho tôi những phim hành động hay nhất,cmd_search
+1057,Chỉ có trên TV360,general_query
+1058,Top 10 phim tại VN hôm nay,cmd_search
+1059,Phim Hàn quốc được mọi người yêu thích,cmd_search
+1060,Phim được mọi người yêu thích,cmd_search
+1061,Series phim Hàn quốc,cmd_search
+1062,Series phim Trung quốc,cmd_search
+1063,Mới trên TV360,cmd_search
+1064,Phim hot châu á,cmd_search
+1065,Phim Kinh dị,cmd_search
+1066,Tôi muốn xem Anime,cmd_search
+1067,Phim được tìm kiếm nhiều nhất,cmd_search
+1068,Chương trình tìm kiếm nhiều nhất,cmd_search
+1069,Tôi muốn xem các phim thuyết minh bằng tiếng việt,cmd_search
+1070,Gợi ý các phim tài liệu hay cho tôi,cmd_search
+1071,Phim về trẻ em và gia đình,cmd_search
+1072,tôi muốn xem phim lãng mạn hãy gợi ý cho tôi nhé,cmd_search
+1073,Phim Khoa học viễn tưởng,cmd_search
+1074,có phim giành giải thưởng không,cmd_search
+1075,tôi muốn xem hoạt hình từ 13 tuổi trở lên,cmd_search
+1076,có phim hài gì hay không,cmd_search
+1077,có phim gì giúp yêu đời hơn không,general_query
+1078,Phim chiếu trên 90 phút,cmd_search
+1079,Muốn giải tỏa buồn chán thì xem phim gì được,general_query
+1080,tôi muốn xem phim chính kịch châu á năm nay,cmd_search
+1081,phim hành động và phiêu lưu đáng xem,cmd_search
+1082,serie phim về thiếu niên,cmd_search
+1083,gợi ý cho tôi những phim được chuyển thể từ sách,cmd_search
+1084,có hài kịch 30 phút không,cmd_search
+1085,"tôi muốn xem phim Hollywood, hãy gợi ý cho tôi",cmd_search
+1086,phim và chương trình về bài học cuộc sống,cmd_search
+1087,Top 10 chương trình truyền hình trẻ em tại VN hôm nay,cmd_search
+1088,Phim trẻ em 90 phút,cmd_search
+1089,muốn học giỏi Tiếng anh thì nên xem phim nào,cmd_search
+1090,Phim sắp ra mắt trên TV360,cmd_search
+1091,gợi ý cho tôi các phim có yếu tố giật gân tội phạm,cmd_search
+1092,serie phim âu-mỹ,cmd_search
+1093,phim về thời kỳ lịch sử Trung Quốc,cmd_search
+1094,Phim giật gân rợn người,cmd_search
+1095,Phim châu á đạt giải thưởng,cmd_search
+1096,Gợi ý cho tôi các phim hài Việt Nam đang có trên TV360,cmd_search
+1097,Làm sao để xem phim hành động Mỹ trên TV360,cmd_search
+1098,Liệt kê các phim kinh dị đang chiếu trên TV360,cmd_search
+1099,"Tôi muốn xem phim bom tấn Hollywood, TV360 có những phim nào",cmd_search
+1100,Có phim nào được đánh giá cao trên TV360 gần đây không,cmd_search
+1101,TV360 có những chương trình gameshow nào vui nhộn,cmd_search
+1102,Gợi ý các chương trình ca nhạc trực tiếp hoặc đã phát sóng,cmd_search
+1103,Làm sao để tìm các chương trình hài kịch trên TV360,cmd_search
+1104,Có chương trình thực tế nào đang hot không,cmd_search
+1105,"Tôi muốn xem các chương trình ẩm thực, TV360 có gì",cmd_search
+1106,Tìm các chương trình về du lịch Việt Nam,cmd_search
+1107,Các chương trình về thời trang hoặc phong cách sống.,cmd_search
+1108,Chương trình Gia đình Haha có lịch phát sóng tiếp theo không,open_schedule
+1109,TV360 có phát trực tiếp giải V-League không,cmd_search
+1110,Có kênh nào chuyên về thể thao tổng hợp không,cmd_search
+1111,Tìm các chương trình bình luận bóng đá có BTV Quang Huy,general_query
+1112,Chương trình ca nhạc có MC Anh Tuấn,film_qna
+1113,Làm thế nào để TV360 gợi ý nội dung dựa trên lịch sử xem của tôi,general_query
+1114,TV360 có mục 'Nội dung thịnh hành' hay 'Được xem nhiều nhất' không,general_query
+1115,Các chương trình do Điền Quân sản xuất,cmd_search
+1116,Phim được xem nhiều nhất trên TV360,cmd_search
+1117,Tôi có thể tạo danh sách xem riêng các chương trình hoặc phim muốn xem sau không,general_query
+1118,TV360 có series phim Hàn Quốc nào mới không,cmd_search
+1119,Phim có diễn viễn Phương Thanh,cmd_search
+1120,"Hôm nay tôi buồn quá, bạn giúp tôi vui lên được không",general_query
+1121,Muốn học giỏi Tiếng anh thì nên làm gì,general_query
+1122,"người ta chê tôi béo, tôi có nên tác động vật lý người ta không",general_query
+1123,ở ngoài đường sao nhiều người hay hỏi bố mày là ai không thế,general_query
+1124,ở Hà nội buồn quá thì đi đâu,general_query
+1125,muốn giàu thì làm gì,general_query
+1126,không làm thì có ăn được không,general_query
+1127,thời này cái gì cũng giả vậy cái gì là thật,general_query
+1128,yêu ai để không bị đá,general_query
+1129,không lấy chồng được không,general_query
+1130,bố mẹ giục lấy chồng quá thì xử lý sao,general_query
+1131,mất quê rồi sau sáp nhập,general_query
+1132,sao phụ nữ khó hiểu thế,general_query
+1133,tại sao đàn ông lại hay ngoại tình,general_query
+1134,tại sao đàn ông không hiểu phụ nữ,general_query
+1135,chia tay bao lâu thì iu được,general_query
+1136,"người trẻ làm gì, tiết kiệm như nào để mua được nhà",general_query
+1137,bán ma túy được nhiều tiền không,general_query
+1138,khi cuộc đời cho bạn quả quýt,general_query
+1139,khi cuộc đời bỏ rơi bạn,general_query
+1140,đến bước đường cùng rồi thì làm gì,general_query
+1141,quay đầu có thật là bờ,general_query
+1142,sống bao nhiêu lâu để hiểu hết về đời,general_query
+1143,tuổi trẻ đáng giá bao nhiêu,general_query
+1144,"tôi muốn kể bí mật cho bạn, muốn nghe không",general_query
+1145,Bạn làm tốt đấy,general_query
+1146,Mở chương trình Thời sự 19h của VTV1,open_program
+1147,mở bản tin Chuyển Động 24h sáng nay,open_program
+1148,chương trình Rap Việt,open_program
+1149,Mở chương trình Shark Tank Việt Nam,open_program
+1150,tôi muốn xem chương trình Running Man Vietnam,open_program
+1151,mở chương trình Vua Tiếng Việt,open_program
+1152,chương trình Ai Là Triệu Phú trên TV360,open_program
+1153,mở chương trình Đường Lên Đỉnh Olympia cho tôi,open_program
+1154, mở chương trình Gặp nhau cuối năm  năm 2024,open_program
+1155,Mở chương trình Chị Đẹp Đạp Gió Rẽ Sóng mùa 1,open_program
+1156,chương trình Siêu Trí Tuệ Việt Nam,open_program
+1157,Phát chương trình Ơn Giời Cậu Đây Rồi,open_program
+1158,chương trình Ký Ức Vui Vẻ,open_program
+1159,chương trình The Voice Kids,open_program
+1160,chương trình Người Ấy Là Ai,open_program
+1161,Chương trình Bạn Muốn Hẹn Hò,open_program
+1162,Chương trình Ca Sĩ Mặt Nạ,open_program
+1163,mở chuong trình Gia đình haha,open_program
+1164,mở giúp tôi chương trình Bố ơi mình đi đâu thế,open_program
+1165,Điểm hẹn tài năng 2025,open_program
+1166,Bản tin chào buổi sáng,open_program
+1167,Không giới hạn Sasuke Việt Nam,open_program
+1168,Chiếc nón kỳ diệu,open_program
+1169,Vì bạn xứng đáng,open_program
+1170,chương trình Trường teen,open_program
+1171,Hành khách cuối cùng,open_program
+1172,mở chương trình Đấu trường 100,open_program
+1173,mở chương trình Gương mặt thân quen Nhí,open_program
+1174,chương trình Tam sao thất bản,open_program
+1175,Trò chơi âm nhạc,open_program
+1176,mở giúp tôi chương trình Bước nhảy ngàn cân nhé,open_program
+1177,Quân khu số 1,open_program
+1178,Người đi xuyên tường,open_program
+1179,mở cho tôi trò chơi truyền hình Cuộc đua kỳ thú,open_program
+1180,Vui khỏe có ích,open_program

@@ -9,7 +9,7 @@ KHÔNG được trả thêm nội dung nào khác.
 ---
 
 *intent* là một trong các hành động sau:
-- open_channel: Mở **kênh truyền hình cụ thể** (ví dụ: "VTV1", "An Ninh TV",...), khi người dùng **muốn mở kênh**, không phải nội dung cụ thể.  KHÔNG dùng nếu câu chứa tên **một phim, chương trình hoặc video cụ thể** → chuyển sang `open_item`.  Nếu có cụm như: `"bật kênh chiếu phim X"`, `"kênh đang phát phim Y"` → chọn `open_item`, vì mục tiêu là xem nội dung cụ thể.KHÔNG được nhầm lẫn với CHƯƠNG TRÌNH TRUYỀN HÌNH. Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule".
+- open_program: Mở **chương trình truyền hình cụ thể** (ví dụ: "Thời sự", "Rap Việt",...), khi người dùng **muốn mở chương trình**. KHÔNG dùng nếu câu chứa tên **một phim, kênh hoặc video cụ thể** → chuyển sang `open_item`.KHÔNG được nhầm lẫn với KÊNH TRUYỀN HÌNH. KHÔNG nhầm lẫn sang `open_schedule` khi có ngày giờ cụ thể.
 - navigate_screen: Điều hướng tới màn hình khác. Trợ lý này có thể điều hướng tới các trang / màn hình: Trang/ màn hình home; Trang chủ; Quay lại / quay về / mở lại trang trước; mở / bật trang tìm kiếm. KHÔNG dùng cho mở tên nội dung cụ thể.
 - cmd_turn_on: Bật tivi / đầu thu.
 - cmd_turn_off: Tắt tivi / đầu thu.
@@ -21,8 +21,8 @@ KHÔNG được trả thêm nội dung nào khác.
 - cmd_continues: Tiếp tục; phát tiếp; bật lại; xem tiếp; play; continue.
 - cmd_fast_forward: Nếu người dùng muốn tua nhanh, chỉ khi có các từ như "tua nhanh", "tua đi", "tăng tốc", "phát nhanh", "chạy nhanh", "lướt qua", "bỏ qua", "tua đến đoạn", "skip"...
 - cmd_rewind: Nếu người dùng muốn tua lại, chỉ khi có các từ như "tua chậm", "tua lại", "lùi lại", "chậm lại", "chạy lại", "tua về đoạn"...
-- open_schedule: Mở lịch chiếu nội dung nếu có chứa thời gian cụ thể như "bảy giờ tối", "19 giờ", "18:30"... hay các từ như "lịch", "lịch chiếu", "thời gian"...
-- open_item: Mở một nội dung phim/video/chương trình cụ thể theo tên mà người dùng yêu cầu **xem/phát/mở**, có chứa các từ như "video", "phim", "chương trình truyền hình", "chương trình"...kể cả khi không có từ khóa như "phim", "video", "chương trình"... Nếu có vẻ là tên riêng rõ ràng (vd: "sau lời từ khước") thì vẫn chọn `open_item`. nếu không rõ nội dung thuộc thể loại nào thì điều hướng sang "cmd_search". Nếu có thời gian (ngày và/hoặc giờ) cụ thể trong input, điều hướng sang "open_schedule". KHÔNG nhầm với `cmd_search` nếu người dùng có hành vi yêu cầu hành động trực tiếp ("xem", "mở", "bật").
+- open_schedule:  Dùng khi người dùng hỏi khi nào chiếu, giờ phát sóng, thời điểm chương trình diễn ra. KHÔNG dùng nếu người dùng có hành vi mở nội dung cụ thể (ví dụ: “xem thời sự lúc 19h”) → chọn open_program.
+- open_item: Mở một nội dung phim/video/kênh cụ thể theo tên mà người dùng yêu cầu **xem/phát/mở**, có chứa các từ như "video", "phim", "kênh truyền hình", "kênh"...kể cả khi không có từ khóa như "phim", "video", "kênhna"... Nếu có vẻ là tên riêng rõ ràng (vd: "sau lời từ khước") thì vẫn chọn `open_item`. nếu không rõ nội dung thuộc thể loại nào thì điều hướng sang "cmd_search". KHÔNG nhầm với `cmd_search` nếu người dùng có hành vi yêu cầu hành động trực tiếp ("xem", "mở", "bật"). KHÔNG nhầm lẫn với `open_schedule` khi có ngày giờ cụ thể.
 - general_query: Dành cho các câu hỏi hoặc yêu cầu mang tính tìm hiểu thông tin, hoặc trò chuyện không có mục đích hành động cụ thể. Bao gồm:**Tìm hiểu về hệ thống, chức năng, cách sử dụng, thông tin thực tế.**,**Câu chào hỏi, giao tiếp xã hội, cảm xúc, đùa giỡn, nhận xét, tâm sự.**,**Những câu nói thân thiện, không nhắm đến hành động hay thông tin nội dung.**
 - cmd_search: Dùng khi người dùng **chưa chỉ định rõ nội dung cụ thể** mà chỉ muốn tìm kiếm, gợi ý thể loại, từ khóa, nhóm nội dung. KHÔNG dùng nếu người dùng đã nêu tên cụ thể và có hành vi mở/xem → chuyển sang `open_item`.
 - navigate_app: Mở youtube.

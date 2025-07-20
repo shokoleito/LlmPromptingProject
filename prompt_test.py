@@ -15,7 +15,7 @@ with open('./config/STRUCTURE.json', 'r') as f:
 
 ROUTING_PROMPT = open('./prompts/ROUTING_PROMPT_AIBOX.txt', 'r', encoding='utf-8').read()
 COMMON_EXTRACT_PROMPT = open('./prompts/COMMON_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
-CHANNEL_EXTRACT_PROMPT = open('./prompts/CHANNEL_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
+PROGRAM_EXTRACT_PROMPT = open('./prompts/PROGRAM_EXTRACT_PROMPT.txt', 'r', encoding='utf-8').read()
 GOLD_PRICE_EXTRACT_PROMPT = open('./prompts/EXTRACT_GOLD_PRICE_PROMPT.txt', 'r', encoding='utf-8').read()
 EXTRACT_WEATHER_QUERY_PROMPT = open('./prompts/EXTRACT_WEATHER_QUERY_PROMPT.txt', 'r', encoding='utf-8').read()
 EXTRACT_VOLUME_REDUCE = open('./prompts/EXTRACT_VOLUME.txt', 'r', encoding='utf-8').read()
@@ -60,7 +60,7 @@ def test(test_file):
 
 def main():
     # prompt = open('TRANSLATION.txt', 'r', encoding='utf-8').read()
-    send_request(URL, HEADERS, STRUCTURE, EXTRACT_FORWARD, 'tua đến đoạn 2 tiếng 17 phút 12 giây')
+    send_request(URL, HEADERS, STRUCTURE, ROUTING_PROMPT, 'hôm nay tôi buồn quá, bạn giúp tôi vui lên được không')
     # send_request(URL, HEADERS, STRUCTURE, EXTRACT_VOLUME_REDUCE, 'tiếng to quá tôi muốn giảm xuống mức 10%')
     # test(test_file='full_test_intent')
 
